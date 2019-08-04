@@ -7,14 +7,13 @@
   "types": "./lib/index.d.ts",
   "license": "MIT",
   "files": [
-      "/lib",
+    "/lib"
   ],
   "scripts": {
-      "build": "tsc"
+    "build": "tsc"
   },
   "prepublish": "tsc",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "^3.5.3"
   }
