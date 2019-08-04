@@ -1,0 +1,17 @@
+{
+  "name": "cdk-constants",
+  "version": "1.0.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "lodash": "^4.17.15",
+    "pino": "^5.13.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.136",
+    "@types/node": "^10.12.12",
+    "@types/pino": "^5.8.8"
+  }
+}

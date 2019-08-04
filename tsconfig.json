@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir":"lib",
+        "target": "es2015",
+        "rootDirs": [
+            "src",
+            "test",
+            "bin"
+        ],
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "declaration": true
+    },
+    "exclude":[
+        "node_modules",
+        "lib"
+    ]
+}
