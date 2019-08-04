@@ -1,9 +1,15 @@
 {
   "name": "cdk-constants",
+  "description": "helpful constants to work with aws-cdk",
+  "author": "Kevin S Lin",
   "version": "1.0.1",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "license": "MIT",
+  "scripts": {
+      "build": "tsc"
+  },
+  "prepublish": "tsc",
   "dependencies": {
     "debug": "^4.1.0",
     "lodash": "^4.17.15",
@@ -12,6 +18,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.136",
     "@types/node": "^10.12.12",
-    "@types/pino": "^5.8.8"
+    "@types/pino": "^5.8.8",
+    "typescript": "^3.5.3"
   }
 }
