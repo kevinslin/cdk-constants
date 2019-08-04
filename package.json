@@ -3,8 +3,8 @@
   "description": "helpful constants to work with aws-cdk",
   "author": "Kevin S Lin <kevin@thence.io>",
   "version": "1.0.4",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./lib/src/index.js",
+  "types": "./lib/src/index.d.ts",
   "license": "MIT",
   "files": [
     "/lib"
