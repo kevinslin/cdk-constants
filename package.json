@@ -15,7 +15,9 @@
   "prepublish": "tsc",
   "dependencies": {
     "@types/lodash": "^4.14.136",
-    "lodash": "^4.17.15"
+    "@types/pino": "^5.8.8",
+    "lodash": "^4.17.15",
+    "pino": "^5.13.1"
   },
   "devDependencies": {
     "@types/execa": "^2.0.0",
