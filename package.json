@@ -1,25 +1,35 @@
 {
   "name": "cdk-constants",
-  "description": "helpful constants to work with aws-cdk",
+  "description": "Library of helpful constants to work with the CDK",
   "author": "Kevin S Lin <kevin@thence.io>",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./lib/src/index.js",
   "types": "./lib/src/index.d.ts",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "files": [
     "/lib"
   ],
+  "repository": {
+    "url": "https://github.com/kevinslin/cdk-constants",
+    "type": "git",
+  },
+  "keywords": [
+    "aws",
+    "cdk"
+  ],
+  "homepage": "https://github.com/kevinslin/cdk-constants",
+  "bin": {
+      "cdkc": "lib/bin/cli.js"
+  },
   "scripts": {
     "build": "tsc"
   },
   "prepublish": "tsc",
   "dependencies": {
-    "@types/lodash": "^4.14.136",
-    "@types/pino": "^5.8.8",
-    "lodash": "^4.17.15",
-    "pino": "^5.13.1"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.136",
+    "@types/pino": "^5.8.8",
     "@types/execa": "^2.0.0",
     "@types/fs-extra": "^8.0.0",
     "@types/yargs": "^13.0.2",
@@ -27,5 +37,7 @@
     "fs-extra": "^8.1.0",
     "typescript": "^3.5.3",
     "yargs": "^13.3.0"
+    "lodash": "^4.17.15",
+    "pino": "^5.13.1"
   }
 }

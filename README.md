@@ -61,4 +61,4 @@ Some upcoming items on the roadmap:
 
 cdk-constants is distributed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for more information.
+See [LICENSE](./LICENSE) for more information.
