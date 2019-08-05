@@ -2,16 +2,16 @@
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
   "author": "Kevin S Lin <kevin@thence.io>",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./lib/src/index.js",
   "types": "./lib/src/index.d.ts",
   "license": "Apache-2.0",
   "files": [
-    "/lib"
+    "/lib/src"
   ],
   "repository": {
     "url": "https://github.com/kevinslin/cdk-constants",
-    "type": "git",
+    "type": "git"
   },
   "keywords": [
     "aws",
@@ -36,7 +36,7 @@
     "execa": "^2.0.3",
     "fs-extra": "^8.1.0",
     "typescript": "^3.5.3",
-    "yargs": "^13.3.0"
+    "yargs": "^13.3.0",
     "lodash": "^4.17.15",
     "pino": "^5.13.1"
   }
