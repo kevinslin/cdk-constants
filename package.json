@@ -18,8 +18,10 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
+    "@types/execa": "^2.0.0",
     "@types/fs-extra": "^8.0.0",
     "@types/yargs": "^13.0.2",
+    "execa": "^2.0.3",
     "fs-extra": "^8.1.0",
     "typescript": "^3.5.3",
     "yargs": "^13.3.0"

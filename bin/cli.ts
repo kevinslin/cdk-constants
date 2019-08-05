@@ -4,7 +4,7 @@ import yargs from 'yargs'
 import fs from 'fs-extra'
 import _ from 'lodash'
 
-const SOURCES = ['managed_policies', 'service_principles', 'iam_actions']
+const SOURCES = ['managed_policies']
 
 function enumFromJson({jsonObj, key}: {
   jsonObj: any,
@@ -16,6 +16,15 @@ function enumFromJson({jsonObj, key}: {
   })
   out += '}'
   return out
+}
+
+function fetchConstants({target}: {
+  target: string
+}) {
+  if (target === 'managed_policies') {
+    let cmd = `python data/all_aws_managed_policies/show_all_aws_managed_policies.py > data/all_aws_managed_policies/all_aws_managed_policies.json`
+    execa.command(cmd)
+  }
 }
 
 function updateConstants({target}: {
@@ -35,9 +44,7 @@ function updateConstants({target}: {
       results[modKey] = key
     })
     let payload = enumFromJson({jsonObj: results, key: 'MANAGED_POLICIES'})
-    console.log(payload)
     fs.writeFileSync('./src/policies.ts', payload)
-    console.log("done")
   }
 }
 
