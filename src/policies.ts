@@ -1,3 +1,5 @@
+// NOTE: THIS IS MACHINE GENERATED. CHANGES WILL BE OVERWRITTEN!
+
 export enum MANAGED_POLICIES {
     API_GATEWAY_SERVICE_ROLE_POLICY = "aws-service-role/APIGatewayServiceRolePolicy",
     AWS_ACCOUNT_ACTIVITY_ACCESS = "AWSAccountActivityAccess",

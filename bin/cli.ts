@@ -13,7 +13,9 @@ function enumFromJson({jsonObj, key}: {
   jsonObj: any,
   key: string
 }) {
-  let out = `export enum ${key} {\n`
+
+  let out = "// NOTE: THIS IS MACHINE GENERATED. CHANGES WILL BE OVERWRITTEN!\n\n"
+  out += `export enum ${key} {\n`
   _.each(jsonObj, (v, k) => {
     out += `    ${k} = "${v}",\n`
   })
@@ -53,7 +55,6 @@ async function updateConstants({target}: {
        *    arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
        * we want to find `aws:policy` and take the name of everything after
        */
-
       let idx = Arn.indexOf("aws:policy") + 11
       results[modKey] = Arn.slice(idx)
     })
