@@ -16,6 +16,10 @@ yarn
 # or if you use npm
 npm install
 
+
+# build dependencies
+yarn build
+
 ```
 
 ## Updating an existing repository
