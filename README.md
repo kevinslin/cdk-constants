@@ -50,7 +50,7 @@ const lambdaRole = new Role(this, "lambdaDomainChecker", {
 
 ## Contributions
 
-All contributors are welcome. As you are reading this, AWS has probably released a new services. Please see [CONTRIBUTING](CONTRIBUTING.md) for information on how to setup a development environment and submit code.
+All contributors are welcome. As you are reading this, AWS has probably released a new service. Please see [CONTRIBUTING](CONTRIBUTING.md) for information on how to setup a development environment and submit code.
 
 Some upcoming items on the roadmap:
 - list of aws regions and azs, including gov and china
