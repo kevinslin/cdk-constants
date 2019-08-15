@@ -1,4 +1,4 @@
-export enum SERVICE_PRINCIPLE {
+export enum SERVICE_PRINCIPALS {
   ACM = "acm.amazonaws.com",
   ALEXA_APPKIT = "alexa_appkit.amazon.com",
   API_GATEWAY = "apigateway.amazonaws.com",

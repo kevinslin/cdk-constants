@@ -4,7 +4,7 @@ This repository contains constants that make it easier to work with the [aws-cdk
 
 ## Why?
 
-The CDK is awesome but it currently lacks types when initializing constructs such as IAM service principles and managed policies. Finding the right construct names requires diving into AWS documentation. Because there is no verification of these construct initializers, errors are only surfaced after deployment and via a rollback.
+The CDK is awesome but it currently lacks types when initializing constructs such as IAM service principals and managed policies. Finding the right construct names requires diving into AWS documentation. Because there is no verification of these construct initializers, errors are only surfaced after deployment and via a rollback.
 
 This library aims to be an up to date constants library for all things AWS so the above never happens again!
 
@@ -22,10 +22,10 @@ npm i -g cdk-constants@latest
 ## Usage
 
 ```typescript
-import {SERVICE_PRINCIPLE, MANAGED_POLICIES} from 'cdk-constants'
+import {SERVICE_PRINCIPALS, MANAGED_POLICIES} from 'cdk-constants'
 
 const lambdaRole = new Role(this, "lambdaDomainChecker", {
-    assumedBy: new ServicePrincipal(SERVICE_PRINCIPLE.LAMBDA),
+    assumedBy: new ServicePrincipal(SERVICE_PRINCIPALS.LAMBDA),
     managedPolicies: [
         ManagedPolicy.fromAwsManagedPolicyName(MANAGED_POLICIES.AWS_LAMBDA_BASIC_EXECUTION_ROLE)
     ],
@@ -35,8 +35,8 @@ const lambdaRole = new Role(this, "lambdaDomainChecker", {
 
 ## Properties
 
-### [SERVICE_PRINCIPLE](./src/principles.ts)
-- enum of all AWS services principles
+### [SERVICE_PRINCIPALS](./src/principals.ts)
+- enum of all AWS services principals
 
 ### [MANAGED_POLICIES](./src/policies.ts)
 - enum of all managed AWS policies
@@ -45,7 +45,7 @@ const lambdaRole = new Role(this, "lambdaDomainChecker", {
 
 `cdk-constants` wouldn't be possible without modules from the following authors
 
-- [Jared Short](https://gist.github.com/shortjared): initial [gist](https://gist.github.com/shortjared/4c1e3fe52bdfa47522cfe5b41e5d6f22) of all service principles
+- [Jared Short](https://gist.github.com/shortjared): initial [gist](https://gist.github.com/shortjared/4c1e3fe52bdfa47522cfe5b41e5d6f22) of all service principals
 - [Gene Wood](https://gist.github.com/gene1wood): [gist](https://gist.github.com/gene1wood/55b358748be3c314f956) to pull all aws managed policies
 
 ## Contributions

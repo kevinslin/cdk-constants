@@ -2,7 +2,7 @@
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
   "author": "Kevin S Lin <kevin@thence.io>",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "main": "./lib/src/index.js",
   "types": "./lib/src/index.d.ts",
   "license": "Apache-2.0",

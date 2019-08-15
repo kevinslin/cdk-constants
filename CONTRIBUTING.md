@@ -33,7 +33,7 @@ Machine genrated files:
 - policies.ts
 
 Not Machine generated:
-- principles.ts
+- principals.ts
 
 ### Machine Generated files
 - for generated files, you can use `npm run fetch {source}` and `npm run update {source}` to refresh the documentation

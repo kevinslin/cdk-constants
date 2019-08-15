@@ -1,2 +1,2 @@
-export * from './principles'
+export * from './principals'
 export * from './policies'
