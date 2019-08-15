@@ -2,7 +2,7 @@
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
   "author": "Kevin S Lin <kevin@thence.io>",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./lib/src/index.js",
   "types": "./lib/src/index.d.ts",
   "license": "Apache-2.0",
@@ -18,9 +18,6 @@
     "cdk"
   ],
   "homepage": "https://github.com/kevinslin/cdk-constants",
-  "bin": {
-      "cdkc": "lib/bin/cli.js"
-  },
   "scripts": {
     "build": "tsc"
   },
