@@ -1,3 +1,7 @@
+export enum FEDERATED_PRINCIPALS {
+  COGNITO_IDENTITY = 'cognito-identity.amazonaws.com',
+}
+
 export enum SERVICE_PRINCIPALS {
   ACM = "acm.amazonaws.com",
   ALEXA_APPKIT = "alexa_appkit.amazon.com",

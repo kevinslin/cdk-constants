@@ -22,19 +22,20 @@
     "build": "tsc"
   },
   "prepublish": "tsc",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/lodash": "^4.14.136",
-    "@types/pino": "^5.8.8",
+    "@types/axios": "^0.14.0",
     "@types/execa": "^2.0.0",
     "@types/fs-extra": "^8.0.0",
+    "@types/lodash": "^4.14.136",
+    "@types/pino": "^5.8.8",
     "@types/yargs": "^13.0.2",
+    "axios": "^0.19.0",
     "execa": "^2.0.3",
     "fs-extra": "^8.1.0",
-    "typescript": "^3.5.3",
-    "yargs": "^13.3.0",
     "lodash": "^4.17.15",
-    "pino": "^5.13.1"
+    "pino": "^5.13.1",
+    "typescript": "^3.5.3",
+    "yargs": "^13.3.0"
   }
 }
