@@ -41,6 +41,9 @@ const lambdaRole = new Role(this, "lambdaDomainChecker", {
 ### [MANAGED_POLICIES](./src/policies.ts)
 - enum of all managed AWS policies
 
+### [SERVICE_NAMES](./src/services.ts)
+- enum of all aws service names
+
 ## Credits
 
 `cdk-constants` wouldn't be possible without modules from the following authors
