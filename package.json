@@ -1,7 +1,6 @@
 {
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
-  "author": "Kevin S Lin <kevin@thence.io>",
   "version": "2.1.1",
   "main": "./lib/src/index.js",
   "types": "./lib/src/index.d.ts",
@@ -19,7 +18,30 @@
   ],
   "homepage": "https://github.com/kevinslin/cdk-constants",
   "scripts": {
-    "build": "tsc"
+    "package": "jsii-pacmak",
+    "build": "jsii",
+    "watch": "jsii -w"
+  },
+  "jsii": {
+    "outdir": "dist",
+    "targets": {
+      "java": {
+        "package": "com.github.kevinslin.constants",
+        "maven": {
+          "groupId": "com.github.kevinslin",
+          "artifactId": "cdk-constants"
+        }
+      },
+      "python": {
+        "distName": "cdk-constants",
+        "module": "cdk_constants"
+      }
+    }
+  },
+  "author": {
+    "email": "kevin@thence.io",
+    "name": "Kevin S Lin",
+    "url": "https://github.com/kevinslin"
   },
   "prepublish": "tsc",
   "dependencies": {},
@@ -33,6 +55,8 @@
     "axios": "^0.19.0",
     "execa": "^2.0.3",
     "fs-extra": "^8.1.0",
+    "jsii": "^0.20.11",
+    "jsii-pacmak": "^0.20.11",
     "lodash": "^4.17.15",
     "pino": "^5.13.1",
     "typescript": "^3.5.3",

@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-import yargs from 'yargs'
-import fs from 'fs-extra'
-import _ from 'lodash'
-import execa from 'execa'
-import pino from 'pino'
+import * as yargs from 'yargs'
+import * as fs from 'fs-extra'
+import * as _ from 'lodash'
+import * as execa from 'execa'
+import * as pino from 'pino'
 import axios from 'axios'
-import { normalizeServiceName} from '../src/utils'
+import { normalizeServiceName} from '../lib/utils'
 const L = pino()
 const SOURCES = ['managed_policies', 'service_names']
 
@@ -33,7 +33,7 @@ async function fetchConstants({target}: {
     case 'managed_policies':
       let cmd = `python data/all_aws_managed_policies/show_all_aws_managed_policies.py > data/all_aws_managed_policies/all_aws_managed_policies.json`
       let out = await execa.command(cmd)
-      L.info({ctx: "fetchConstants/exit"})
+      L.info({ctx: "fetchConstants/exit", out})
       break;
     case 'service_names':
       const {data: json} = await axios.get("https://docs.aws.amazon.com/IAM/latest/UserGuide/toc-contents.json")

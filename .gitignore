@@ -1,4 +1,12 @@
-node_modules/
-lib
-src/test.ts
-local
+yarn-error.log
+.jsii
+
+dist/
+
+*.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
