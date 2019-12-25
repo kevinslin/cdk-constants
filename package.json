@@ -1,7 +1,7 @@
 {
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "license": "Apache-2.0",
