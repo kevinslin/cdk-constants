@@ -1,0 +1,23 @@
+import { normalizeServiceName } from "../lib";
+
+describe("normalizeServiceName", () => {
+  test("snakeCase", () => {
+    expect(normalizeServiceName("aws S3")).toEqual("AWS_S3");
+  });
+
+  test("stripPrefix", () => {
+    expect(
+      normalizeServiceName("aws s3", {
+        stripPrefix: true,
+        snakeCase: false
+      })
+    ).toEqual("s3");
+
+    expect(
+      normalizeServiceName("amazon s3", {
+        stripPrefix: true,
+        snakeCase: false
+      })
+    ).toEqual("s3");
+  });
+});
