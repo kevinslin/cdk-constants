@@ -2,12 +2,9 @@
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
   "version": "2.1.1",
-  "main": "./lib/src/index.js",
-  "types": "./lib/src/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "license": "Apache-2.0",
-  "files": [
-    "/lib/src"
-  ],
   "repository": {
     "url": "https://github.com/kevinslin/cdk-constants",
     "type": "git"

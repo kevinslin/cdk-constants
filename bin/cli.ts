@@ -10,19 +10,20 @@ import { normalizeServiceName} from '../lib/utils'
 const L = pino()
 const SOURCES = ['managed_policies', 'service_names']
 
-function enumFromJson({jsonObj, key}: {
+function objFromJson({jsonObj, key}: {
   jsonObj: any,
   key: string
 }) {
 
   let out = "// NOTE: THIS IS MACHINE GENERATED. CHANGES WILL BE OVERWRITTEN!\n\n"
-  out += `export enum ${key} {\n`
+  out += `export const ${key} = {\n`
   _.each(jsonObj, (v, k) => {
-    out += `    ${k} = "${v}",\n`
+    out += `    ${k}: "${v}",\n`
   })
   out += '}'
   return out
 }
+
 
 async function fetchConstants({target}: {
   target: string
@@ -76,8 +77,8 @@ async function updateConstants({target}: {
         results[modKey] = Arn.slice(idx)
       })
       L.info({ctx: "updateConstants/stopConverting"})
-      let payload = enumFromJson({jsonObj: results, key: 'MANAGED_POLICIES'})
-      fs.writeFileSync('./src/policies.ts', payload)
+      let payload = objFromJson({jsonObj: results, key: 'MANAGED_POLICIES'})
+      fs.writeFileSync('./lib/policies.ts', payload)
       L.info({ctx: "updateConstants/exit"})
       break;
     }
@@ -85,9 +86,8 @@ async function updateConstants({target}: {
       let data = fs.readJsonSync('./data/all_services_title.json')
       let out: any = {}
       _.each(data, ent => out[normalizeServiceName(ent.title)] = ent.title)
-      let payload = enumFromJson({jsonObj: out, key: 'SERVICE_NAMES'})
-      fs.writeFileSync('./src/services.ts', payload)
-      fs.writeFileSync("/tmp/b", out.join("\n"))
+      let payload = objFromJson({jsonObj: out, key: 'SERVICE_NAMES'})
+      fs.writeFileSync('./lib/services.ts', payload)
       break;
     }
     default:
