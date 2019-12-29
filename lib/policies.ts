@@ -1,623 +1,623 @@
 // NOTE: THIS IS MACHINE GENERATED. CHANGES WILL BE OVERWRITTEN!
 
-export const MANAGED_POLICIES = {
-    API_GATEWAY_SERVICE_ROLE_POLICY: "aws-service-role/APIGatewayServiceRolePolicy",
-    AWS_ACCOUNT_ACTIVITY_ACCESS: "AWSAccountActivityAccess",
-    AWS_ACCOUNT_USAGE_REPORT_ACCESS: "AWSAccountUsageReportAccess",
-    AWS_AGENTLESS_DISCOVERY_SERVICE: "AWSAgentlessDiscoveryService",
-    AWS_APP_MESH_ENVOY_ACCESS: "AWSAppMeshEnvoyAccess",
-    AWS_APP_MESH_FULL_ACCESS: "AWSAppMeshFullAccess",
-    AWS_APP_MESH_PREVIEW_ENVOY_ACCESS: "AWSAppMeshPreviewEnvoyAccess",
-    AWS_APP_MESH_PREVIEW_SERVICE_ROLE_POLICY: "aws-service-role/AWSAppMeshPreviewServiceRolePolicy",
-    AWS_APP_MESH_READ_ONLY: "AWSAppMeshReadOnly",
-    AWS_APP_MESH_SERVICE_ROLE_POLICY: "aws-service-role/AWSAppMeshServiceRolePolicy",
-    AWS_APP_SYNC_ADMINISTRATOR: "AWSAppSyncAdministrator",
-    AWS_APP_SYNC_INVOKE_FULL_ACCESS: "AWSAppSyncInvokeFullAccess",
-    AWS_APP_SYNC_PUSH_TO_CLOUD_WATCH_LOGS: "service-role/AWSAppSyncPushToCloudWatchLogs",
-    AWS_APP_SYNC_SCHEMA_AUTHOR: "AWSAppSyncSchemaAuthor",
-    AWS_APPLICATION_AUTO_SCALING_CUSTOM_RESOURCE_POLICY: "aws-service-role/AWSApplicationAutoScalingCustomResourcePolicy",
-    AWS_APPLICATION_AUTOSCALING_APP_STREAM_FLEET_POLICY: "aws-service-role/AWSApplicationAutoscalingAppStreamFleetPolicy",
-    AWS_APPLICATION_AUTOSCALING_COMPREHEND_ENDPOINT_POLICY: "aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy",
-    AWS_APPLICATION_AUTOSCALING_DYNAMO_DB_TABLE_POLICY: "aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy",
-    AWS_APPLICATION_AUTOSCALING_EC2_SPOT_FLEET_REQUEST_POLICY: "aws-service-role/AWSApplicationAutoscalingEC2SpotFleetRequestPolicy",
-    AWS_APPLICATION_AUTOSCALING_ECS_SERVICE_POLICY: "aws-service-role/AWSApplicationAutoscalingECSServicePolicy",
-    AWS_APPLICATION_AUTOSCALING_EMR_INSTANCE_GROUP_POLICY: "aws-service-role/AWSApplicationAutoscalingEMRInstanceGroupPolicy",
-    AWS_APPLICATION_AUTOSCALING_LAMBDA_CONCURRENCY_POLICY: "aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy",
-    AWS_APPLICATION_AUTOSCALING_RDS_CLUSTER_POLICY: "aws-service-role/AWSApplicationAutoscalingRDSClusterPolicy",
-    AWS_APPLICATION_AUTOSCALING_SAGE_MAKER_ENDPOINT_POLICY: "aws-service-role/AWSApplicationAutoscalingSageMakerEndpointPolicy",
-    AWS_APPLICATION_DISCOVERY_AGENT_ACCESS: "AWSApplicationDiscoveryAgentAccess",
-    AWS_APPLICATION_DISCOVERY_SERVICE_FULL_ACCESS: "AWSApplicationDiscoveryServiceFullAccess",
-    AWS_ARTIFACT_ACCOUNT_SYNC: "service-role/AWSArtifactAccountSync",
-    AWS_AUTO_SCALING_PLANS_EC2_AUTO_SCALING_POLICY: "aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy",
-    AWSB_9_INTERNAL_SERVICE_POLICY: "AWSB9InternalServicePolicy",
-    AWS_BACKUP_FULL_ACCESS: "AWSBackupFullAccess",
-    AWS_BACKUP_OPERATOR_ACCESS: "AWSBackupOperatorAccess",
-    AWS_BACKUP_SERVICE_ROLE_POLICY_FOR_BACKUP: "service-role/AWSBackupServiceRolePolicyForBackup",
-    AWS_BACKUP_SERVICE_ROLE_POLICY_FOR_RESTORES: "service-role/AWSBackupServiceRolePolicyForRestores",
-    AWS_BATCH_FULL_ACCESS: "AWSBatchFullAccess",
-    AWS_BATCH_SERVICE_EVENT_TARGET_ROLE: "service-role/AWSBatchServiceEventTargetRole",
-    AWS_BATCH_SERVICE_ROLE: "service-role/AWSBatchServiceRole",
-    AWS_CERTIFICATE_MANAGER_FULL_ACCESS: "AWSCertificateManagerFullAccess",
-    AWS_CERTIFICATE_MANAGER_PRIVATE_CA_AUDITOR: "AWSCertificateManagerPrivateCAAuditor",
-    AWS_CERTIFICATE_MANAGER_PRIVATE_CA_FULL_ACCESS: "AWSCertificateManagerPrivateCAFullAccess",
-    AWS_CERTIFICATE_MANAGER_PRIVATE_CA_PRIVILEGED_USER: "AWSCertificateManagerPrivateCAPrivilegedUser",
-    AWS_CERTIFICATE_MANAGER_PRIVATE_CA_READ_ONLY: "AWSCertificateManagerPrivateCAReadOnly",
-    AWS_CERTIFICATE_MANAGER_PRIVATE_CA_USER: "AWSCertificateManagerPrivateCAUser",
-    AWS_CERTIFICATE_MANAGER_READ_ONLY: "AWSCertificateManagerReadOnly",
-    AWS_CHATBOT_SERVICE_LINKED_ROLE_POLICY: "aws-service-role/AWSChatbotServiceLinkedRolePolicy",
-    AWS_CLOUD_9_ADMINISTRATOR: "AWSCloud9Administrator",
-    AWS_CLOUD_9_ENVIRONMENT_MEMBER: "AWSCloud9EnvironmentMember",
-    AWS_CLOUD_9_SERVICE_ROLE_POLICY: "aws-service-role/AWSCloud9ServiceRolePolicy",
-    AWS_CLOUD_9_USER: "AWSCloud9User",
-    AWS_CLOUD_FORMATION_FULL_ACCESS: "AWSCloudFormationFullAccess",
-    AWS_CLOUD_FORMATION_READ_ONLY_ACCESS: "AWSCloudFormationReadOnlyAccess",
-    AWS_CLOUD_FRONT_LOGGER: "aws-service-role/AWSCloudFrontLogger",
-    AWS_CLOUD_HSM_FULL_ACCESS: "AWSCloudHSMFullAccess",
-    AWS_CLOUD_HSM_READ_ONLY_ACCESS: "AWSCloudHSMReadOnlyAccess",
-    AWS_CLOUD_HSM_ROLE: "service-role/AWSCloudHSMRole",
-    AWS_CLOUD_MAP_DISCOVER_INSTANCE_ACCESS: "AWSCloudMapDiscoverInstanceAccess",
-    AWS_CLOUD_MAP_FULL_ACCESS: "AWSCloudMapFullAccess",
-    AWS_CLOUD_MAP_READ_ONLY_ACCESS: "AWSCloudMapReadOnlyAccess",
-    AWS_CLOUD_MAP_REGISTER_INSTANCE_ACCESS: "AWSCloudMapRegisterInstanceAccess",
-    AWS_CLOUD_TRAIL_FULL_ACCESS: "AWSCloudTrailFullAccess",
-    AWS_CLOUD_TRAIL_READ_ONLY_ACCESS: "AWSCloudTrailReadOnlyAccess",
-    AWS_CODE_BUILD_ADMIN_ACCESS: "AWSCodeBuildAdminAccess",
-    AWS_CODE_BUILD_DEVELOPER_ACCESS: "AWSCodeBuildDeveloperAccess",
-    AWS_CODE_BUILD_READ_ONLY_ACCESS: "AWSCodeBuildReadOnlyAccess",
-    AWS_CODE_COMMIT_FULL_ACCESS: "AWSCodeCommitFullAccess",
-    AWS_CODE_COMMIT_POWER_USER: "AWSCodeCommitPowerUser",
-    AWS_CODE_COMMIT_READ_ONLY: "AWSCodeCommitReadOnly",
-    AWS_CODE_DEPLOY_DEPLOYER_ACCESS: "AWSCodeDeployDeployerAccess",
-    AWS_CODE_DEPLOY_FULL_ACCESS: "AWSCodeDeployFullAccess",
-    AWS_CODE_DEPLOY_READ_ONLY_ACCESS: "AWSCodeDeployReadOnlyAccess",
-    AWS_CODE_DEPLOY_ROLE: "service-role/AWSCodeDeployRole",
-    AWS_CODE_DEPLOY_ROLE_FOR_ECS: "AWSCodeDeployRoleForECS",
-    AWS_CODE_DEPLOY_ROLE_FOR_ECS_LIMITED: "AWSCodeDeployRoleForECSLimited",
-    AWS_CODE_DEPLOY_ROLE_FOR_LAMBDA: "service-role/AWSCodeDeployRoleForLambda",
-    AWS_CODE_PIPELINE_APPROVER_ACCESS: "AWSCodePipelineApproverAccess",
-    AWS_CODE_PIPELINE_CUSTOM_ACTION_ACCESS: "AWSCodePipelineCustomActionAccess",
-    AWS_CODE_PIPELINE_FULL_ACCESS: "AWSCodePipelineFullAccess",
-    AWS_CODE_PIPELINE_READ_ONLY_ACCESS: "AWSCodePipelineReadOnlyAccess",
-    AWS_CODE_STAR_FULL_ACCESS: "AWSCodeStarFullAccess",
-    AWS_CODE_STAR_NOTIFICATIONS_SERVICE_ROLE_POLICY: "aws-service-role/AWSCodeStarNotificationsServiceRolePolicy",
-    AWS_CODE_STAR_SERVICE_ROLE: "service-role/AWSCodeStarServiceRole",
-    AWS_CONFIG_MULTI_ACCOUNT_SETUP_POLICY: "aws-service-role/AWSConfigMultiAccountSetupPolicy",
-    AWS_CONFIG_REMEDIATION_SERVICE_ROLE_POLICY: "aws-service-role/AWSConfigRemediationServiceRolePolicy",
-    AWS_CONFIG_ROLE: "service-role/AWSConfigRole",
-    AWS_CONFIG_ROLE_FOR_ORGANIZATIONS: "service-role/AWSConfigRoleForOrganizations",
-    AWS_CONFIG_RULES_EXECUTION_ROLE: "service-role/AWSConfigRulesExecutionRole",
-    AWS_CONFIG_SERVICE_ROLE_POLICY: "aws-service-role/AWSConfigServiceRolePolicy",
-    AWS_CONFIG_USER_ACCESS: "AWSConfigUserAccess",
-    AWS_CONNECTOR: "AWSConnector",
-    AWS_CONTROL_TOWER_SERVICE_ROLE_POLICY: "service-role/AWSControlTowerServiceRolePolicy",
-    AWS_DATA_EXCHANGE_FULL_ACCESS: "AWSDataExchangeFullAccess",
-    AWS_DATA_EXCHANGE_PROVIDER_FULL_ACCESS: "AWSDataExchangeProviderFullAccess",
-    AWS_DATA_EXCHANGE_READ_ONLY: "AWSDataExchangeReadOnly",
-    AWS_DATA_EXCHANGE_SUBSCRIBER_FULL_ACCESS: "AWSDataExchangeSubscriberFullAccess",
-    AWS_DATA_LIFECYCLE_MANAGER_SERVICE_ROLE: "service-role/AWSDataLifecycleManagerServiceRole",
-    AWS_DATA_PIPELINE_ROLE: "service-role/AWSDataPipelineRole",
-    AWS_DATA_PIPELINE_FULL_ACCESS: "AWSDataPipeline_FullAccess",
-    AWS_DATA_PIPELINE_POWER_USER: "AWSDataPipeline_PowerUser",
-    AWS_DATA_SYNC_FULL_ACCESS: "AWSDataSyncFullAccess",
-    AWS_DATA_SYNC_READ_ONLY_ACCESS: "AWSDataSyncReadOnlyAccess",
-    AWS_DEEP_LENS_LAMBDA_FUNCTION_ACCESS_POLICY: "AWSDeepLensLambdaFunctionAccessPolicy",
-    AWS_DEEP_LENS_SERVICE_ROLE_POLICY: "service-role/AWSDeepLensServiceRolePolicy",
-    AWS_DEEP_RACER_CLOUD_FORMATION_ACCESS_POLICY: "AWSDeepRacerCloudFormationAccessPolicy",
-    AWS_DEEP_RACER_ROBO_MAKER_ACCESS_POLICY: "AWSDeepRacerRoboMakerAccessPolicy",
-    AWS_DEEP_RACER_SERVICE_ROLE_POLICY: "service-role/AWSDeepRacerServiceRolePolicy",
-    AWS_DENY_ALL: "AWSDenyAll",
-    AWS_DEVICE_FARM_FULL_ACCESS: "AWSDeviceFarmFullAccess",
-    AWS_DIRECT_CONNECT_FULL_ACCESS: "AWSDirectConnectFullAccess",
-    AWS_DIRECT_CONNECT_READ_ONLY_ACCESS: "AWSDirectConnectReadOnlyAccess",
-    AWS_DIRECTORY_SERVICE_FULL_ACCESS: "AWSDirectoryServiceFullAccess",
-    AWS_DIRECTORY_SERVICE_READ_ONLY_ACCESS: "AWSDirectoryServiceReadOnlyAccess",
-    AWS_DISCOVERY_CONTINUOUS_EXPORT_FIREHOSE_POLICY: "AWSDiscoveryContinuousExportFirehosePolicy",
-    AWSEC2_FLEET_SERVICE_ROLE_POLICY: "aws-service-role/AWSEC2FleetServiceRolePolicy",
-    AWSEC2_SPOT_FLEET_SERVICE_ROLE_POLICY: "aws-service-role/AWSEC2SpotFleetServiceRolePolicy",
-    AWSEC2_SPOT_SERVICE_ROLE_POLICY: "aws-service-role/AWSEC2SpotServiceRolePolicy",
-    AWS_ELASTIC_BEANSTALK_CUSTOM_PLATFORMFOR_EC2_ROLE: "AWSElasticBeanstalkCustomPlatformforEC2Role",
-    AWS_ELASTIC_BEANSTALK_ENHANCED_HEALTH: "service-role/AWSElasticBeanstalkEnhancedHealth",
-    AWS_ELASTIC_BEANSTALK_FULL_ACCESS: "AWSElasticBeanstalkFullAccess",
-    AWS_ELASTIC_BEANSTALK_MAINTENANCE: "aws-service-role/AWSElasticBeanstalkMaintenance",
-    AWS_ELASTIC_BEANSTALK_MANAGED_UPDATES_SERVICE_ROLE_POLICY: "aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy",
-    AWS_ELASTIC_BEANSTALK_MULTICONTAINER_DOCKER: "AWSElasticBeanstalkMulticontainerDocker",
-    AWS_ELASTIC_BEANSTALK_READ_ONLY_ACCESS: "AWSElasticBeanstalkReadOnlyAccess",
-    AWS_ELASTIC_BEANSTALK_SERVICE: "service-role/AWSElasticBeanstalkService",
-    AWS_ELASTIC_BEANSTALK_SERVICE_ROLE_POLICY: "aws-service-role/AWSElasticBeanstalkServiceRolePolicy",
-    AWS_ELASTIC_BEANSTALK_WEB_TIER: "AWSElasticBeanstalkWebTier",
-    AWS_ELASTIC_BEANSTALK_WORKER_TIER: "AWSElasticBeanstalkWorkerTier",
-    AWS_ELASTIC_LOAD_BALANCING_CLASSIC_SERVICE_ROLE_POLICY: "aws-service-role/AWSElasticLoadBalancingClassicServiceRolePolicy",
-    AWS_ELASTIC_LOAD_BALANCING_SERVICE_ROLE_POLICY: "aws-service-role/AWSElasticLoadBalancingServiceRolePolicy",
-    AWS_ELEMENTAL_MEDIA_CONVERT_FULL_ACCESS: "AWSElementalMediaConvertFullAccess",
-    AWS_ELEMENTAL_MEDIA_CONVERT_READ_ONLY: "AWSElementalMediaConvertReadOnly",
-    AWS_ELEMENTAL_MEDIA_PACKAGE_FULL_ACCESS: "AWSElementalMediaPackageFullAccess",
-    AWS_ELEMENTAL_MEDIA_PACKAGE_READ_ONLY: "AWSElementalMediaPackageReadOnly",
-    AWS_ELEMENTAL_MEDIA_STORE_FULL_ACCESS: "AWSElementalMediaStoreFullAccess",
-    AWS_ELEMENTAL_MEDIA_STORE_READ_ONLY: "AWSElementalMediaStoreReadOnly",
-    AWS_ENHANCED_CLASSIC_NETWORKING_MANGEMENT_POLICY: "aws-service-role/AWSEnhancedClassicNetworkingMangementPolicy",
-    AWSFM_ADMIN_FULL_ACCESS: "AWSFMAdminFullAccess",
-    AWSFM_ADMIN_READ_ONLY_ACCESS: "AWSFMAdminReadOnlyAccess",
-    AWSFM_MEMBER_READ_ONLY_ACCESS: "AWSFMMemberReadOnlyAccess",
-    AWS_FOR_WORD_PRESS_PLUGIN_POLICY: "AWSForWordPressPluginPolicy",
-    AWS_GLOBAL_ACCELERATOR_SLR_POLICY: "aws-service-role/AWSGlobalAcceleratorSLRPolicy",
-    AWS_GLUE_CONSOLE_FULL_ACCESS: "AWSGlueConsoleFullAccess",
-    AWS_GLUE_CONSOLE_SAGE_MAKER_NOTEBOOK_FULL_ACCESS: "AWSGlueConsoleSageMakerNotebookFullAccess",
-    AWS_GLUE_SERVICE_NOTEBOOK_ROLE: "service-role/AWSGlueServiceNotebookRole",
-    AWS_GLUE_SERVICE_ROLE: "service-role/AWSGlueServiceRole",
-    AWS_GREENGRASS_FULL_ACCESS: "AWSGreengrassFullAccess",
-    AWS_GREENGRASS_READ_ONLY_ACCESS: "AWSGreengrassReadOnlyAccess",
-    AWS_GREENGRASS_RESOURCE_ACCESS_ROLE_POLICY: "service-role/AWSGreengrassResourceAccessRolePolicy",
-    AWS_HEALTH_FULL_ACCESS: "AWSHealthFullAccess",
-    AWSIQ_CONTRACT_SERVICE_ROLE_POLICY: "aws-service-role/AWSIQContractServiceRolePolicy",
-    AWSIQ_FULL_ACCESS: "AWSIQFullAccess",
-    AWSIQ_PERMISSION_SERVICE_ROLE_POLICY: "aws-service-role/AWSIQPermissionServiceRolePolicy",
-    AWS_IMAGE_BUILDER_READ_ONLY_ACCESS: "AWSImageBuilderReadOnlyAccess",
-    AWS_IMPORT_EXPORT_FULL_ACCESS: "AWSImportExportFullAccess",
-    AWS_IMPORT_EXPORT_READ_ONLY_ACCESS: "AWSImportExportReadOnlyAccess",
-    AWS_IOT_1_CLICK_FULL_ACCESS: "AWSIoT1ClickFullAccess",
-    AWS_IOT_1_CLICK_READ_ONLY_ACCESS: "AWSIoT1ClickReadOnlyAccess",
-    AWS_IOT_ANALYTICS_FULL_ACCESS: "AWSIoTAnalyticsFullAccess",
-    AWS_IOT_ANALYTICS_READ_ONLY_ACCESS: "AWSIoTAnalyticsReadOnlyAccess",
-    AWS_IOT_CONFIG_ACCESS: "AWSIoTConfigAccess",
-    AWS_IOT_CONFIG_READ_ONLY_ACCESS: "AWSIoTConfigReadOnlyAccess",
-    AWS_IOT_DATA_ACCESS: "AWSIoTDataAccess",
-    AWS_IOT_DEVICE_DEFENDER_ADD_THINGS_TO_THING_GROUP_MITIGATION_ACTION: "service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction",
-    AWS_IOT_DEVICE_DEFENDER_AUDIT: "service-role/AWSIoTDeviceDefenderAudit",
-    AWS_IOT_DEVICE_DEFENDER_ENABLE_IO_T_LOGGING_MITIGATION_ACTION: "service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction",
-    AWS_IOT_DEVICE_DEFENDER_PUBLISH_FINDINGS_TO_SNS_MITIGATION_ACTION: "service-role/AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction",
-    AWS_IOT_DEVICE_DEFENDER_REPLACE_DEFAULT_POLICY_MITIGATION_ACTION: "service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction",
-    AWS_IOT_DEVICE_DEFENDER_UPDATE_CA_CERT_MITIGATION_ACTION: "service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction",
-    AWS_IOT_DEVICE_DEFENDER_UPDATE_DEVICE_CERT_MITIGATION_ACTION: "service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction",
-    AWS_IOT_EVENTS_FULL_ACCESS: "AWSIoTEventsFullAccess",
-    AWS_IOT_EVENTS_READ_ONLY_ACCESS: "AWSIoTEventsReadOnlyAccess",
-    AWS_IOT_FULL_ACCESS: "AWSIoTFullAccess",
-    AWS_IOT_LOGGING: "service-role/AWSIoTLogging",
-    AWS_IOTOTA_UPDATE: "service-role/AWSIoTOTAUpdate",
-    AWS_IOT_RULE_ACTIONS: "service-role/AWSIoTRuleActions",
-    AWS_IOT_SITE_WISE_CONSOLE_FULL_ACCESS: "AWSIoTSiteWiseConsoleFullAccess",
-    AWS_IOT_SITE_WISE_FULL_ACCESS: "AWSIoTSiteWiseFullAccess",
-    AWS_IOT_SITE_WISE_MONITOR_SERVICE_ROLE_POLICY: "aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy",
-    AWS_IOT_SITE_WISE_READ_ONLY_ACCESS: "AWSIoTSiteWiseReadOnlyAccess",
-    AWS_IOT_THINGS_REGISTRATION: "service-role/AWSIoTThingsRegistration",
-    AWS_KEY_MANAGEMENT_SERVICE_CUSTOM_KEY_STORES_SERVICE_ROLE_POLICY: "aws-service-role/AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy",
-    AWS_KEY_MANAGEMENT_SERVICE_POWER_USER: "AWSKeyManagementServicePowerUser",
-    AWS_LAKE_FORMATION_DATA_ADMIN: "AWSLakeFormationDataAdmin",
-    AWS_LAMBDA_BASIC_EXECUTION_ROLE: "service-role/AWSLambdaBasicExecutionRole",
-    AWS_LAMBDA_DYNAMO_DB_EXECUTION_ROLE: "service-role/AWSLambdaDynamoDBExecutionRole",
-    AWS_LAMBDA_ENI_MANAGEMENT_ACCESS: "service-role/AWSLambdaENIManagementAccess",
-    AWS_LAMBDA_EXECUTE: "AWSLambdaExecute",
-    AWS_LAMBDA_FULL_ACCESS: "AWSLambdaFullAccess",
-    AWS_LAMBDA_INVOCATION_DYNAMO_DB: "AWSLambdaInvocation-DynamoDB",
-    AWS_LAMBDA_KINESIS_EXECUTION_ROLE: "service-role/AWSLambdaKinesisExecutionRole",
-    AWS_LAMBDA_READ_ONLY_ACCESS: "AWSLambdaReadOnlyAccess",
-    AWS_LAMBDA_REPLICATOR: "aws-service-role/AWSLambdaReplicator",
-    AWS_LAMBDA_ROLE: "service-role/AWSLambdaRole",
-    AWS_LAMBDA_SQS_QUEUE_EXECUTION_ROLE: "service-role/AWSLambdaSQSQueueExecutionRole",
-    AWS_LAMBDA_VPC_ACCESS_EXECUTION_ROLE: "service-role/AWSLambdaVPCAccessExecutionRole",
-    AWS_LICENSE_MANAGER_MASTER_ACCOUNT_ROLE_POLICY: "aws-service-role/AWSLicenseManagerMasterAccountRolePolicy",
-    AWS_LICENSE_MANAGER_MEMBER_ACCOUNT_ROLE_POLICY: "aws-service-role/AWSLicenseManagerMemberAccountRolePolicy",
-    AWS_LICENSE_MANAGER_SERVICE_ROLE_POLICY: "aws-service-role/AWSLicenseManagerServiceRolePolicy",
-    AWS_MARKETPLACE_FULL_ACCESS: "AWSMarketplaceFullAccess",
-    AWS_MARKETPLACE_GET_ENTITLEMENTS: "AWSMarketplaceGetEntitlements",
-    AWS_MARKETPLACE_IMAGE_BUILD_FULL_ACCESS: "AWSMarketplaceImageBuildFullAccess",
-    AWS_MARKETPLACE_MANAGE_SUBSCRIPTIONS: "AWSMarketplaceManageSubscriptions",
-    AWS_MARKETPLACE_METERING_FULL_ACCESS: "AWSMarketplaceMeteringFullAccess",
-    AWS_MARKETPLACE_METERING_REGISTER_USAGE: "AWSMarketplaceMeteringRegisterUsage",
-    AWS_MARKETPLACE_PROCUREMENT_SYSTEM_ADMIN_FULL_ACCESS: "AWSMarketplaceProcurementSystemAdminFullAccess",
-    AWS_MARKETPLACE_READ_ONLY: "AWSMarketplaceRead-only",
-    AWS_MARKETPLACE_SELLER_FULL_ACCESS: "AWSMarketplaceSellerFullAccess",
-    AWS_MARKETPLACE_SELLER_PRODUCTS_FULL_ACCESS: "AWSMarketplaceSellerProductsFullAccess",
-    AWS_MARKETPLACE_SELLER_PRODUCTS_READ_ONLY: "AWSMarketplaceSellerProductsReadOnly",
-    AWS_MIGRATION_HUB_DMS_ACCESS: "service-role/AWSMigrationHubDMSAccess",
-    AWS_MIGRATION_HUB_DISCOVERY_ACCESS: "service-role/AWSMigrationHubDiscoveryAccess",
-    AWS_MIGRATION_HUB_FULL_ACCESS: "AWSMigrationHubFullAccess",
-    AWS_MIGRATION_HUB_SMS_ACCESS: "service-role/AWSMigrationHubSMSAccess",
-    AWS_MOBILE_HUB_FULL_ACCESS: "AWSMobileHub_FullAccess",
-    AWS_MOBILE_HUB_READ_ONLY: "AWSMobileHub_ReadOnly",
-    AWS_NETWORK_MANAGER_FULL_ACCESS: "AWSNetworkManagerFullAccess",
-    AWS_NETWORK_MANAGER_READ_ONLY_ACCESS: "AWSNetworkManagerReadOnlyAccess",
-    AWS_NETWORK_MANAGER_SERVICE_ROLE_POLICY: "aws-service-role/AWSNetworkManagerServiceRolePolicy",
-    AWS_OPS_WORKS_CM_INSTANCE_PROFILE_ROLE: "AWSOpsWorksCMInstanceProfileRole",
-    AWS_OPS_WORKS_CM_SERVICE_ROLE: "service-role/AWSOpsWorksCMServiceRole",
-    AWS_OPS_WORKS_CLOUD_WATCH_LOGS: "AWSOpsWorksCloudWatchLogs",
-    AWS_OPS_WORKS_FULL_ACCESS: "AWSOpsWorksFullAccess",
-    AWS_OPS_WORKS_INSTANCE_REGISTRATION: "AWSOpsWorksInstanceRegistration",
-    AWS_OPS_WORKS_REGISTER_CLI_EC2: "AWSOpsWorksRegisterCLI_EC2",
-    AWS_OPS_WORKS_REGISTER_CLI_ON_PREMISES: "AWSOpsWorksRegisterCLI_OnPremises",
-    AWS_OPS_WORKS_ROLE: "service-role/AWSOpsWorksRole",
-    AWS_ORGANIZATIONS_FULL_ACCESS: "AWSOrganizationsFullAccess",
-    AWS_ORGANIZATIONS_READ_ONLY_ACCESS: "AWSOrganizationsReadOnlyAccess",
-    AWS_ORGANIZATIONS_SERVICE_TRUST_POLICY: "aws-service-role/AWSOrganizationsServiceTrustPolicy",
-    AWS_PRICE_LIST_SERVICE_FULL_ACCESS: "AWSPriceListServiceFullAccess",
-    AWS_PRIVATE_MARKETPLACE_ADMIN_FULL_ACCESS: "AWSPrivateMarketplaceAdminFullAccess",
-    AWS_PRIVATE_MARKETPLACE_REQUESTS: "AWSPrivateMarketplaceRequests",
-    AWS_QUICK_SIGHT_DESCRIBE_RDS: "service-role/AWSQuickSightDescribeRDS",
-    AWS_QUICK_SIGHT_DESCRIBE_REDSHIFT: "service-role/AWSQuickSightDescribeRedshift",
-    AWS_QUICK_SIGHT_IOT_ANALYTICS_ACCESS: "AWSQuickSightIoTAnalyticsAccess",
-    AWS_QUICK_SIGHT_LIST_IAM: "service-role/AWSQuickSightListIAM",
-    AWS_QUICKSIGHT_ATHENA_ACCESS: "service-role/AWSQuicksightAthenaAccess",
-    AWS_RESOURCE_ACCESS_MANAGER_FULL_ACCESS: "AWSResourceAccessManagerFullAccess",
-    AWS_RESOURCE_ACCESS_MANAGER_READ_ONLY_ACCESS: "AWSResourceAccessManagerReadOnlyAccess",
-    AWS_RESOURCE_ACCESS_MANAGER_RESOURCE_SHARE_PARTICIPANT_ACCESS: "AWSResourceAccessManagerResourceShareParticipantAccess",
-    AWS_RESOURCE_ACCESS_MANAGER_SERVICE_ROLE_POLICY: "aws-service-role/AWSResourceAccessManagerServiceRolePolicy",
-    AWS_RESOURCE_GROUPS_READ_ONLY_ACCESS: "AWSResourceGroupsReadOnlyAccess",
-    AWS_ROBO_MAKER_FULL_ACCESS: "AWSRoboMakerFullAccess",
-    AWS_ROBO_MAKER_READ_ONLY_ACCESS: "AWSRoboMakerReadOnlyAccess",
-    AWS_ROBO_MAKER_SERVICE_POLICY: "aws-service-role/AWSRoboMakerServicePolicy",
-    AWS_ROBO_MAKER_SERVICE_ROLE_POLICY: "AWSRoboMakerServiceRolePolicy",
-    AWSSSO_DIRECTORY_ADMINISTRATOR: "AWSSSODirectoryAdministrator",
-    AWSSSO_DIRECTORY_READ_ONLY: "AWSSSODirectoryReadOnly",
-    AWSSSO_MASTER_ACCOUNT_ADMINISTRATOR: "AWSSSOMasterAccountAdministrator",
-    AWSSSO_MEMBER_ACCOUNT_ADMINISTRATOR: "AWSSSOMemberAccountAdministrator",
-    AWSSSO_READ_ONLY: "AWSSSOReadOnly",
-    AWSSSO_SERVICE_ROLE_POLICY: "aws-service-role/AWSSSOServiceRolePolicy",
-    AWS_SAVINGS_PLANS_FULL_ACCESS: "AWSSavingsPlansFullAccess",
-    AWS_SAVINGS_PLANS_READ_ONLY_ACCESS: "AWSSavingsPlansReadOnlyAccess",
-    AWS_SECURITY_HUB_FULL_ACCESS: "AWSSecurityHubFullAccess",
-    AWS_SECURITY_HUB_READ_ONLY_ACCESS: "AWSSecurityHubReadOnlyAccess",
-    AWS_SECURITY_HUB_SERVICE_ROLE_POLICY: "aws-service-role/AWSSecurityHubServiceRolePolicy",
-    AWS_SERVICE_CATALOG_ADMIN_FULL_ACCESS: "AWSServiceCatalogAdminFullAccess",
-    AWS_SERVICE_CATALOG_ADMIN_READ_ONLY_ACCESS: "AWSServiceCatalogAdminReadOnlyAccess",
-    AWS_SERVICE_CATALOG_END_USER_FULL_ACCESS: "AWSServiceCatalogEndUserFullAccess",
-    AWS_SERVICE_CATALOG_END_USER_READ_ONLY_ACCESS: "AWSServiceCatalogEndUserReadOnlyAccess",
-    AWS_SERVICE_ROLE_FOR_AMAZON_EKS_NODEGROUP: "aws-service-role/AWSServiceRoleForAmazonEKSNodegroup",
-    AWS_SERVICE_ROLE_FOR_EC2_SCHEDULED_INSTANCES: "aws-service-role/AWSServiceRoleForEC2ScheduledInstances",
-    AWS_SERVICE_ROLE_FOR_IMAGE_BUILDER: "aws-service-role/AWSServiceRoleForImageBuilder",
-    AWS_SERVICE_ROLE_FOR_IOT_SITE_WISE: "aws-service-role/AWSServiceRoleForIoTSiteWise",
-    AWS_SERVICE_ROLE_FOR_LOG_DELIVERY_POLICY: "aws-service-role/AWSServiceRoleForLogDeliveryPolicy",
-    AWS_SERVICE_ROLE_FOR_SMS: "aws-service-role/AWSServiceRoleForSMS",
-    AWS_SHIELD_DRT_ACCESS_POLICY: "service-role/AWSShieldDRTAccessPolicy",
-    AWS_STEP_FUNCTIONS_CONSOLE_FULL_ACCESS: "AWSStepFunctionsConsoleFullAccess",
-    AWS_STEP_FUNCTIONS_FULL_ACCESS: "AWSStepFunctionsFullAccess",
-    AWS_STEP_FUNCTIONS_READ_ONLY_ACCESS: "AWSStepFunctionsReadOnlyAccess",
-    AWS_STORAGE_GATEWAY_FULL_ACCESS: "AWSStorageGatewayFullAccess",
-    AWS_STORAGE_GATEWAY_READ_ONLY_ACCESS: "AWSStorageGatewayReadOnlyAccess",
-    AWS_SUPPORT_ACCESS: "AWSSupportAccess",
-    AWS_SUPPORT_SERVICE_ROLE_POLICY: "aws-service-role/AWSSupportServiceRolePolicy",
-    AWS_SYSTEMS_MANAGER_ACCOUNT_DISCOVERY_SERVICE_POLICY: "aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy",
-    AWS_TRANSFER_LOGGING_ACCESS: "service-role/AWSTransferLoggingAccess",
-    AWS_TRUSTED_ADVISOR_REPORTING_SERVICE_ROLE_POLICY: "aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy",
-    AWS_TRUSTED_ADVISOR_SERVICE_ROLE_POLICY: "aws-service-role/AWSTrustedAdvisorServiceRolePolicy",
-    AWSVPCS_2_S_VPN_SERVICE_ROLE_POLICY: "aws-service-role/AWSVPCS2SVpnServiceRolePolicy",
-    AWSVPC_TRANSIT_GATEWAY_SERVICE_ROLE_POLICY: "aws-service-role/AWSVPCTransitGatewayServiceRolePolicy",
-    AWSWAF_FULL_ACCESS: "AWSWAFFullAccess",
-    AWSWAF_READ_ONLY_ACCESS: "AWSWAFReadOnlyAccess",
-    AWSX_RAY_DAEMON_WRITE_ACCESS: "AWSXRayDaemonWriteAccess",
-    AWS_XRAY_FULL_ACCESS: "AWSXrayFullAccess",
-    AWS_XRAY_READ_ONLY_ACCESS: "AWSXrayReadOnlyAccess",
-    AWS_XRAY_WRITE_ONLY_ACCESS: "AWSXrayWriteOnlyAccess",
-    ACCESS_ANALYZER_SERVICE_ROLE_POLICY: "aws-service-role/AccessAnalyzerServiceRolePolicy",
-    ADMINISTRATOR_ACCESS: "AdministratorAccess",
-    ALEXA_FOR_BUSINESS_DEVICE_SETUP: "AlexaForBusinessDeviceSetup",
-    ALEXA_FOR_BUSINESS_FULL_ACCESS: "AlexaForBusinessFullAccess",
-    ALEXA_FOR_BUSINESS_GATEWAY_EXECUTION: "AlexaForBusinessGatewayExecution",
-    ALEXA_FOR_BUSINESS_NETWORK_PROFILE_SERVICE_POLICY: "aws-service-role/AlexaForBusinessNetworkProfileServicePolicy",
-    ALEXA_FOR_BUSINESS_POLY_DELEGATED_ACCESS_POLICY: "AlexaForBusinessPolyDelegatedAccessPolicy",
-    ALEXA_FOR_BUSINESS_READ_ONLY_ACCESS: "AlexaForBusinessReadOnlyAccess",
-    AMAZON_API_GATEWAY_ADMINISTRATOR: "AmazonAPIGatewayAdministrator",
-    AMAZON_API_GATEWAY_INVOKE_FULL_ACCESS: "AmazonAPIGatewayInvokeFullAccess",
-    AMAZON_API_GATEWAY_PUSH_TO_CLOUD_WATCH_LOGS: "service-role/AmazonAPIGatewayPushToCloudWatchLogs",
-    AMAZON_APP_STREAM_FULL_ACCESS: "AmazonAppStreamFullAccess",
-    AMAZON_APP_STREAM_READ_ONLY_ACCESS: "AmazonAppStreamReadOnlyAccess",
-    AMAZON_APP_STREAM_SERVICE_ACCESS: "service-role/AmazonAppStreamServiceAccess",
-    AMAZON_ATHENA_FULL_ACCESS: "AmazonAthenaFullAccess",
-    AMAZON_AUGMENTED_AI_FULL_ACCESS: "AmazonAugmentedAIFullAccess",
-    AMAZON_AUGMENTED_AI_HUMAN_LOOP_FULL_ACCESS: "AmazonAugmentedAIHumanLoopFullAccess",
-    AMAZON_CHIME_FULL_ACCESS: "AmazonChimeFullAccess",
-    AMAZON_CHIME_READ_ONLY: "AmazonChimeReadOnly",
-    AMAZON_CHIME_SERVICE_ROLE_POLICY: "aws-service-role/AmazonChimeServiceRolePolicy",
-    AMAZON_CHIME_USER_MANAGEMENT: "AmazonChimeUserManagement",
-    AMAZON_CHIME_VOICE_CONNECTOR_SERVICE_LINKED_ROLE_POLICY: "aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy",
-    AMAZON_CLOUD_DIRECTORY_FULL_ACCESS: "AmazonCloudDirectoryFullAccess",
-    AMAZON_CLOUD_DIRECTORY_READ_ONLY_ACCESS: "AmazonCloudDirectoryReadOnlyAccess",
-    AMAZON_CODE_GURU_PROFILER_FULL_ACCESS: "AmazonCodeGuruProfilerFullAccess",
-    AMAZON_CODE_GURU_PROFILER_READ_ONLY_ACCESS: "AmazonCodeGuruProfilerReadOnlyAccess",
-    AMAZON_CODE_GURU_REVIEWER_FULL_ACCESS: "AmazonCodeGuruReviewerFullAccess",
-    AMAZON_CODE_GURU_REVIEWER_READ_ONLY_ACCESS: "AmazonCodeGuruReviewerReadOnlyAccess",
-    AMAZON_CODE_GURU_REVIEWER_SERVICE_ROLE_POLICY: "aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy",
-    AMAZON_COGNITO_DEVELOPER_AUTHENTICATED_IDENTITIES: "AmazonCognitoDeveloperAuthenticatedIdentities",
-    AMAZON_COGNITO_IDP_EMAIL_SERVICE_ROLE_POLICY: "aws-service-role/AmazonCognitoIdpEmailServiceRolePolicy",
-    AMAZON_COGNITO_POWER_USER: "AmazonCognitoPowerUser",
-    AMAZON_COGNITO_READ_ONLY: "AmazonCognitoReadOnly",
-    AMAZON_CONNECT_FULL_ACCESS: "AmazonConnectFullAccess",
-    AMAZON_CONNECT_READ_ONLY_ACCESS: "AmazonConnectReadOnlyAccess",
-    AMAZON_CONNECT_SERVICE_LINKED_ROLE_POLICY: "aws-service-role/AmazonConnectServiceLinkedRolePolicy",
-    AMAZON_DMS_CLOUD_WATCH_LOGS_ROLE: "service-role/AmazonDMSCloudWatchLogsRole",
-    AMAZON_DMS_REDSHIFT_S3_ROLE: "service-role/AmazonDMSRedshiftS3Role",
-    AMAZON_DMSVPC_MANAGEMENT_ROLE: "service-role/AmazonDMSVPCManagementRole",
-    AMAZON_DRSVPC_MANAGEMENT: "AmazonDRSVPCManagement",
-    AMAZON_DOC_DB_CONSOLE_FULL_ACCESS: "AmazonDocDBConsoleFullAccess",
-    AMAZON_DOC_DB_FULL_ACCESS: "AmazonDocDBFullAccess",
-    AMAZON_DOC_DB_READ_ONLY_ACCESS: "AmazonDocDBReadOnlyAccess",
-    AMAZON_DYNAMO_DB_FULL_ACCESS: "AmazonDynamoDBFullAccess",
-    AMAZON_DYNAMO_DB_FULL_ACCESSWITH_DATA_PIPELINE: "AmazonDynamoDBFullAccesswithDataPipeline",
-    AMAZON_DYNAMO_DB_READ_ONLY_ACCESS: "AmazonDynamoDBReadOnlyAccess",
-    AMAZON_EC2_CONTAINER_REGISTRY_FULL_ACCESS: "AmazonEC2ContainerRegistryFullAccess",
-    AMAZON_EC2_CONTAINER_REGISTRY_POWER_USER: "AmazonEC2ContainerRegistryPowerUser",
-    AMAZON_EC2_CONTAINER_REGISTRY_READ_ONLY: "AmazonEC2ContainerRegistryReadOnly",
-    AMAZON_EC2_CONTAINER_SERVICE_AUTOSCALE_ROLE: "service-role/AmazonEC2ContainerServiceAutoscaleRole",
-    AMAZON_EC2_CONTAINER_SERVICE_EVENTS_ROLE: "service-role/AmazonEC2ContainerServiceEventsRole",
-    AMAZON_EC2_CONTAINER_SERVICE_FULL_ACCESS: "AmazonEC2ContainerServiceFullAccess",
-    AMAZON_EC2_CONTAINER_SERVICE_ROLE: "service-role/AmazonEC2ContainerServiceRole",
-    AMAZON_EC2_CONTAINER_SERVICEFOR_EC_2_ROLE: "service-role/AmazonEC2ContainerServiceforEC2Role",
-    AMAZON_EC2_FULL_ACCESS: "AmazonEC2FullAccess",
-    AMAZON_EC2_READ_ONLY_ACCESS: "AmazonEC2ReadOnlyAccess",
-    AMAZON_EC2_REPORTS_ACCESS: "AmazonEC2ReportsAccess",
-    AMAZON_EC2_ROLE_POLICY_FOR_LAUNCH_WIZARD: "AmazonEC2RolePolicyForLaunchWizard",
-    AMAZON_EC2_ROLEFOR_AWS_CODE_DEPLOY: "service-role/AmazonEC2RoleforAWSCodeDeploy",
-    AMAZON_EC2_ROLEFOR_DATA_PIPELINE_ROLE: "service-role/AmazonEC2RoleforDataPipelineRole",
-    AMAZON_EC2_ROLEFOR_SSM: "service-role/AmazonEC2RoleforSSM",
-    AMAZON_EC2_SPOT_FLEET_AUTOSCALE_ROLE: "service-role/AmazonEC2SpotFleetAutoscaleRole",
-    AMAZON_EC2_SPOT_FLEET_TAGGING_ROLE: "service-role/AmazonEC2SpotFleetTaggingRole",
-    AMAZON_ECS_SERVICE_ROLE_POLICY: "aws-service-role/AmazonECSServiceRolePolicy",
-    AMAZON_ECS_TASK_EXECUTION_ROLE_POLICY: "service-role/AmazonECSTaskExecutionRolePolicy",
-    AMAZON_ECS_FULL_ACCESS: "AmazonECS_FullAccess",
-    AMAZON_EKS_CLUSTER_POLICY: "AmazonEKSClusterPolicy",
-    AMAZON_EKS_FARGATE_POD_EXECUTION_ROLE_POLICY: "AmazonEKSFargatePodExecutionRolePolicy",
-    AMAZON_EKS_FOR_FARGATE_SERVICE_ROLE_POLICY: "aws-service-role/AmazonEKSForFargateServiceRolePolicy",
-    AMAZON_EKS_SERVICE_POLICY: "AmazonEKSServicePolicy",
-    AMAZON_EKS_WORKER_NODE_POLICY: "AmazonEKSWorkerNodePolicy",
-    AMAZON_EKS_CNI_POLICY: "AmazonEKS_CNI_Policy",
-    AMAZON_EMR_CLEANUP_POLICY: "aws-service-role/AmazonEMRCleanupPolicy",
-    AMAZON_ES_COGNITO_ACCESS: "AmazonESCognitoAccess",
-    AMAZON_ES_FULL_ACCESS: "AmazonESFullAccess",
-    AMAZON_ES_READ_ONLY_ACCESS: "AmazonESReadOnlyAccess",
-    AMAZON_ELASTI_CACHE_FULL_ACCESS: "AmazonElastiCacheFullAccess",
-    AMAZON_ELASTI_CACHE_READ_ONLY_ACCESS: "AmazonElastiCacheReadOnlyAccess",
-    AMAZON_ELASTIC_FILE_SYSTEM_FULL_ACCESS: "AmazonElasticFileSystemFullAccess",
-    AMAZON_ELASTIC_FILE_SYSTEM_READ_ONLY_ACCESS: "AmazonElasticFileSystemReadOnlyAccess",
-    AMAZON_ELASTIC_FILE_SYSTEM_SERVICE_ROLE_POLICY: "aws-service-role/AmazonElasticFileSystemServiceRolePolicy",
-    AMAZON_ELASTIC_MAP_REDUCE_EDITORS_ROLE: "service-role/AmazonElasticMapReduceEditorsRole",
-    AMAZON_ELASTIC_MAP_REDUCE_FULL_ACCESS: "AmazonElasticMapReduceFullAccess",
-    AMAZON_ELASTIC_MAP_REDUCE_READ_ONLY_ACCESS: "AmazonElasticMapReduceReadOnlyAccess",
-    AMAZON_ELASTIC_MAP_REDUCE_ROLE: "service-role/AmazonElasticMapReduceRole",
-    AMAZON_ELASTIC_MAP_REDUCEFOR_AUTO_SCALING_ROLE: "service-role/AmazonElasticMapReduceforAutoScalingRole",
-    AMAZON_ELASTIC_MAP_REDUCEFOR_EC2_ROLE: "service-role/AmazonElasticMapReduceforEC2Role",
-    AMAZON_ELASTIC_TRANSCODER_ROLE: "service-role/AmazonElasticTranscoderRole",
-    AMAZON_ELASTIC_TRANSCODER_FULL_ACCESS: "AmazonElasticTranscoder_FullAccess",
-    AMAZON_ELASTIC_TRANSCODER_JOBS_SUBMITTER: "AmazonElasticTranscoder_JobsSubmitter",
-    AMAZON_ELASTIC_TRANSCODER_READ_ONLY_ACCESS: "AmazonElasticTranscoder_ReadOnlyAccess",
-    AMAZON_ELASTICSEARCH_SERVICE_ROLE_POLICY: "aws-service-role/AmazonElasticsearchServiceRolePolicy",
-    AMAZON_EVENT_BRIDGE_FULL_ACCESS: "AmazonEventBridgeFullAccess",
-    AMAZON_EVENT_BRIDGE_READ_ONLY_ACCESS: "AmazonEventBridgeReadOnlyAccess",
-    AMAZON_EVENT_BRIDGE_SCHEMAS_FULL_ACCESS: "AmazonEventBridgeSchemasFullAccess",
-    AMAZON_EVENT_BRIDGE_SCHEMAS_READ_ONLY_ACCESS: "AmazonEventBridgeSchemasReadOnlyAccess",
-    AMAZON_EVENT_BRIDGE_SCHEMAS_SERVICE_ROLE_POLICY: "aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy",
-    AMAZON_F_SX_CONSOLE_FULL_ACCESS: "AmazonFSxConsoleFullAccess",
-    AMAZON_F_SX_CONSOLE_READ_ONLY_ACCESS: "AmazonFSxConsoleReadOnlyAccess",
-    AMAZON_F_SX_FULL_ACCESS: "AmazonFSxFullAccess",
-    AMAZON_F_SX_READ_ONLY_ACCESS: "AmazonFSxReadOnlyAccess",
-    AMAZON_F_SX_SERVICE_ROLE_POLICY: "aws-service-role/AmazonFSxServiceRolePolicy",
-    AMAZON_FORECAST_FULL_ACCESS: "AmazonForecastFullAccess",
-    AMAZON_FRAUD_DETECTOR_FULL_ACCESS_POLICY: "AmazonFraudDetectorFullAccessPolicy",
-    AMAZON_FREE_RTOS_FULL_ACCESS: "AmazonFreeRTOSFullAccess",
-    AMAZON_FREE_RTOSOTA_UPDATE: "service-role/AmazonFreeRTOSOTAUpdate",
-    AMAZON_GLACIER_FULL_ACCESS: "AmazonGlacierFullAccess",
-    AMAZON_GLACIER_READ_ONLY_ACCESS: "AmazonGlacierReadOnlyAccess",
-    AMAZON_GUARD_DUTY_FULL_ACCESS: "AmazonGuardDutyFullAccess",
-    AMAZON_GUARD_DUTY_READ_ONLY_ACCESS: "AmazonGuardDutyReadOnlyAccess",
-    AMAZON_GUARD_DUTY_SERVICE_ROLE_POLICY: "aws-service-role/AmazonGuardDutyServiceRolePolicy",
-    AMAZON_INSPECTOR_FULL_ACCESS: "AmazonInspectorFullAccess",
-    AMAZON_INSPECTOR_READ_ONLY_ACCESS: "AmazonInspectorReadOnlyAccess",
-    AMAZON_INSPECTOR_SERVICE_ROLE_POLICY: "aws-service-role/AmazonInspectorServiceRolePolicy",
-    AMAZON_KENDRA_FULL_ACCESS: "AmazonKendraFullAccess",
-    AMAZON_KENDRA_READ_ONLY_ACCESS: "AmazonKendraReadOnlyAccess",
-    AMAZON_KINESIS_ANALYTICS_FULL_ACCESS: "AmazonKinesisAnalyticsFullAccess",
-    AMAZON_KINESIS_ANALYTICS_READ_ONLY: "AmazonKinesisAnalyticsReadOnly",
-    AMAZON_KINESIS_FIREHOSE_FULL_ACCESS: "AmazonKinesisFirehoseFullAccess",
-    AMAZON_KINESIS_FIREHOSE_READ_ONLY_ACCESS: "AmazonKinesisFirehoseReadOnlyAccess",
-    AMAZON_KINESIS_FULL_ACCESS: "AmazonKinesisFullAccess",
-    AMAZON_KINESIS_READ_ONLY_ACCESS: "AmazonKinesisReadOnlyAccess",
-    AMAZON_KINESIS_VIDEO_STREAMS_FULL_ACCESS: "AmazonKinesisVideoStreamsFullAccess",
-    AMAZON_KINESIS_VIDEO_STREAMS_READ_ONLY_ACCESS: "AmazonKinesisVideoStreamsReadOnlyAccess",
-    AMAZON_LAUNCH_WIZARD_FULLACCESS: "AmazonLaunchWizardFullaccess",
-    AMAZON_LEX_FULL_ACCESS: "AmazonLexFullAccess",
-    AMAZON_LEX_READ_ONLY: "AmazonLexReadOnly",
-    AMAZON_LEX_RUN_BOTS_ONLY: "AmazonLexRunBotsOnly",
-    AMAZON_MCS_FULL_ACCESS: "AmazonMCSFullAccess",
-    AMAZON_MCS_READ_ONLY_ACCESS: "AmazonMCSReadOnlyAccess",
-    AMAZON_MQ_API_FULL_ACCESS: "AmazonMQApiFullAccess",
-    AMAZON_MQ_API_READ_ONLY_ACCESS: "AmazonMQApiReadOnlyAccess",
-    AMAZON_MQ_FULL_ACCESS: "AmazonMQFullAccess",
-    AMAZON_MQ_READ_ONLY_ACCESS: "AmazonMQReadOnlyAccess",
-    AMAZON_MSK_FULL_ACCESS: "AmazonMSKFullAccess",
-    AMAZON_MSK_READ_ONLY_ACCESS: "AmazonMSKReadOnlyAccess",
-    AMAZON_MACHINE_LEARNING_BATCH_PREDICTIONS_ACCESS: "AmazonMachineLearningBatchPredictionsAccess",
-    AMAZON_MACHINE_LEARNING_CREATE_ONLY_ACCESS: "AmazonMachineLearningCreateOnlyAccess",
-    AMAZON_MACHINE_LEARNING_FULL_ACCESS: "AmazonMachineLearningFullAccess",
-    AMAZON_MACHINE_LEARNING_MANAGE_REAL_TIME_ENDPOINT_ONLY_ACCESS: "AmazonMachineLearningManageRealTimeEndpointOnlyAccess",
-    AMAZON_MACHINE_LEARNING_READ_ONLY_ACCESS: "AmazonMachineLearningReadOnlyAccess",
-    AMAZON_MACHINE_LEARNING_REAL_TIME_PREDICTION_ONLY_ACCESS: "AmazonMachineLearningRealTimePredictionOnlyAccess",
-    AMAZON_MACHINE_LEARNING_ROLEFOR_REDSHIFT_DATA_SOURCE_V_2: "service-role/AmazonMachineLearningRoleforRedshiftDataSourceV2",
-    AMAZON_MACIE_FULL_ACCESS: "AmazonMacieFullAccess",
-    AMAZON_MACIE_HANDSHAKE_ROLE: "service-role/AmazonMacieHandshakeRole",
-    AMAZON_MACIE_SERVICE_ROLE: "service-role/AmazonMacieServiceRole",
-    AMAZON_MACIE_SERVICE_ROLE_POLICY: "aws-service-role/AmazonMacieServiceRolePolicy",
-    AMAZON_MACIE_SETUP_ROLE: "service-role/AmazonMacieSetupRole",
-    AMAZON_MANAGED_BLOCKCHAIN_CONSOLE_FULL_ACCESS: "AmazonManagedBlockchainConsoleFullAccess",
-    AMAZON_MANAGED_BLOCKCHAIN_FULL_ACCESS: "AmazonManagedBlockchainFullAccess",
-    AMAZON_MANAGED_BLOCKCHAIN_READ_ONLY_ACCESS: "AmazonManagedBlockchainReadOnlyAccess",
-    AMAZON_MECHANICAL_TURK_FULL_ACCESS: "AmazonMechanicalTurkFullAccess",
-    AMAZON_MECHANICAL_TURK_READ_ONLY: "AmazonMechanicalTurkReadOnly",
-    AMAZON_MOBILE_ANALYTICS_FINANCIAL_REPORT_ACCESS: "AmazonMobileAnalyticsFinancialReportAccess",
-    AMAZON_MOBILE_ANALYTICS_FULL_ACCESS: "AmazonMobileAnalyticsFullAccess",
-    AMAZON_MOBILE_ANALYTICS_NON_FINANCIAL_REPORT_ACCESS: "AmazonMobileAnalyticsNon-financialReportAccess",
-    AMAZON_MOBILE_ANALYTICS_WRITE_ONLY_ACCESS: "AmazonMobileAnalyticsWriteOnlyAccess",
-    AMAZON_PERSONALIZE_FULL_ACCESS: "service-role/AmazonPersonalizeFullAccess",
-    AMAZON_POLLY_FULL_ACCESS: "AmazonPollyFullAccess",
-    AMAZON_POLLY_READ_ONLY_ACCESS: "AmazonPollyReadOnlyAccess",
-    AMAZON_QLDB_CONSOLE_FULL_ACCESS: "AmazonQLDBConsoleFullAccess",
-    AMAZON_QLDB_FULL_ACCESS: "AmazonQLDBFullAccess",
-    AMAZON_QLDB_READ_ONLY: "AmazonQLDBReadOnly",
-    AMAZON_RDS_BETA_SERVICE_ROLE_POLICY: "aws-service-role/AmazonRDSBetaServiceRolePolicy",
-    AMAZON_RDS_DATA_FULL_ACCESS: "AmazonRDSDataFullAccess",
-    AMAZON_RDS_DIRECTORY_SERVICE_ACCESS: "service-role/AmazonRDSDirectoryServiceAccess",
-    AMAZON_RDS_ENHANCED_MONITORING_ROLE: "service-role/AmazonRDSEnhancedMonitoringRole",
-    AMAZON_RDS_FULL_ACCESS: "AmazonRDSFullAccess",
-    AMAZON_RDS_PREVIEW_SERVICE_ROLE_POLICY: "aws-service-role/AmazonRDSPreviewServiceRolePolicy",
-    AMAZON_RDS_READ_ONLY_ACCESS: "AmazonRDSReadOnlyAccess",
-    AMAZON_RDS_SERVICE_ROLE_POLICY: "aws-service-role/AmazonRDSServiceRolePolicy",
-    AMAZON_REDSHIFT_FULL_ACCESS: "AmazonRedshiftFullAccess",
-    AMAZON_REDSHIFT_QUERY_EDITOR: "AmazonRedshiftQueryEditor",
-    AMAZON_REDSHIFT_READ_ONLY_ACCESS: "AmazonRedshiftReadOnlyAccess",
-    AMAZON_REDSHIFT_SERVICE_LINKED_ROLE_POLICY: "aws-service-role/AmazonRedshiftServiceLinkedRolePolicy",
-    AMAZON_REKOGNITION_FULL_ACCESS: "AmazonRekognitionFullAccess",
-    AMAZON_REKOGNITION_READ_ONLY_ACCESS: "AmazonRekognitionReadOnlyAccess",
-    AMAZON_REKOGNITION_SERVICE_ROLE: "service-role/AmazonRekognitionServiceRole",
-    AMAZON_ROUTE_53_AUTO_NAMING_FULL_ACCESS: "AmazonRoute53AutoNamingFullAccess",
-    AMAZON_ROUTE_53_AUTO_NAMING_READ_ONLY_ACCESS: "AmazonRoute53AutoNamingReadOnlyAccess",
-    AMAZON_ROUTE_53_AUTO_NAMING_REGISTRANT_ACCESS: "AmazonRoute53AutoNamingRegistrantAccess",
-    AMAZON_ROUTE_53_DOMAINS_FULL_ACCESS: "AmazonRoute53DomainsFullAccess",
-    AMAZON_ROUTE_53_DOMAINS_READ_ONLY_ACCESS: "AmazonRoute53DomainsReadOnlyAccess",
-    AMAZON_ROUTE_53_FULL_ACCESS: "AmazonRoute53FullAccess",
-    AMAZON_ROUTE_53_READ_ONLY_ACCESS: "AmazonRoute53ReadOnlyAccess",
-    AMAZON_ROUTE_53_RESOLVER_FULL_ACCESS: "AmazonRoute53ResolverFullAccess",
-    AMAZON_ROUTE_53_RESOLVER_READ_ONLY_ACCESS: "AmazonRoute53ResolverReadOnlyAccess",
-    AMAZON_S3_FULL_ACCESS: "AmazonS3FullAccess",
-    AMAZON_S3_READ_ONLY_ACCESS: "AmazonS3ReadOnlyAccess",
-    AMAZON_SES_FULL_ACCESS: "AmazonSESFullAccess",
-    AMAZON_SES_READ_ONLY_ACCESS: "AmazonSESReadOnlyAccess",
-    AMAZON_SNS_FULL_ACCESS: "AmazonSNSFullAccess",
-    AMAZON_SNS_READ_ONLY_ACCESS: "AmazonSNSReadOnlyAccess",
-    AMAZON_SNS_ROLE: "service-role/AmazonSNSRole",
-    AMAZON_SQS_FULL_ACCESS: "AmazonSQSFullAccess",
-    AMAZON_SQS_READ_ONLY_ACCESS: "AmazonSQSReadOnlyAccess",
-    AMAZON_SSM_AUTOMATION_APPROVER_ACCESS: "AmazonSSMAutomationApproverAccess",
-    AMAZON_SSM_AUTOMATION_ROLE: "service-role/AmazonSSMAutomationRole",
-    AMAZON_SSM_DIRECTORY_SERVICE_ACCESS: "AmazonSSMDirectoryServiceAccess",
-    AMAZON_SSM_FULL_ACCESS: "AmazonSSMFullAccess",
-    AMAZON_SSM_MAINTENANCE_WINDOW_ROLE: "service-role/AmazonSSMMaintenanceWindowRole",
-    AMAZON_SSM_MANAGED_INSTANCE_CORE: "AmazonSSMManagedInstanceCore",
-    AMAZON_SSM_READ_ONLY_ACCESS: "AmazonSSMReadOnlyAccess",
-    AMAZON_SSM_SERVICE_ROLE_POLICY: "aws-service-role/AmazonSSMServiceRolePolicy",
-    AMAZON_SAGE_MAKER_FULL_ACCESS: "AmazonSageMakerFullAccess",
-    AMAZON_SAGE_MAKER_MECHANICAL_TURK_ACCESS: "AmazonSageMakerMechanicalTurkAccess",
-    AMAZON_SAGE_MAKER_NOTEBOOKS_SERVICE_ROLE_POLICY: "aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy",
-    AMAZON_SAGE_MAKER_READ_ONLY: "AmazonSageMakerReadOnly",
-    AMAZON_SUMERIAN_FULL_ACCESS: "AmazonSumerianFullAccess",
-    AMAZON_TEXTRACT_FULL_ACCESS: "AmazonTextractFullAccess",
-    AMAZON_TEXTRACT_SERVICE_ROLE: "service-role/AmazonTextractServiceRole",
-    AMAZON_TRANSCRIBE_FULL_ACCESS: "AmazonTranscribeFullAccess",
-    AMAZON_TRANSCRIBE_READ_ONLY_ACCESS: "AmazonTranscribeReadOnlyAccess",
-    AMAZON_VPC_CROSS_ACCOUNT_NETWORK_INTERFACE_OPERATIONS: "AmazonVPCCrossAccountNetworkInterfaceOperations",
-    AMAZON_VPC_FULL_ACCESS: "AmazonVPCFullAccess",
-    AMAZON_VPC_READ_ONLY_ACCESS: "AmazonVPCReadOnlyAccess",
-    AMAZON_WORK_LINK_FULL_ACCESS: "AmazonWorkLinkFullAccess",
-    AMAZON_WORK_LINK_READ_ONLY: "AmazonWorkLinkReadOnly",
-    AMAZON_WORK_LINK_SERVICE_ROLE_POLICY: "aws-service-role/AmazonWorkLinkServiceRolePolicy",
-    AMAZON_WORK_MAIL_EVENTS_SERVICE_ROLE_POLICY: "aws-service-role/AmazonWorkMailEventsServiceRolePolicy",
-    AMAZON_WORK_MAIL_FULL_ACCESS: "AmazonWorkMailFullAccess",
-    AMAZON_WORK_MAIL_READ_ONLY_ACCESS: "AmazonWorkMailReadOnlyAccess",
-    AMAZON_WORK_SPACES_ADMIN: "AmazonWorkSpacesAdmin",
-    AMAZON_WORK_SPACES_APPLICATION_MANAGER_ADMIN_ACCESS: "AmazonWorkSpacesApplicationManagerAdminAccess",
-    AMAZON_WORK_SPACES_SELF_SERVICE_ACCESS: "AmazonWorkSpacesSelfServiceAccess",
-    AMAZON_WORK_SPACES_SERVICE_ACCESS: "AmazonWorkSpacesServiceAccess",
-    AMAZON_ZOCALO_FULL_ACCESS: "AmazonZocaloFullAccess",
-    AMAZON_ZOCALO_READ_ONLY_ACCESS: "AmazonZocaloReadOnlyAccess",
-    APPLICATION_AUTO_SCALING_FOR_AMAZON_APP_STREAM_ACCESS: "service-role/ApplicationAutoScalingForAmazonAppStreamAccess",
-    APPLICATION_DISCOVERY_SERVICE_CONTINUOUS_EXPORT_SERVICE_ROLE_POLICY: "aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy",
-    AUTO_SCALING_CONSOLE_FULL_ACCESS: "AutoScalingConsoleFullAccess",
-    AUTO_SCALING_CONSOLE_READ_ONLY_ACCESS: "AutoScalingConsoleReadOnlyAccess",
-    AUTO_SCALING_FULL_ACCESS: "AutoScalingFullAccess",
-    AUTO_SCALING_NOTIFICATION_ACCESS_ROLE: "service-role/AutoScalingNotificationAccessRole",
-    AUTO_SCALING_READ_ONLY_ACCESS: "AutoScalingReadOnlyAccess",
-    AUTO_SCALING_SERVICE_ROLE_POLICY: "aws-service-role/AutoScalingServiceRolePolicy",
-    BILLING: "job-function/Billing",
-    CLIENT_VPN_SERVICE_ROLE_POLICY: "aws-service-role/ClientVPNServiceRolePolicy",
-    CLOUD_FORMATION_STACK_SETS_ORG_ADMIN_SERVICE_ROLE_POLICY: "aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy",
-    CLOUD_FORMATION_STACK_SETS_ORG_MEMBER_SERVICE_ROLE_POLICY: "aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy",
-    CLOUD_FRONT_FULL_ACCESS: "CloudFrontFullAccess",
-    CLOUD_FRONT_READ_ONLY_ACCESS: "CloudFrontReadOnlyAccess",
-    CLOUD_HSM_SERVICE_ROLE_POLICY: "aws-service-role/CloudHSMServiceRolePolicy",
-    CLOUD_SEARCH_FULL_ACCESS: "CloudSearchFullAccess",
-    CLOUD_SEARCH_READ_ONLY_ACCESS: "CloudSearchReadOnlyAccess",
-    CLOUD_TRAIL_SERVICE_ROLE_POLICY: "aws-service-role/CloudTrailServiceRolePolicy",
-    CLOUD_WATCH_CROSS_ACCOUNT_ACCESS: "aws-service-role/CloudWatch-CrossAccountAccess",
-    CLOUD_WATCH_ACTIONS_EC2_ACCESS: "CloudWatchActionsEC2Access",
-    CLOUD_WATCH_AGENT_ADMIN_POLICY: "CloudWatchAgentAdminPolicy",
-    CLOUD_WATCH_AGENT_SERVER_POLICY: "CloudWatchAgentServerPolicy",
-    CLOUD_WATCH_AUTOMATIC_DASHBOARDS_ACCESS: "CloudWatchAutomaticDashboardsAccess",
-    CLOUD_WATCH_EVENTS_BUILT_IN_TARGET_EXECUTION_ACCESS: "service-role/CloudWatchEventsBuiltInTargetExecutionAccess",
-    CLOUD_WATCH_EVENTS_FULL_ACCESS: "CloudWatchEventsFullAccess",
-    CLOUD_WATCH_EVENTS_INVOCATION_ACCESS: "service-role/CloudWatchEventsInvocationAccess",
-    CLOUD_WATCH_EVENTS_READ_ONLY_ACCESS: "CloudWatchEventsReadOnlyAccess",
-    CLOUD_WATCH_EVENTS_SERVICE_ROLE_POLICY: "aws-service-role/CloudWatchEventsServiceRolePolicy",
-    CLOUD_WATCH_FULL_ACCESS: "CloudWatchFullAccess",
-    CLOUD_WATCH_LOGS_FULL_ACCESS: "CloudWatchLogsFullAccess",
-    CLOUD_WATCH_LOGS_READ_ONLY_ACCESS: "CloudWatchLogsReadOnlyAccess",
-    CLOUD_WATCH_READ_ONLY_ACCESS: "CloudWatchReadOnlyAccess",
-    CLOUD_WATCH_SYNTHETICS_FULL_ACCESS: "CloudWatchSyntheticsFullAccess",
-    CLOUD_WATCH_SYNTHETICS_READ_ONLY_ACCESS: "CloudWatchSyntheticsReadOnlyAccess",
-    CLOUDWATCH_APPLICATION_INSIGHTS_SERVICE_LINKED_ROLE_POLICY: "aws-service-role/CloudwatchApplicationInsightsServiceLinkedRolePolicy",
-    COMPREHEND_DATA_ACCESS_ROLE_POLICY: "service-role/ComprehendDataAccessRolePolicy",
-    COMPREHEND_FULL_ACCESS: "ComprehendFullAccess",
-    COMPREHEND_MEDICAL_FULL_ACCESS: "ComprehendMedicalFullAccess",
-    COMPREHEND_READ_ONLY: "ComprehendReadOnly",
-    COMPUTE_OPTIMIZER_SERVICE_ROLE_POLICY: "aws-service-role/ComputeOptimizerServiceRolePolicy",
-    CONFIG_CONFORMS_SERVICE_ROLE_POLICY: "aws-service-role/ConfigConformsServiceRolePolicy",
-    DAX_SERVICE_ROLE_POLICY: "aws-service-role/DAXServiceRolePolicy",
-    DATA_SCIENTIST: "job-function/DataScientist",
-    DATABASE_ADMINISTRATOR: "job-function/DatabaseAdministrator",
-    DYNAMO_DB_CLOUD_WATCH_CONTRIBUTOR_INSIGHTS_SERVICE_ROLE_POLICY: "aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy",
-    DYNAMO_DB_REPLICATION_SERVICE_ROLE_POLICY: "aws-service-role/DynamoDBReplicationServiceRolePolicy",
-    EC2_INSTANCE_CONNECT: "EC2InstanceConnect",
-    EC2_INSTANCE_PROFILE_FOR_IMAGE_BUILDER: "EC2InstanceProfileForImageBuilder",
-    ELASTI_CACHE_SERVICE_ROLE_POLICY: "aws-service-role/ElastiCacheServiceRolePolicy",
-    ELASTIC_LOAD_BALANCING_FULL_ACCESS: "ElasticLoadBalancingFullAccess",
-    ELASTIC_LOAD_BALANCING_READ_ONLY: "ElasticLoadBalancingReadOnly",
-    ELEMENTAL_APPLIANCES_SOFTWARE_FULL_ACCESS: "ElementalAppliancesSoftwareFullAccess",
-    FMS_SERVICE_ROLE_POLICY: "aws-service-role/FMSServiceRolePolicy",
-    F_SX_DELETE_SERVICE_LINKED_ROLE_ACCESS: "aws-service-role/FSxDeleteServiceLinkedRoleAccess",
-    GLOBAL_ACCELERATOR_FULL_ACCESS: "GlobalAcceleratorFullAccess",
-    GLOBAL_ACCELERATOR_READ_ONLY_ACCESS: "GlobalAcceleratorReadOnlyAccess",
-    GREENGRASS_OTA_UPDATE_ARTIFACT_ACCESS: "service-role/GreengrassOTAUpdateArtifactAccess",
-    HEALTH_ORGANIZATIONS_SERVICE_ROLE_POLICY: "aws-service-role/Health_OrganizationsServiceRolePolicy",
-    IAM_ACCESS_ADVISOR_READ_ONLY: "IAMAccessAdvisorReadOnly",
-    IAM_ACCESS_ANALYZER_FULL_ACCESS: "IAMAccessAnalyzerFullAccess",
-    IAM_ACCESS_ANALYZER_READ_ONLY_ACCESS: "IAMAccessAnalyzerReadOnlyAccess",
-    IAM_FULL_ACCESS: "IAMFullAccess",
-    IAM_READ_ONLY_ACCESS: "IAMReadOnlyAccess",
-    IAM_SELF_MANAGE_SERVICE_SPECIFIC_CREDENTIALS: "IAMSelfManageServiceSpecificCredentials",
-    IAM_USER_CHANGE_PASSWORD: "IAMUserChangePassword",
-    IAM_USER_SSH_KEYS: "IAMUserSSHKeys",
-    KAFKA_SERVICE_ROLE_POLICY: "aws-service-role/KafkaServiceRolePolicy",
-    LAKE_FORMATION_DATA_ACCESS_SERVICE_ROLE_POLICY: "aws-service-role/LakeFormationDataAccessServiceRolePolicy",
-    LEX_BOT_POLICY: "aws-service-role/LexBotPolicy",
-    LEX_CHANNEL_POLICY: "aws-service-role/LexChannelPolicy",
-    LIGHTSAIL_EXPORT_ACCESS: "aws-service-role/LightsailExportAccess",
-    MIGRATION_HUB_DMS_ACCESS_SERVICE_ROLE_POLICY: "aws-service-role/MigrationHubDMSAccessServiceRolePolicy",
-    MIGRATION_HUB_SMS_ACCESS_SERVICE_ROLE_POLICY: "aws-service-role/MigrationHubSMSAccessServiceRolePolicy",
-    MIGRATION_HUB_SERVICE_ROLE_POLICY: "aws-service-role/MigrationHubServiceRolePolicy",
-    NEPTUNE_CONSOLE_FULL_ACCESS: "NeptuneConsoleFullAccess",
-    NEPTUNE_FULL_ACCESS: "NeptuneFullAccess",
-    NEPTUNE_READ_ONLY_ACCESS: "NeptuneReadOnlyAccess",
-    NETWORK_ADMINISTRATOR: "job-function/NetworkAdministrator",
-    POWER_USER_ACCESS: "PowerUserAccess",
-    QUICK_SIGHT_ACCESS_FOR_S3_STORAGE_MANAGEMENT_ANALYTICS_READ_ONLY: "service-role/QuickSightAccessForS3StorageManagementAnalyticsReadOnly",
-    RDS_CLOUD_HSM_AUTHORIZATION_ROLE: "service-role/RDSCloudHsmAuthorizationRole",
-    READ_ONLY_ACCESS: "ReadOnlyAccess",
-    RESOURCE_GROUPSAND_TAG_EDITOR_FULL_ACCESS: "ResourceGroupsandTagEditorFullAccess",
-    RESOURCE_GROUPSAND_TAG_EDITOR_READ_ONLY_ACCESS: "ResourceGroupsandTagEditorReadOnlyAccess",
-    SECRETS_MANAGER_READ_WRITE: "SecretsManagerReadWrite",
-    SECURITY_AUDIT: "SecurityAudit",
-    SERVER_MIGRATION_CONNECTOR: "ServerMigrationConnector",
-    SERVER_MIGRATION_SERVICE_LAUNCH_ROLE: "service-role/ServerMigrationServiceLaunchRole",
-    SERVER_MIGRATION_SERVICE_ROLE: "service-role/ServerMigrationServiceRole",
-    SERVICE_QUOTAS_FULL_ACCESS: "ServiceQuotasFullAccess",
-    SERVICE_QUOTAS_READ_ONLY_ACCESS: "ServiceQuotasReadOnlyAccess",
-    SERVICE_QUOTAS_SERVICE_ROLE_POLICY: "aws-service-role/ServiceQuotasServiceRolePolicy",
-    SIMPLE_WORKFLOW_FULL_ACCESS: "SimpleWorkflowFullAccess",
-    SUPPORT_USER: "job-function/SupportUser",
-    SYSTEM_ADMINISTRATOR: "job-function/SystemAdministrator",
-    TAG_POLICIES_SERVICE_ROLE_POLICY: "aws-service-role/TagPoliciesServiceRolePolicy",
-    TRANSLATE_FULL_ACCESS: "TranslateFullAccess",
-    TRANSLATE_READ_ONLY: "TranslateReadOnly",
-    VM_IMPORT_EXPORT_ROLE_FOR_AWS_CONNECTOR: "service-role/VMImportExportRoleForAWSConnector",
-    VIEW_ONLY_ACCESS: "job-function/ViewOnlyAccess",
-    WAF_LOGGING_SERVICE_ROLE_POLICY: "aws-service-role/WAFLoggingServiceRolePolicy",
-    WAF_REGIONAL_LOGGING_SERVICE_ROLE_POLICY: "aws-service-role/WAFRegionalLoggingServiceRolePolicy",
-    WAFV_2_LOGGING_SERVICE_ROLE_POLICY: "aws-service-role/WAFV2LoggingServiceRolePolicy",
-    WELL_ARCHITECTED_CONSOLE_FULL_ACCESS: "WellArchitectedConsoleFullAccess",
-    WELL_ARCHITECTED_CONSOLE_READ_ONLY_ACCESS: "WellArchitectedConsoleReadOnlyAccess",
-    WORK_LINK_SERVICE_ROLE_POLICY: "WorkLinkServiceRolePolicy",
+export class MANAGED_POLICIES {
+    public static API_GATEWAY_SERVICE_ROLE_POLICY = "aws-service-role/APIGatewayServiceRolePolicy"
+    public static AWS_ACCOUNT_ACTIVITY_ACCESS = "AWSAccountActivityAccess"
+    public static AWS_ACCOUNT_USAGE_REPORT_ACCESS = "AWSAccountUsageReportAccess"
+    public static AWS_AGENTLESS_DISCOVERY_SERVICE = "AWSAgentlessDiscoveryService"
+    public static AWS_APP_MESH_ENVOY_ACCESS = "AWSAppMeshEnvoyAccess"
+    public static AWS_APP_MESH_FULL_ACCESS = "AWSAppMeshFullAccess"
+    public static AWS_APP_MESH_PREVIEW_ENVOY_ACCESS = "AWSAppMeshPreviewEnvoyAccess"
+    public static AWS_APP_MESH_PREVIEW_SERVICE_ROLE_POLICY = "aws-service-role/AWSAppMeshPreviewServiceRolePolicy"
+    public static AWS_APP_MESH_READ_ONLY = "AWSAppMeshReadOnly"
+    public static AWS_APP_MESH_SERVICE_ROLE_POLICY = "aws-service-role/AWSAppMeshServiceRolePolicy"
+    public static AWS_APP_SYNC_ADMINISTRATOR = "AWSAppSyncAdministrator"
+    public static AWS_APP_SYNC_INVOKE_FULL_ACCESS = "AWSAppSyncInvokeFullAccess"
+    public static AWS_APP_SYNC_PUSH_TO_CLOUD_WATCH_LOGS = "service-role/AWSAppSyncPushToCloudWatchLogs"
+    public static AWS_APP_SYNC_SCHEMA_AUTHOR = "AWSAppSyncSchemaAuthor"
+    public static AWS_APPLICATION_AUTO_SCALING_CUSTOM_RESOURCE_POLICY = "aws-service-role/AWSApplicationAutoScalingCustomResourcePolicy"
+    public static AWS_APPLICATION_AUTOSCALING_APP_STREAM_FLEET_POLICY = "aws-service-role/AWSApplicationAutoscalingAppStreamFleetPolicy"
+    public static AWS_APPLICATION_AUTOSCALING_COMPREHEND_ENDPOINT_POLICY = "aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy"
+    public static AWS_APPLICATION_AUTOSCALING_DYNAMO_DB_TABLE_POLICY = "aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy"
+    public static AWS_APPLICATION_AUTOSCALING_EC2_SPOT_FLEET_REQUEST_POLICY = "aws-service-role/AWSApplicationAutoscalingEC2SpotFleetRequestPolicy"
+    public static AWS_APPLICATION_AUTOSCALING_ECS_SERVICE_POLICY = "aws-service-role/AWSApplicationAutoscalingECSServicePolicy"
+    public static AWS_APPLICATION_AUTOSCALING_EMR_INSTANCE_GROUP_POLICY = "aws-service-role/AWSApplicationAutoscalingEMRInstanceGroupPolicy"
+    public static AWS_APPLICATION_AUTOSCALING_LAMBDA_CONCURRENCY_POLICY = "aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy"
+    public static AWS_APPLICATION_AUTOSCALING_RDS_CLUSTER_POLICY = "aws-service-role/AWSApplicationAutoscalingRDSClusterPolicy"
+    public static AWS_APPLICATION_AUTOSCALING_SAGE_MAKER_ENDPOINT_POLICY = "aws-service-role/AWSApplicationAutoscalingSageMakerEndpointPolicy"
+    public static AWS_APPLICATION_DISCOVERY_AGENT_ACCESS = "AWSApplicationDiscoveryAgentAccess"
+    public static AWS_APPLICATION_DISCOVERY_SERVICE_FULL_ACCESS = "AWSApplicationDiscoveryServiceFullAccess"
+    public static AWS_ARTIFACT_ACCOUNT_SYNC = "service-role/AWSArtifactAccountSync"
+    public static AWS_AUTO_SCALING_PLANS_EC2_AUTO_SCALING_POLICY = "aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy"
+    public static AWSB_9_INTERNAL_SERVICE_POLICY = "AWSB9InternalServicePolicy"
+    public static AWS_BACKUP_FULL_ACCESS = "AWSBackupFullAccess"
+    public static AWS_BACKUP_OPERATOR_ACCESS = "AWSBackupOperatorAccess"
+    public static AWS_BACKUP_SERVICE_ROLE_POLICY_FOR_BACKUP = "service-role/AWSBackupServiceRolePolicyForBackup"
+    public static AWS_BACKUP_SERVICE_ROLE_POLICY_FOR_RESTORES = "service-role/AWSBackupServiceRolePolicyForRestores"
+    public static AWS_BATCH_FULL_ACCESS = "AWSBatchFullAccess"
+    public static AWS_BATCH_SERVICE_EVENT_TARGET_ROLE = "service-role/AWSBatchServiceEventTargetRole"
+    public static AWS_BATCH_SERVICE_ROLE = "service-role/AWSBatchServiceRole"
+    public static AWS_CERTIFICATE_MANAGER_FULL_ACCESS = "AWSCertificateManagerFullAccess"
+    public static AWS_CERTIFICATE_MANAGER_PRIVATE_CA_AUDITOR = "AWSCertificateManagerPrivateCAAuditor"
+    public static AWS_CERTIFICATE_MANAGER_PRIVATE_CA_FULL_ACCESS = "AWSCertificateManagerPrivateCAFullAccess"
+    public static AWS_CERTIFICATE_MANAGER_PRIVATE_CA_PRIVILEGED_USER = "AWSCertificateManagerPrivateCAPrivilegedUser"
+    public static AWS_CERTIFICATE_MANAGER_PRIVATE_CA_READ_ONLY = "AWSCertificateManagerPrivateCAReadOnly"
+    public static AWS_CERTIFICATE_MANAGER_PRIVATE_CA_USER = "AWSCertificateManagerPrivateCAUser"
+    public static AWS_CERTIFICATE_MANAGER_READ_ONLY = "AWSCertificateManagerReadOnly"
+    public static AWS_CHATBOT_SERVICE_LINKED_ROLE_POLICY = "aws-service-role/AWSChatbotServiceLinkedRolePolicy"
+    public static AWS_CLOUD_9_ADMINISTRATOR = "AWSCloud9Administrator"
+    public static AWS_CLOUD_9_ENVIRONMENT_MEMBER = "AWSCloud9EnvironmentMember"
+    public static AWS_CLOUD_9_SERVICE_ROLE_POLICY = "aws-service-role/AWSCloud9ServiceRolePolicy"
+    public static AWS_CLOUD_9_USER = "AWSCloud9User"
+    public static AWS_CLOUD_FORMATION_FULL_ACCESS = "AWSCloudFormationFullAccess"
+    public static AWS_CLOUD_FORMATION_READ_ONLY_ACCESS = "AWSCloudFormationReadOnlyAccess"
+    public static AWS_CLOUD_FRONT_LOGGER = "aws-service-role/AWSCloudFrontLogger"
+    public static AWS_CLOUD_HSM_FULL_ACCESS = "AWSCloudHSMFullAccess"
+    public static AWS_CLOUD_HSM_READ_ONLY_ACCESS = "AWSCloudHSMReadOnlyAccess"
+    public static AWS_CLOUD_HSM_ROLE = "service-role/AWSCloudHSMRole"
+    public static AWS_CLOUD_MAP_DISCOVER_INSTANCE_ACCESS = "AWSCloudMapDiscoverInstanceAccess"
+    public static AWS_CLOUD_MAP_FULL_ACCESS = "AWSCloudMapFullAccess"
+    public static AWS_CLOUD_MAP_READ_ONLY_ACCESS = "AWSCloudMapReadOnlyAccess"
+    public static AWS_CLOUD_MAP_REGISTER_INSTANCE_ACCESS = "AWSCloudMapRegisterInstanceAccess"
+    public static AWS_CLOUD_TRAIL_FULL_ACCESS = "AWSCloudTrailFullAccess"
+    public static AWS_CLOUD_TRAIL_READ_ONLY_ACCESS = "AWSCloudTrailReadOnlyAccess"
+    public static AWS_CODE_BUILD_ADMIN_ACCESS = "AWSCodeBuildAdminAccess"
+    public static AWS_CODE_BUILD_DEVELOPER_ACCESS = "AWSCodeBuildDeveloperAccess"
+    public static AWS_CODE_BUILD_READ_ONLY_ACCESS = "AWSCodeBuildReadOnlyAccess"
+    public static AWS_CODE_COMMIT_FULL_ACCESS = "AWSCodeCommitFullAccess"
+    public static AWS_CODE_COMMIT_POWER_USER = "AWSCodeCommitPowerUser"
+    public static AWS_CODE_COMMIT_READ_ONLY = "AWSCodeCommitReadOnly"
+    public static AWS_CODE_DEPLOY_DEPLOYER_ACCESS = "AWSCodeDeployDeployerAccess"
+    public static AWS_CODE_DEPLOY_FULL_ACCESS = "AWSCodeDeployFullAccess"
+    public static AWS_CODE_DEPLOY_READ_ONLY_ACCESS = "AWSCodeDeployReadOnlyAccess"
+    public static AWS_CODE_DEPLOY_ROLE = "service-role/AWSCodeDeployRole"
+    public static AWS_CODE_DEPLOY_ROLE_FOR_ECS = "AWSCodeDeployRoleForECS"
+    public static AWS_CODE_DEPLOY_ROLE_FOR_ECS_LIMITED = "AWSCodeDeployRoleForECSLimited"
+    public static AWS_CODE_DEPLOY_ROLE_FOR_LAMBDA = "service-role/AWSCodeDeployRoleForLambda"
+    public static AWS_CODE_PIPELINE_APPROVER_ACCESS = "AWSCodePipelineApproverAccess"
+    public static AWS_CODE_PIPELINE_CUSTOM_ACTION_ACCESS = "AWSCodePipelineCustomActionAccess"
+    public static AWS_CODE_PIPELINE_FULL_ACCESS = "AWSCodePipelineFullAccess"
+    public static AWS_CODE_PIPELINE_READ_ONLY_ACCESS = "AWSCodePipelineReadOnlyAccess"
+    public static AWS_CODE_STAR_FULL_ACCESS = "AWSCodeStarFullAccess"
+    public static AWS_CODE_STAR_NOTIFICATIONS_SERVICE_ROLE_POLICY = "aws-service-role/AWSCodeStarNotificationsServiceRolePolicy"
+    public static AWS_CODE_STAR_SERVICE_ROLE = "service-role/AWSCodeStarServiceRole"
+    public static AWS_CONFIG_MULTI_ACCOUNT_SETUP_POLICY = "aws-service-role/AWSConfigMultiAccountSetupPolicy"
+    public static AWS_CONFIG_REMEDIATION_SERVICE_ROLE_POLICY = "aws-service-role/AWSConfigRemediationServiceRolePolicy"
+    public static AWS_CONFIG_ROLE = "service-role/AWSConfigRole"
+    public static AWS_CONFIG_ROLE_FOR_ORGANIZATIONS = "service-role/AWSConfigRoleForOrganizations"
+    public static AWS_CONFIG_RULES_EXECUTION_ROLE = "service-role/AWSConfigRulesExecutionRole"
+    public static AWS_CONFIG_SERVICE_ROLE_POLICY = "aws-service-role/AWSConfigServiceRolePolicy"
+    public static AWS_CONFIG_USER_ACCESS = "AWSConfigUserAccess"
+    public static AWS_CONNECTOR = "AWSConnector"
+    public static AWS_CONTROL_TOWER_SERVICE_ROLE_POLICY = "service-role/AWSControlTowerServiceRolePolicy"
+    public static AWS_DATA_EXCHANGE_FULL_ACCESS = "AWSDataExchangeFullAccess"
+    public static AWS_DATA_EXCHANGE_PROVIDER_FULL_ACCESS = "AWSDataExchangeProviderFullAccess"
+    public static AWS_DATA_EXCHANGE_READ_ONLY = "AWSDataExchangeReadOnly"
+    public static AWS_DATA_EXCHANGE_SUBSCRIBER_FULL_ACCESS = "AWSDataExchangeSubscriberFullAccess"
+    public static AWS_DATA_LIFECYCLE_MANAGER_SERVICE_ROLE = "service-role/AWSDataLifecycleManagerServiceRole"
+    public static AWS_DATA_PIPELINE_ROLE = "service-role/AWSDataPipelineRole"
+    public static AWS_DATA_PIPELINE_FULL_ACCESS = "AWSDataPipeline_FullAccess"
+    public static AWS_DATA_PIPELINE_POWER_USER = "AWSDataPipeline_PowerUser"
+    public static AWS_DATA_SYNC_FULL_ACCESS = "AWSDataSyncFullAccess"
+    public static AWS_DATA_SYNC_READ_ONLY_ACCESS = "AWSDataSyncReadOnlyAccess"
+    public static AWS_DEEP_LENS_LAMBDA_FUNCTION_ACCESS_POLICY = "AWSDeepLensLambdaFunctionAccessPolicy"
+    public static AWS_DEEP_LENS_SERVICE_ROLE_POLICY = "service-role/AWSDeepLensServiceRolePolicy"
+    public static AWS_DEEP_RACER_CLOUD_FORMATION_ACCESS_POLICY = "AWSDeepRacerCloudFormationAccessPolicy"
+    public static AWS_DEEP_RACER_ROBO_MAKER_ACCESS_POLICY = "AWSDeepRacerRoboMakerAccessPolicy"
+    public static AWS_DEEP_RACER_SERVICE_ROLE_POLICY = "service-role/AWSDeepRacerServiceRolePolicy"
+    public static AWS_DENY_ALL = "AWSDenyAll"
+    public static AWS_DEVICE_FARM_FULL_ACCESS = "AWSDeviceFarmFullAccess"
+    public static AWS_DIRECT_CONNECT_FULL_ACCESS = "AWSDirectConnectFullAccess"
+    public static AWS_DIRECT_CONNECT_READ_ONLY_ACCESS = "AWSDirectConnectReadOnlyAccess"
+    public static AWS_DIRECTORY_SERVICE_FULL_ACCESS = "AWSDirectoryServiceFullAccess"
+    public static AWS_DIRECTORY_SERVICE_READ_ONLY_ACCESS = "AWSDirectoryServiceReadOnlyAccess"
+    public static AWS_DISCOVERY_CONTINUOUS_EXPORT_FIREHOSE_POLICY = "AWSDiscoveryContinuousExportFirehosePolicy"
+    public static AWSEC2_FLEET_SERVICE_ROLE_POLICY = "aws-service-role/AWSEC2FleetServiceRolePolicy"
+    public static AWSEC2_SPOT_FLEET_SERVICE_ROLE_POLICY = "aws-service-role/AWSEC2SpotFleetServiceRolePolicy"
+    public static AWSEC2_SPOT_SERVICE_ROLE_POLICY = "aws-service-role/AWSEC2SpotServiceRolePolicy"
+    public static AWS_ELASTIC_BEANSTALK_CUSTOM_PLATFORMFOR_EC2_ROLE = "AWSElasticBeanstalkCustomPlatformforEC2Role"
+    public static AWS_ELASTIC_BEANSTALK_ENHANCED_HEALTH = "service-role/AWSElasticBeanstalkEnhancedHealth"
+    public static AWS_ELASTIC_BEANSTALK_FULL_ACCESS = "AWSElasticBeanstalkFullAccess"
+    public static AWS_ELASTIC_BEANSTALK_MAINTENANCE = "aws-service-role/AWSElasticBeanstalkMaintenance"
+    public static AWS_ELASTIC_BEANSTALK_MANAGED_UPDATES_SERVICE_ROLE_POLICY = "aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
+    public static AWS_ELASTIC_BEANSTALK_MULTICONTAINER_DOCKER = "AWSElasticBeanstalkMulticontainerDocker"
+    public static AWS_ELASTIC_BEANSTALK_READ_ONLY_ACCESS = "AWSElasticBeanstalkReadOnlyAccess"
+    public static AWS_ELASTIC_BEANSTALK_SERVICE = "service-role/AWSElasticBeanstalkService"
+    public static AWS_ELASTIC_BEANSTALK_SERVICE_ROLE_POLICY = "aws-service-role/AWSElasticBeanstalkServiceRolePolicy"
+    public static AWS_ELASTIC_BEANSTALK_WEB_TIER = "AWSElasticBeanstalkWebTier"
+    public static AWS_ELASTIC_BEANSTALK_WORKER_TIER = "AWSElasticBeanstalkWorkerTier"
+    public static AWS_ELASTIC_LOAD_BALANCING_CLASSIC_SERVICE_ROLE_POLICY = "aws-service-role/AWSElasticLoadBalancingClassicServiceRolePolicy"
+    public static AWS_ELASTIC_LOAD_BALANCING_SERVICE_ROLE_POLICY = "aws-service-role/AWSElasticLoadBalancingServiceRolePolicy"
+    public static AWS_ELEMENTAL_MEDIA_CONVERT_FULL_ACCESS = "AWSElementalMediaConvertFullAccess"
+    public static AWS_ELEMENTAL_MEDIA_CONVERT_READ_ONLY = "AWSElementalMediaConvertReadOnly"
+    public static AWS_ELEMENTAL_MEDIA_PACKAGE_FULL_ACCESS = "AWSElementalMediaPackageFullAccess"
+    public static AWS_ELEMENTAL_MEDIA_PACKAGE_READ_ONLY = "AWSElementalMediaPackageReadOnly"
+    public static AWS_ELEMENTAL_MEDIA_STORE_FULL_ACCESS = "AWSElementalMediaStoreFullAccess"
+    public static AWS_ELEMENTAL_MEDIA_STORE_READ_ONLY = "AWSElementalMediaStoreReadOnly"
+    public static AWS_ENHANCED_CLASSIC_NETWORKING_MANGEMENT_POLICY = "aws-service-role/AWSEnhancedClassicNetworkingMangementPolicy"
+    public static AWSFM_ADMIN_FULL_ACCESS = "AWSFMAdminFullAccess"
+    public static AWSFM_ADMIN_READ_ONLY_ACCESS = "AWSFMAdminReadOnlyAccess"
+    public static AWSFM_MEMBER_READ_ONLY_ACCESS = "AWSFMMemberReadOnlyAccess"
+    public static AWS_FOR_WORD_PRESS_PLUGIN_POLICY = "AWSForWordPressPluginPolicy"
+    public static AWS_GLOBAL_ACCELERATOR_SLR_POLICY = "aws-service-role/AWSGlobalAcceleratorSLRPolicy"
+    public static AWS_GLUE_CONSOLE_FULL_ACCESS = "AWSGlueConsoleFullAccess"
+    public static AWS_GLUE_CONSOLE_SAGE_MAKER_NOTEBOOK_FULL_ACCESS = "AWSGlueConsoleSageMakerNotebookFullAccess"
+    public static AWS_GLUE_SERVICE_NOTEBOOK_ROLE = "service-role/AWSGlueServiceNotebookRole"
+    public static AWS_GLUE_SERVICE_ROLE = "service-role/AWSGlueServiceRole"
+    public static AWS_GREENGRASS_FULL_ACCESS = "AWSGreengrassFullAccess"
+    public static AWS_GREENGRASS_READ_ONLY_ACCESS = "AWSGreengrassReadOnlyAccess"
+    public static AWS_GREENGRASS_RESOURCE_ACCESS_ROLE_POLICY = "service-role/AWSGreengrassResourceAccessRolePolicy"
+    public static AWS_HEALTH_FULL_ACCESS = "AWSHealthFullAccess"
+    public static AWSIQ_CONTRACT_SERVICE_ROLE_POLICY = "aws-service-role/AWSIQContractServiceRolePolicy"
+    public static AWSIQ_FULL_ACCESS = "AWSIQFullAccess"
+    public static AWSIQ_PERMISSION_SERVICE_ROLE_POLICY = "aws-service-role/AWSIQPermissionServiceRolePolicy"
+    public static AWS_IMAGE_BUILDER_READ_ONLY_ACCESS = "AWSImageBuilderReadOnlyAccess"
+    public static AWS_IMPORT_EXPORT_FULL_ACCESS = "AWSImportExportFullAccess"
+    public static AWS_IMPORT_EXPORT_READ_ONLY_ACCESS = "AWSImportExportReadOnlyAccess"
+    public static AWS_IOT_1_CLICK_FULL_ACCESS = "AWSIoT1ClickFullAccess"
+    public static AWS_IOT_1_CLICK_READ_ONLY_ACCESS = "AWSIoT1ClickReadOnlyAccess"
+    public static AWS_IOT_ANALYTICS_FULL_ACCESS = "AWSIoTAnalyticsFullAccess"
+    public static AWS_IOT_ANALYTICS_READ_ONLY_ACCESS = "AWSIoTAnalyticsReadOnlyAccess"
+    public static AWS_IOT_CONFIG_ACCESS = "AWSIoTConfigAccess"
+    public static AWS_IOT_CONFIG_READ_ONLY_ACCESS = "AWSIoTConfigReadOnlyAccess"
+    public static AWS_IOT_DATA_ACCESS = "AWSIoTDataAccess"
+    public static AWS_IOT_DEVICE_DEFENDER_ADD_THINGS_TO_THING_GROUP_MITIGATION_ACTION = "service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction"
+    public static AWS_IOT_DEVICE_DEFENDER_AUDIT = "service-role/AWSIoTDeviceDefenderAudit"
+    public static AWS_IOT_DEVICE_DEFENDER_ENABLE_IO_T_LOGGING_MITIGATION_ACTION = "service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction"
+    public static AWS_IOT_DEVICE_DEFENDER_PUBLISH_FINDINGS_TO_SNS_MITIGATION_ACTION = "service-role/AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction"
+    public static AWS_IOT_DEVICE_DEFENDER_REPLACE_DEFAULT_POLICY_MITIGATION_ACTION = "service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction"
+    public static AWS_IOT_DEVICE_DEFENDER_UPDATE_CA_CERT_MITIGATION_ACTION = "service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
+    public static AWS_IOT_DEVICE_DEFENDER_UPDATE_DEVICE_CERT_MITIGATION_ACTION = "service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction"
+    public static AWS_IOT_EVENTS_FULL_ACCESS = "AWSIoTEventsFullAccess"
+    public static AWS_IOT_EVENTS_READ_ONLY_ACCESS = "AWSIoTEventsReadOnlyAccess"
+    public static AWS_IOT_FULL_ACCESS = "AWSIoTFullAccess"
+    public static AWS_IOT_LOGGING = "service-role/AWSIoTLogging"
+    public static AWS_IOTOTA_UPDATE = "service-role/AWSIoTOTAUpdate"
+    public static AWS_IOT_RULE_ACTIONS = "service-role/AWSIoTRuleActions"
+    public static AWS_IOT_SITE_WISE_CONSOLE_FULL_ACCESS = "AWSIoTSiteWiseConsoleFullAccess"
+    public static AWS_IOT_SITE_WISE_FULL_ACCESS = "AWSIoTSiteWiseFullAccess"
+    public static AWS_IOT_SITE_WISE_MONITOR_SERVICE_ROLE_POLICY = "aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy"
+    public static AWS_IOT_SITE_WISE_READ_ONLY_ACCESS = "AWSIoTSiteWiseReadOnlyAccess"
+    public static AWS_IOT_THINGS_REGISTRATION = "service-role/AWSIoTThingsRegistration"
+    public static AWS_KEY_MANAGEMENT_SERVICE_CUSTOM_KEY_STORES_SERVICE_ROLE_POLICY = "aws-service-role/AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy"
+    public static AWS_KEY_MANAGEMENT_SERVICE_POWER_USER = "AWSKeyManagementServicePowerUser"
+    public static AWS_LAKE_FORMATION_DATA_ADMIN = "AWSLakeFormationDataAdmin"
+    public static AWS_LAMBDA_BASIC_EXECUTION_ROLE = "service-role/AWSLambdaBasicExecutionRole"
+    public static AWS_LAMBDA_DYNAMO_DB_EXECUTION_ROLE = "service-role/AWSLambdaDynamoDBExecutionRole"
+    public static AWS_LAMBDA_ENI_MANAGEMENT_ACCESS = "service-role/AWSLambdaENIManagementAccess"
+    public static AWS_LAMBDA_EXECUTE = "AWSLambdaExecute"
+    public static AWS_LAMBDA_FULL_ACCESS = "AWSLambdaFullAccess"
+    public static AWS_LAMBDA_INVOCATION_DYNAMO_DB = "AWSLambdaInvocation-DynamoDB"
+    public static AWS_LAMBDA_KINESIS_EXECUTION_ROLE = "service-role/AWSLambdaKinesisExecutionRole"
+    public static AWS_LAMBDA_READ_ONLY_ACCESS = "AWSLambdaReadOnlyAccess"
+    public static AWS_LAMBDA_REPLICATOR = "aws-service-role/AWSLambdaReplicator"
+    public static AWS_LAMBDA_ROLE = "service-role/AWSLambdaRole"
+    public static AWS_LAMBDA_SQS_QUEUE_EXECUTION_ROLE = "service-role/AWSLambdaSQSQueueExecutionRole"
+    public static AWS_LAMBDA_VPC_ACCESS_EXECUTION_ROLE = "service-role/AWSLambdaVPCAccessExecutionRole"
+    public static AWS_LICENSE_MANAGER_MASTER_ACCOUNT_ROLE_POLICY = "aws-service-role/AWSLicenseManagerMasterAccountRolePolicy"
+    public static AWS_LICENSE_MANAGER_MEMBER_ACCOUNT_ROLE_POLICY = "aws-service-role/AWSLicenseManagerMemberAccountRolePolicy"
+    public static AWS_LICENSE_MANAGER_SERVICE_ROLE_POLICY = "aws-service-role/AWSLicenseManagerServiceRolePolicy"
+    public static AWS_MARKETPLACE_FULL_ACCESS = "AWSMarketplaceFullAccess"
+    public static AWS_MARKETPLACE_GET_ENTITLEMENTS = "AWSMarketplaceGetEntitlements"
+    public static AWS_MARKETPLACE_IMAGE_BUILD_FULL_ACCESS = "AWSMarketplaceImageBuildFullAccess"
+    public static AWS_MARKETPLACE_MANAGE_SUBSCRIPTIONS = "AWSMarketplaceManageSubscriptions"
+    public static AWS_MARKETPLACE_METERING_FULL_ACCESS = "AWSMarketplaceMeteringFullAccess"
+    public static AWS_MARKETPLACE_METERING_REGISTER_USAGE = "AWSMarketplaceMeteringRegisterUsage"
+    public static AWS_MARKETPLACE_PROCUREMENT_SYSTEM_ADMIN_FULL_ACCESS = "AWSMarketplaceProcurementSystemAdminFullAccess"
+    public static AWS_MARKETPLACE_READ_ONLY = "AWSMarketplaceRead-only"
+    public static AWS_MARKETPLACE_SELLER_FULL_ACCESS = "AWSMarketplaceSellerFullAccess"
+    public static AWS_MARKETPLACE_SELLER_PRODUCTS_FULL_ACCESS = "AWSMarketplaceSellerProductsFullAccess"
+    public static AWS_MARKETPLACE_SELLER_PRODUCTS_READ_ONLY = "AWSMarketplaceSellerProductsReadOnly"
+    public static AWS_MIGRATION_HUB_DMS_ACCESS = "service-role/AWSMigrationHubDMSAccess"
+    public static AWS_MIGRATION_HUB_DISCOVERY_ACCESS = "service-role/AWSMigrationHubDiscoveryAccess"
+    public static AWS_MIGRATION_HUB_FULL_ACCESS = "AWSMigrationHubFullAccess"
+    public static AWS_MIGRATION_HUB_SMS_ACCESS = "service-role/AWSMigrationHubSMSAccess"
+    public static AWS_MOBILE_HUB_FULL_ACCESS = "AWSMobileHub_FullAccess"
+    public static AWS_MOBILE_HUB_READ_ONLY = "AWSMobileHub_ReadOnly"
+    public static AWS_NETWORK_MANAGER_FULL_ACCESS = "AWSNetworkManagerFullAccess"
+    public static AWS_NETWORK_MANAGER_READ_ONLY_ACCESS = "AWSNetworkManagerReadOnlyAccess"
+    public static AWS_NETWORK_MANAGER_SERVICE_ROLE_POLICY = "aws-service-role/AWSNetworkManagerServiceRolePolicy"
+    public static AWS_OPS_WORKS_CM_INSTANCE_PROFILE_ROLE = "AWSOpsWorksCMInstanceProfileRole"
+    public static AWS_OPS_WORKS_CM_SERVICE_ROLE = "service-role/AWSOpsWorksCMServiceRole"
+    public static AWS_OPS_WORKS_CLOUD_WATCH_LOGS = "AWSOpsWorksCloudWatchLogs"
+    public static AWS_OPS_WORKS_FULL_ACCESS = "AWSOpsWorksFullAccess"
+    public static AWS_OPS_WORKS_INSTANCE_REGISTRATION = "AWSOpsWorksInstanceRegistration"
+    public static AWS_OPS_WORKS_REGISTER_CLI_EC2 = "AWSOpsWorksRegisterCLI_EC2"
+    public static AWS_OPS_WORKS_REGISTER_CLI_ON_PREMISES = "AWSOpsWorksRegisterCLI_OnPremises"
+    public static AWS_OPS_WORKS_ROLE = "service-role/AWSOpsWorksRole"
+    public static AWS_ORGANIZATIONS_FULL_ACCESS = "AWSOrganizationsFullAccess"
+    public static AWS_ORGANIZATIONS_READ_ONLY_ACCESS = "AWSOrganizationsReadOnlyAccess"
+    public static AWS_ORGANIZATIONS_SERVICE_TRUST_POLICY = "aws-service-role/AWSOrganizationsServiceTrustPolicy"
+    public static AWS_PRICE_LIST_SERVICE_FULL_ACCESS = "AWSPriceListServiceFullAccess"
+    public static AWS_PRIVATE_MARKETPLACE_ADMIN_FULL_ACCESS = "AWSPrivateMarketplaceAdminFullAccess"
+    public static AWS_PRIVATE_MARKETPLACE_REQUESTS = "AWSPrivateMarketplaceRequests"
+    public static AWS_QUICK_SIGHT_DESCRIBE_RDS = "service-role/AWSQuickSightDescribeRDS"
+    public static AWS_QUICK_SIGHT_DESCRIBE_REDSHIFT = "service-role/AWSQuickSightDescribeRedshift"
+    public static AWS_QUICK_SIGHT_IOT_ANALYTICS_ACCESS = "AWSQuickSightIoTAnalyticsAccess"
+    public static AWS_QUICK_SIGHT_LIST_IAM = "service-role/AWSQuickSightListIAM"
+    public static AWS_QUICKSIGHT_ATHENA_ACCESS = "service-role/AWSQuicksightAthenaAccess"
+    public static AWS_RESOURCE_ACCESS_MANAGER_FULL_ACCESS = "AWSResourceAccessManagerFullAccess"
+    public static AWS_RESOURCE_ACCESS_MANAGER_READ_ONLY_ACCESS = "AWSResourceAccessManagerReadOnlyAccess"
+    public static AWS_RESOURCE_ACCESS_MANAGER_RESOURCE_SHARE_PARTICIPANT_ACCESS = "AWSResourceAccessManagerResourceShareParticipantAccess"
+    public static AWS_RESOURCE_ACCESS_MANAGER_SERVICE_ROLE_POLICY = "aws-service-role/AWSResourceAccessManagerServiceRolePolicy"
+    public static AWS_RESOURCE_GROUPS_READ_ONLY_ACCESS = "AWSResourceGroupsReadOnlyAccess"
+    public static AWS_ROBO_MAKER_FULL_ACCESS = "AWSRoboMakerFullAccess"
+    public static AWS_ROBO_MAKER_READ_ONLY_ACCESS = "AWSRoboMakerReadOnlyAccess"
+    public static AWS_ROBO_MAKER_SERVICE_POLICY = "aws-service-role/AWSRoboMakerServicePolicy"
+    public static AWS_ROBO_MAKER_SERVICE_ROLE_POLICY = "AWSRoboMakerServiceRolePolicy"
+    public static AWSSSO_DIRECTORY_ADMINISTRATOR = "AWSSSODirectoryAdministrator"
+    public static AWSSSO_DIRECTORY_READ_ONLY = "AWSSSODirectoryReadOnly"
+    public static AWSSSO_MASTER_ACCOUNT_ADMINISTRATOR = "AWSSSOMasterAccountAdministrator"
+    public static AWSSSO_MEMBER_ACCOUNT_ADMINISTRATOR = "AWSSSOMemberAccountAdministrator"
+    public static AWSSSO_READ_ONLY = "AWSSSOReadOnly"
+    public static AWSSSO_SERVICE_ROLE_POLICY = "aws-service-role/AWSSSOServiceRolePolicy"
+    public static AWS_SAVINGS_PLANS_FULL_ACCESS = "AWSSavingsPlansFullAccess"
+    public static AWS_SAVINGS_PLANS_READ_ONLY_ACCESS = "AWSSavingsPlansReadOnlyAccess"
+    public static AWS_SECURITY_HUB_FULL_ACCESS = "AWSSecurityHubFullAccess"
+    public static AWS_SECURITY_HUB_READ_ONLY_ACCESS = "AWSSecurityHubReadOnlyAccess"
+    public static AWS_SECURITY_HUB_SERVICE_ROLE_POLICY = "aws-service-role/AWSSecurityHubServiceRolePolicy"
+    public static AWS_SERVICE_CATALOG_ADMIN_FULL_ACCESS = "AWSServiceCatalogAdminFullAccess"
+    public static AWS_SERVICE_CATALOG_ADMIN_READ_ONLY_ACCESS = "AWSServiceCatalogAdminReadOnlyAccess"
+    public static AWS_SERVICE_CATALOG_END_USER_FULL_ACCESS = "AWSServiceCatalogEndUserFullAccess"
+    public static AWS_SERVICE_CATALOG_END_USER_READ_ONLY_ACCESS = "AWSServiceCatalogEndUserReadOnlyAccess"
+    public static AWS_SERVICE_ROLE_FOR_AMAZON_EKS_NODEGROUP = "aws-service-role/AWSServiceRoleForAmazonEKSNodegroup"
+    public static AWS_SERVICE_ROLE_FOR_EC2_SCHEDULED_INSTANCES = "aws-service-role/AWSServiceRoleForEC2ScheduledInstances"
+    public static AWS_SERVICE_ROLE_FOR_IMAGE_BUILDER = "aws-service-role/AWSServiceRoleForImageBuilder"
+    public static AWS_SERVICE_ROLE_FOR_IOT_SITE_WISE = "aws-service-role/AWSServiceRoleForIoTSiteWise"
+    public static AWS_SERVICE_ROLE_FOR_LOG_DELIVERY_POLICY = "aws-service-role/AWSServiceRoleForLogDeliveryPolicy"
+    public static AWS_SERVICE_ROLE_FOR_SMS = "aws-service-role/AWSServiceRoleForSMS"
+    public static AWS_SHIELD_DRT_ACCESS_POLICY = "service-role/AWSShieldDRTAccessPolicy"
+    public static AWS_STEP_FUNCTIONS_CONSOLE_FULL_ACCESS = "AWSStepFunctionsConsoleFullAccess"
+    public static AWS_STEP_FUNCTIONS_FULL_ACCESS = "AWSStepFunctionsFullAccess"
+    public static AWS_STEP_FUNCTIONS_READ_ONLY_ACCESS = "AWSStepFunctionsReadOnlyAccess"
+    public static AWS_STORAGE_GATEWAY_FULL_ACCESS = "AWSStorageGatewayFullAccess"
+    public static AWS_STORAGE_GATEWAY_READ_ONLY_ACCESS = "AWSStorageGatewayReadOnlyAccess"
+    public static AWS_SUPPORT_ACCESS = "AWSSupportAccess"
+    public static AWS_SUPPORT_SERVICE_ROLE_POLICY = "aws-service-role/AWSSupportServiceRolePolicy"
+    public static AWS_SYSTEMS_MANAGER_ACCOUNT_DISCOVERY_SERVICE_POLICY = "aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy"
+    public static AWS_TRANSFER_LOGGING_ACCESS = "service-role/AWSTransferLoggingAccess"
+    public static AWS_TRUSTED_ADVISOR_REPORTING_SERVICE_ROLE_POLICY = "aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy"
+    public static AWS_TRUSTED_ADVISOR_SERVICE_ROLE_POLICY = "aws-service-role/AWSTrustedAdvisorServiceRolePolicy"
+    public static AWSVPCS_2_S_VPN_SERVICE_ROLE_POLICY = "aws-service-role/AWSVPCS2SVpnServiceRolePolicy"
+    public static AWSVPC_TRANSIT_GATEWAY_SERVICE_ROLE_POLICY = "aws-service-role/AWSVPCTransitGatewayServiceRolePolicy"
+    public static AWSWAF_FULL_ACCESS = "AWSWAFFullAccess"
+    public static AWSWAF_READ_ONLY_ACCESS = "AWSWAFReadOnlyAccess"
+    public static AWSX_RAY_DAEMON_WRITE_ACCESS = "AWSXRayDaemonWriteAccess"
+    public static AWS_XRAY_FULL_ACCESS = "AWSXrayFullAccess"
+    public static AWS_XRAY_READ_ONLY_ACCESS = "AWSXrayReadOnlyAccess"
+    public static AWS_XRAY_WRITE_ONLY_ACCESS = "AWSXrayWriteOnlyAccess"
+    public static ACCESS_ANALYZER_SERVICE_ROLE_POLICY = "aws-service-role/AccessAnalyzerServiceRolePolicy"
+    public static ADMINISTRATOR_ACCESS = "AdministratorAccess"
+    public static ALEXA_FOR_BUSINESS_DEVICE_SETUP = "AlexaForBusinessDeviceSetup"
+    public static ALEXA_FOR_BUSINESS_FULL_ACCESS = "AlexaForBusinessFullAccess"
+    public static ALEXA_FOR_BUSINESS_GATEWAY_EXECUTION = "AlexaForBusinessGatewayExecution"
+    public static ALEXA_FOR_BUSINESS_NETWORK_PROFILE_SERVICE_POLICY = "aws-service-role/AlexaForBusinessNetworkProfileServicePolicy"
+    public static ALEXA_FOR_BUSINESS_POLY_DELEGATED_ACCESS_POLICY = "AlexaForBusinessPolyDelegatedAccessPolicy"
+    public static ALEXA_FOR_BUSINESS_READ_ONLY_ACCESS = "AlexaForBusinessReadOnlyAccess"
+    public static AMAZON_API_GATEWAY_ADMINISTRATOR = "AmazonAPIGatewayAdministrator"
+    public static AMAZON_API_GATEWAY_INVOKE_FULL_ACCESS = "AmazonAPIGatewayInvokeFullAccess"
+    public static AMAZON_API_GATEWAY_PUSH_TO_CLOUD_WATCH_LOGS = "service-role/AmazonAPIGatewayPushToCloudWatchLogs"
+    public static AMAZON_APP_STREAM_FULL_ACCESS = "AmazonAppStreamFullAccess"
+    public static AMAZON_APP_STREAM_READ_ONLY_ACCESS = "AmazonAppStreamReadOnlyAccess"
+    public static AMAZON_APP_STREAM_SERVICE_ACCESS = "service-role/AmazonAppStreamServiceAccess"
+    public static AMAZON_ATHENA_FULL_ACCESS = "AmazonAthenaFullAccess"
+    public static AMAZON_AUGMENTED_AI_FULL_ACCESS = "AmazonAugmentedAIFullAccess"
+    public static AMAZON_AUGMENTED_AI_HUMAN_LOOP_FULL_ACCESS = "AmazonAugmentedAIHumanLoopFullAccess"
+    public static AMAZON_CHIME_FULL_ACCESS = "AmazonChimeFullAccess"
+    public static AMAZON_CHIME_READ_ONLY = "AmazonChimeReadOnly"
+    public static AMAZON_CHIME_SERVICE_ROLE_POLICY = "aws-service-role/AmazonChimeServiceRolePolicy"
+    public static AMAZON_CHIME_USER_MANAGEMENT = "AmazonChimeUserManagement"
+    public static AMAZON_CHIME_VOICE_CONNECTOR_SERVICE_LINKED_ROLE_POLICY = "aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy"
+    public static AMAZON_CLOUD_DIRECTORY_FULL_ACCESS = "AmazonCloudDirectoryFullAccess"
+    public static AMAZON_CLOUD_DIRECTORY_READ_ONLY_ACCESS = "AmazonCloudDirectoryReadOnlyAccess"
+    public static AMAZON_CODE_GURU_PROFILER_FULL_ACCESS = "AmazonCodeGuruProfilerFullAccess"
+    public static AMAZON_CODE_GURU_PROFILER_READ_ONLY_ACCESS = "AmazonCodeGuruProfilerReadOnlyAccess"
+    public static AMAZON_CODE_GURU_REVIEWER_FULL_ACCESS = "AmazonCodeGuruReviewerFullAccess"
+    public static AMAZON_CODE_GURU_REVIEWER_READ_ONLY_ACCESS = "AmazonCodeGuruReviewerReadOnlyAccess"
+    public static AMAZON_CODE_GURU_REVIEWER_SERVICE_ROLE_POLICY = "aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
+    public static AMAZON_COGNITO_DEVELOPER_AUTHENTICATED_IDENTITIES = "AmazonCognitoDeveloperAuthenticatedIdentities"
+    public static AMAZON_COGNITO_IDP_EMAIL_SERVICE_ROLE_POLICY = "aws-service-role/AmazonCognitoIdpEmailServiceRolePolicy"
+    public static AMAZON_COGNITO_POWER_USER = "AmazonCognitoPowerUser"
+    public static AMAZON_COGNITO_READ_ONLY = "AmazonCognitoReadOnly"
+    public static AMAZON_CONNECT_FULL_ACCESS = "AmazonConnectFullAccess"
+    public static AMAZON_CONNECT_READ_ONLY_ACCESS = "AmazonConnectReadOnlyAccess"
+    public static AMAZON_CONNECT_SERVICE_LINKED_ROLE_POLICY = "aws-service-role/AmazonConnectServiceLinkedRolePolicy"
+    public static AMAZON_DMS_CLOUD_WATCH_LOGS_ROLE = "service-role/AmazonDMSCloudWatchLogsRole"
+    public static AMAZON_DMS_REDSHIFT_S3_ROLE = "service-role/AmazonDMSRedshiftS3Role"
+    public static AMAZON_DMSVPC_MANAGEMENT_ROLE = "service-role/AmazonDMSVPCManagementRole"
+    public static AMAZON_DRSVPC_MANAGEMENT = "AmazonDRSVPCManagement"
+    public static AMAZON_DOC_DB_CONSOLE_FULL_ACCESS = "AmazonDocDBConsoleFullAccess"
+    public static AMAZON_DOC_DB_FULL_ACCESS = "AmazonDocDBFullAccess"
+    public static AMAZON_DOC_DB_READ_ONLY_ACCESS = "AmazonDocDBReadOnlyAccess"
+    public static AMAZON_DYNAMO_DB_FULL_ACCESS = "AmazonDynamoDBFullAccess"
+    public static AMAZON_DYNAMO_DB_FULL_ACCESSWITH_DATA_PIPELINE = "AmazonDynamoDBFullAccesswithDataPipeline"
+    public static AMAZON_DYNAMO_DB_READ_ONLY_ACCESS = "AmazonDynamoDBReadOnlyAccess"
+    public static AMAZON_EC2_CONTAINER_REGISTRY_FULL_ACCESS = "AmazonEC2ContainerRegistryFullAccess"
+    public static AMAZON_EC2_CONTAINER_REGISTRY_POWER_USER = "AmazonEC2ContainerRegistryPowerUser"
+    public static AMAZON_EC2_CONTAINER_REGISTRY_READ_ONLY = "AmazonEC2ContainerRegistryReadOnly"
+    public static AMAZON_EC2_CONTAINER_SERVICE_AUTOSCALE_ROLE = "service-role/AmazonEC2ContainerServiceAutoscaleRole"
+    public static AMAZON_EC2_CONTAINER_SERVICE_EVENTS_ROLE = "service-role/AmazonEC2ContainerServiceEventsRole"
+    public static AMAZON_EC2_CONTAINER_SERVICE_FULL_ACCESS = "AmazonEC2ContainerServiceFullAccess"
+    public static AMAZON_EC2_CONTAINER_SERVICE_ROLE = "service-role/AmazonEC2ContainerServiceRole"
+    public static AMAZON_EC2_CONTAINER_SERVICEFOR_EC_2_ROLE = "service-role/AmazonEC2ContainerServiceforEC2Role"
+    public static AMAZON_EC2_FULL_ACCESS = "AmazonEC2FullAccess"
+    public static AMAZON_EC2_READ_ONLY_ACCESS = "AmazonEC2ReadOnlyAccess"
+    public static AMAZON_EC2_REPORTS_ACCESS = "AmazonEC2ReportsAccess"
+    public static AMAZON_EC2_ROLE_POLICY_FOR_LAUNCH_WIZARD = "AmazonEC2RolePolicyForLaunchWizard"
+    public static AMAZON_EC2_ROLEFOR_AWS_CODE_DEPLOY = "service-role/AmazonEC2RoleforAWSCodeDeploy"
+    public static AMAZON_EC2_ROLEFOR_DATA_PIPELINE_ROLE = "service-role/AmazonEC2RoleforDataPipelineRole"
+    public static AMAZON_EC2_ROLEFOR_SSM = "service-role/AmazonEC2RoleforSSM"
+    public static AMAZON_EC2_SPOT_FLEET_AUTOSCALE_ROLE = "service-role/AmazonEC2SpotFleetAutoscaleRole"
+    public static AMAZON_EC2_SPOT_FLEET_TAGGING_ROLE = "service-role/AmazonEC2SpotFleetTaggingRole"
+    public static AMAZON_ECS_SERVICE_ROLE_POLICY = "aws-service-role/AmazonECSServiceRolePolicy"
+    public static AMAZON_ECS_TASK_EXECUTION_ROLE_POLICY = "service-role/AmazonECSTaskExecutionRolePolicy"
+    public static AMAZON_ECS_FULL_ACCESS = "AmazonECS_FullAccess"
+    public static AMAZON_EKS_CLUSTER_POLICY = "AmazonEKSClusterPolicy"
+    public static AMAZON_EKS_FARGATE_POD_EXECUTION_ROLE_POLICY = "AmazonEKSFargatePodExecutionRolePolicy"
+    public static AMAZON_EKS_FOR_FARGATE_SERVICE_ROLE_POLICY = "aws-service-role/AmazonEKSForFargateServiceRolePolicy"
+    public static AMAZON_EKS_SERVICE_POLICY = "AmazonEKSServicePolicy"
+    public static AMAZON_EKS_WORKER_NODE_POLICY = "AmazonEKSWorkerNodePolicy"
+    public static AMAZON_EKS_CNI_POLICY = "AmazonEKS_CNI_Policy"
+    public static AMAZON_EMR_CLEANUP_POLICY = "aws-service-role/AmazonEMRCleanupPolicy"
+    public static AMAZON_ES_COGNITO_ACCESS = "AmazonESCognitoAccess"
+    public static AMAZON_ES_FULL_ACCESS = "AmazonESFullAccess"
+    public static AMAZON_ES_READ_ONLY_ACCESS = "AmazonESReadOnlyAccess"
+    public static AMAZON_ELASTI_CACHE_FULL_ACCESS = "AmazonElastiCacheFullAccess"
+    public static AMAZON_ELASTI_CACHE_READ_ONLY_ACCESS = "AmazonElastiCacheReadOnlyAccess"
+    public static AMAZON_ELASTIC_FILE_SYSTEM_FULL_ACCESS = "AmazonElasticFileSystemFullAccess"
+    public static AMAZON_ELASTIC_FILE_SYSTEM_READ_ONLY_ACCESS = "AmazonElasticFileSystemReadOnlyAccess"
+    public static AMAZON_ELASTIC_FILE_SYSTEM_SERVICE_ROLE_POLICY = "aws-service-role/AmazonElasticFileSystemServiceRolePolicy"
+    public static AMAZON_ELASTIC_MAP_REDUCE_EDITORS_ROLE = "service-role/AmazonElasticMapReduceEditorsRole"
+    public static AMAZON_ELASTIC_MAP_REDUCE_FULL_ACCESS = "AmazonElasticMapReduceFullAccess"
+    public static AMAZON_ELASTIC_MAP_REDUCE_READ_ONLY_ACCESS = "AmazonElasticMapReduceReadOnlyAccess"
+    public static AMAZON_ELASTIC_MAP_REDUCE_ROLE = "service-role/AmazonElasticMapReduceRole"
+    public static AMAZON_ELASTIC_MAP_REDUCEFOR_AUTO_SCALING_ROLE = "service-role/AmazonElasticMapReduceforAutoScalingRole"
+    public static AMAZON_ELASTIC_MAP_REDUCEFOR_EC2_ROLE = "service-role/AmazonElasticMapReduceforEC2Role"
+    public static AMAZON_ELASTIC_TRANSCODER_ROLE = "service-role/AmazonElasticTranscoderRole"
+    public static AMAZON_ELASTIC_TRANSCODER_FULL_ACCESS = "AmazonElasticTranscoder_FullAccess"
+    public static AMAZON_ELASTIC_TRANSCODER_JOBS_SUBMITTER = "AmazonElasticTranscoder_JobsSubmitter"
+    public static AMAZON_ELASTIC_TRANSCODER_READ_ONLY_ACCESS = "AmazonElasticTranscoder_ReadOnlyAccess"
+    public static AMAZON_ELASTICSEARCH_SERVICE_ROLE_POLICY = "aws-service-role/AmazonElasticsearchServiceRolePolicy"
+    public static AMAZON_EVENT_BRIDGE_FULL_ACCESS = "AmazonEventBridgeFullAccess"
+    public static AMAZON_EVENT_BRIDGE_READ_ONLY_ACCESS = "AmazonEventBridgeReadOnlyAccess"
+    public static AMAZON_EVENT_BRIDGE_SCHEMAS_FULL_ACCESS = "AmazonEventBridgeSchemasFullAccess"
+    public static AMAZON_EVENT_BRIDGE_SCHEMAS_READ_ONLY_ACCESS = "AmazonEventBridgeSchemasReadOnlyAccess"
+    public static AMAZON_EVENT_BRIDGE_SCHEMAS_SERVICE_ROLE_POLICY = "aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy"
+    public static AMAZON_F_SX_CONSOLE_FULL_ACCESS = "AmazonFSxConsoleFullAccess"
+    public static AMAZON_F_SX_CONSOLE_READ_ONLY_ACCESS = "AmazonFSxConsoleReadOnlyAccess"
+    public static AMAZON_F_SX_FULL_ACCESS = "AmazonFSxFullAccess"
+    public static AMAZON_F_SX_READ_ONLY_ACCESS = "AmazonFSxReadOnlyAccess"
+    public static AMAZON_F_SX_SERVICE_ROLE_POLICY = "aws-service-role/AmazonFSxServiceRolePolicy"
+    public static AMAZON_FORECAST_FULL_ACCESS = "AmazonForecastFullAccess"
+    public static AMAZON_FRAUD_DETECTOR_FULL_ACCESS_POLICY = "AmazonFraudDetectorFullAccessPolicy"
+    public static AMAZON_FREE_RTOS_FULL_ACCESS = "AmazonFreeRTOSFullAccess"
+    public static AMAZON_FREE_RTOSOTA_UPDATE = "service-role/AmazonFreeRTOSOTAUpdate"
+    public static AMAZON_GLACIER_FULL_ACCESS = "AmazonGlacierFullAccess"
+    public static AMAZON_GLACIER_READ_ONLY_ACCESS = "AmazonGlacierReadOnlyAccess"
+    public static AMAZON_GUARD_DUTY_FULL_ACCESS = "AmazonGuardDutyFullAccess"
+    public static AMAZON_GUARD_DUTY_READ_ONLY_ACCESS = "AmazonGuardDutyReadOnlyAccess"
+    public static AMAZON_GUARD_DUTY_SERVICE_ROLE_POLICY = "aws-service-role/AmazonGuardDutyServiceRolePolicy"
+    public static AMAZON_INSPECTOR_FULL_ACCESS = "AmazonInspectorFullAccess"
+    public static AMAZON_INSPECTOR_READ_ONLY_ACCESS = "AmazonInspectorReadOnlyAccess"
+    public static AMAZON_INSPECTOR_SERVICE_ROLE_POLICY = "aws-service-role/AmazonInspectorServiceRolePolicy"
+    public static AMAZON_KENDRA_FULL_ACCESS = "AmazonKendraFullAccess"
+    public static AMAZON_KENDRA_READ_ONLY_ACCESS = "AmazonKendraReadOnlyAccess"
+    public static AMAZON_KINESIS_ANALYTICS_FULL_ACCESS = "AmazonKinesisAnalyticsFullAccess"
+    public static AMAZON_KINESIS_ANALYTICS_READ_ONLY = "AmazonKinesisAnalyticsReadOnly"
+    public static AMAZON_KINESIS_FIREHOSE_FULL_ACCESS = "AmazonKinesisFirehoseFullAccess"
+    public static AMAZON_KINESIS_FIREHOSE_READ_ONLY_ACCESS = "AmazonKinesisFirehoseReadOnlyAccess"
+    public static AMAZON_KINESIS_FULL_ACCESS = "AmazonKinesisFullAccess"
+    public static AMAZON_KINESIS_READ_ONLY_ACCESS = "AmazonKinesisReadOnlyAccess"
+    public static AMAZON_KINESIS_VIDEO_STREAMS_FULL_ACCESS = "AmazonKinesisVideoStreamsFullAccess"
+    public static AMAZON_KINESIS_VIDEO_STREAMS_READ_ONLY_ACCESS = "AmazonKinesisVideoStreamsReadOnlyAccess"
+    public static AMAZON_LAUNCH_WIZARD_FULLACCESS = "AmazonLaunchWizardFullaccess"
+    public static AMAZON_LEX_FULL_ACCESS = "AmazonLexFullAccess"
+    public static AMAZON_LEX_READ_ONLY = "AmazonLexReadOnly"
+    public static AMAZON_LEX_RUN_BOTS_ONLY = "AmazonLexRunBotsOnly"
+    public static AMAZON_MCS_FULL_ACCESS = "AmazonMCSFullAccess"
+    public static AMAZON_MCS_READ_ONLY_ACCESS = "AmazonMCSReadOnlyAccess"
+    public static AMAZON_MQ_API_FULL_ACCESS = "AmazonMQApiFullAccess"
+    public static AMAZON_MQ_API_READ_ONLY_ACCESS = "AmazonMQApiReadOnlyAccess"
+    public static AMAZON_MQ_FULL_ACCESS = "AmazonMQFullAccess"
+    public static AMAZON_MQ_READ_ONLY_ACCESS = "AmazonMQReadOnlyAccess"
+    public static AMAZON_MSK_FULL_ACCESS = "AmazonMSKFullAccess"
+    public static AMAZON_MSK_READ_ONLY_ACCESS = "AmazonMSKReadOnlyAccess"
+    public static AMAZON_MACHINE_LEARNING_BATCH_PREDICTIONS_ACCESS = "AmazonMachineLearningBatchPredictionsAccess"
+    public static AMAZON_MACHINE_LEARNING_CREATE_ONLY_ACCESS = "AmazonMachineLearningCreateOnlyAccess"
+    public static AMAZON_MACHINE_LEARNING_FULL_ACCESS = "AmazonMachineLearningFullAccess"
+    public static AMAZON_MACHINE_LEARNING_MANAGE_REAL_TIME_ENDPOINT_ONLY_ACCESS = "AmazonMachineLearningManageRealTimeEndpointOnlyAccess"
+    public static AMAZON_MACHINE_LEARNING_READ_ONLY_ACCESS = "AmazonMachineLearningReadOnlyAccess"
+    public static AMAZON_MACHINE_LEARNING_REAL_TIME_PREDICTION_ONLY_ACCESS = "AmazonMachineLearningRealTimePredictionOnlyAccess"
+    public static AMAZON_MACHINE_LEARNING_ROLEFOR_REDSHIFT_DATA_SOURCE_V_2 = "service-role/AmazonMachineLearningRoleforRedshiftDataSourceV2"
+    public static AMAZON_MACIE_FULL_ACCESS = "AmazonMacieFullAccess"
+    public static AMAZON_MACIE_HANDSHAKE_ROLE = "service-role/AmazonMacieHandshakeRole"
+    public static AMAZON_MACIE_SERVICE_ROLE = "service-role/AmazonMacieServiceRole"
+    public static AMAZON_MACIE_SERVICE_ROLE_POLICY = "aws-service-role/AmazonMacieServiceRolePolicy"
+    public static AMAZON_MACIE_SETUP_ROLE = "service-role/AmazonMacieSetupRole"
+    public static AMAZON_MANAGED_BLOCKCHAIN_CONSOLE_FULL_ACCESS = "AmazonManagedBlockchainConsoleFullAccess"
+    public static AMAZON_MANAGED_BLOCKCHAIN_FULL_ACCESS = "AmazonManagedBlockchainFullAccess"
+    public static AMAZON_MANAGED_BLOCKCHAIN_READ_ONLY_ACCESS = "AmazonManagedBlockchainReadOnlyAccess"
+    public static AMAZON_MECHANICAL_TURK_FULL_ACCESS = "AmazonMechanicalTurkFullAccess"
+    public static AMAZON_MECHANICAL_TURK_READ_ONLY = "AmazonMechanicalTurkReadOnly"
+    public static AMAZON_MOBILE_ANALYTICS_FINANCIAL_REPORT_ACCESS = "AmazonMobileAnalyticsFinancialReportAccess"
+    public static AMAZON_MOBILE_ANALYTICS_FULL_ACCESS = "AmazonMobileAnalyticsFullAccess"
+    public static AMAZON_MOBILE_ANALYTICS_NON_FINANCIAL_REPORT_ACCESS = "AmazonMobileAnalyticsNon-financialReportAccess"
+    public static AMAZON_MOBILE_ANALYTICS_WRITE_ONLY_ACCESS = "AmazonMobileAnalyticsWriteOnlyAccess"
+    public static AMAZON_PERSONALIZE_FULL_ACCESS = "service-role/AmazonPersonalizeFullAccess"
+    public static AMAZON_POLLY_FULL_ACCESS = "AmazonPollyFullAccess"
+    public static AMAZON_POLLY_READ_ONLY_ACCESS = "AmazonPollyReadOnlyAccess"
+    public static AMAZON_QLDB_CONSOLE_FULL_ACCESS = "AmazonQLDBConsoleFullAccess"
+    public static AMAZON_QLDB_FULL_ACCESS = "AmazonQLDBFullAccess"
+    public static AMAZON_QLDB_READ_ONLY = "AmazonQLDBReadOnly"
+    public static AMAZON_RDS_BETA_SERVICE_ROLE_POLICY = "aws-service-role/AmazonRDSBetaServiceRolePolicy"
+    public static AMAZON_RDS_DATA_FULL_ACCESS = "AmazonRDSDataFullAccess"
+    public static AMAZON_RDS_DIRECTORY_SERVICE_ACCESS = "service-role/AmazonRDSDirectoryServiceAccess"
+    public static AMAZON_RDS_ENHANCED_MONITORING_ROLE = "service-role/AmazonRDSEnhancedMonitoringRole"
+    public static AMAZON_RDS_FULL_ACCESS = "AmazonRDSFullAccess"
+    public static AMAZON_RDS_PREVIEW_SERVICE_ROLE_POLICY = "aws-service-role/AmazonRDSPreviewServiceRolePolicy"
+    public static AMAZON_RDS_READ_ONLY_ACCESS = "AmazonRDSReadOnlyAccess"
+    public static AMAZON_RDS_SERVICE_ROLE_POLICY = "aws-service-role/AmazonRDSServiceRolePolicy"
+    public static AMAZON_REDSHIFT_FULL_ACCESS = "AmazonRedshiftFullAccess"
+    public static AMAZON_REDSHIFT_QUERY_EDITOR = "AmazonRedshiftQueryEditor"
+    public static AMAZON_REDSHIFT_READ_ONLY_ACCESS = "AmazonRedshiftReadOnlyAccess"
+    public static AMAZON_REDSHIFT_SERVICE_LINKED_ROLE_POLICY = "aws-service-role/AmazonRedshiftServiceLinkedRolePolicy"
+    public static AMAZON_REKOGNITION_FULL_ACCESS = "AmazonRekognitionFullAccess"
+    public static AMAZON_REKOGNITION_READ_ONLY_ACCESS = "AmazonRekognitionReadOnlyAccess"
+    public static AMAZON_REKOGNITION_SERVICE_ROLE = "service-role/AmazonRekognitionServiceRole"
+    public static AMAZON_ROUTE_53_AUTO_NAMING_FULL_ACCESS = "AmazonRoute53AutoNamingFullAccess"
+    public static AMAZON_ROUTE_53_AUTO_NAMING_READ_ONLY_ACCESS = "AmazonRoute53AutoNamingReadOnlyAccess"
+    public static AMAZON_ROUTE_53_AUTO_NAMING_REGISTRANT_ACCESS = "AmazonRoute53AutoNamingRegistrantAccess"
+    public static AMAZON_ROUTE_53_DOMAINS_FULL_ACCESS = "AmazonRoute53DomainsFullAccess"
+    public static AMAZON_ROUTE_53_DOMAINS_READ_ONLY_ACCESS = "AmazonRoute53DomainsReadOnlyAccess"
+    public static AMAZON_ROUTE_53_FULL_ACCESS = "AmazonRoute53FullAccess"
+    public static AMAZON_ROUTE_53_READ_ONLY_ACCESS = "AmazonRoute53ReadOnlyAccess"
+    public static AMAZON_ROUTE_53_RESOLVER_FULL_ACCESS = "AmazonRoute53ResolverFullAccess"
+    public static AMAZON_ROUTE_53_RESOLVER_READ_ONLY_ACCESS = "AmazonRoute53ResolverReadOnlyAccess"
+    public static AMAZON_S3_FULL_ACCESS = "AmazonS3FullAccess"
+    public static AMAZON_S3_READ_ONLY_ACCESS = "AmazonS3ReadOnlyAccess"
+    public static AMAZON_SES_FULL_ACCESS = "AmazonSESFullAccess"
+    public static AMAZON_SES_READ_ONLY_ACCESS = "AmazonSESReadOnlyAccess"
+    public static AMAZON_SNS_FULL_ACCESS = "AmazonSNSFullAccess"
+    public static AMAZON_SNS_READ_ONLY_ACCESS = "AmazonSNSReadOnlyAccess"
+    public static AMAZON_SNS_ROLE = "service-role/AmazonSNSRole"
+    public static AMAZON_SQS_FULL_ACCESS = "AmazonSQSFullAccess"
+    public static AMAZON_SQS_READ_ONLY_ACCESS = "AmazonSQSReadOnlyAccess"
+    public static AMAZON_SSM_AUTOMATION_APPROVER_ACCESS = "AmazonSSMAutomationApproverAccess"
+    public static AMAZON_SSM_AUTOMATION_ROLE = "service-role/AmazonSSMAutomationRole"
+    public static AMAZON_SSM_DIRECTORY_SERVICE_ACCESS = "AmazonSSMDirectoryServiceAccess"
+    public static AMAZON_SSM_FULL_ACCESS = "AmazonSSMFullAccess"
+    public static AMAZON_SSM_MAINTENANCE_WINDOW_ROLE = "service-role/AmazonSSMMaintenanceWindowRole"
+    public static AMAZON_SSM_MANAGED_INSTANCE_CORE = "AmazonSSMManagedInstanceCore"
+    public static AMAZON_SSM_READ_ONLY_ACCESS = "AmazonSSMReadOnlyAccess"
+    public static AMAZON_SSM_SERVICE_ROLE_POLICY = "aws-service-role/AmazonSSMServiceRolePolicy"
+    public static AMAZON_SAGE_MAKER_FULL_ACCESS = "AmazonSageMakerFullAccess"
+    public static AMAZON_SAGE_MAKER_MECHANICAL_TURK_ACCESS = "AmazonSageMakerMechanicalTurkAccess"
+    public static AMAZON_SAGE_MAKER_NOTEBOOKS_SERVICE_ROLE_POLICY = "aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy"
+    public static AMAZON_SAGE_MAKER_READ_ONLY = "AmazonSageMakerReadOnly"
+    public static AMAZON_SUMERIAN_FULL_ACCESS = "AmazonSumerianFullAccess"
+    public static AMAZON_TEXTRACT_FULL_ACCESS = "AmazonTextractFullAccess"
+    public static AMAZON_TEXTRACT_SERVICE_ROLE = "service-role/AmazonTextractServiceRole"
+    public static AMAZON_TRANSCRIBE_FULL_ACCESS = "AmazonTranscribeFullAccess"
+    public static AMAZON_TRANSCRIBE_READ_ONLY_ACCESS = "AmazonTranscribeReadOnlyAccess"
+    public static AMAZON_VPC_CROSS_ACCOUNT_NETWORK_INTERFACE_OPERATIONS = "AmazonVPCCrossAccountNetworkInterfaceOperations"
+    public static AMAZON_VPC_FULL_ACCESS = "AmazonVPCFullAccess"
+    public static AMAZON_VPC_READ_ONLY_ACCESS = "AmazonVPCReadOnlyAccess"
+    public static AMAZON_WORK_LINK_FULL_ACCESS = "AmazonWorkLinkFullAccess"
+    public static AMAZON_WORK_LINK_READ_ONLY = "AmazonWorkLinkReadOnly"
+    public static AMAZON_WORK_LINK_SERVICE_ROLE_POLICY = "aws-service-role/AmazonWorkLinkServiceRolePolicy"
+    public static AMAZON_WORK_MAIL_EVENTS_SERVICE_ROLE_POLICY = "aws-service-role/AmazonWorkMailEventsServiceRolePolicy"
+    public static AMAZON_WORK_MAIL_FULL_ACCESS = "AmazonWorkMailFullAccess"
+    public static AMAZON_WORK_MAIL_READ_ONLY_ACCESS = "AmazonWorkMailReadOnlyAccess"
+    public static AMAZON_WORK_SPACES_ADMIN = "AmazonWorkSpacesAdmin"
+    public static AMAZON_WORK_SPACES_APPLICATION_MANAGER_ADMIN_ACCESS = "AmazonWorkSpacesApplicationManagerAdminAccess"
+    public static AMAZON_WORK_SPACES_SELF_SERVICE_ACCESS = "AmazonWorkSpacesSelfServiceAccess"
+    public static AMAZON_WORK_SPACES_SERVICE_ACCESS = "AmazonWorkSpacesServiceAccess"
+    public static AMAZON_ZOCALO_FULL_ACCESS = "AmazonZocaloFullAccess"
+    public static AMAZON_ZOCALO_READ_ONLY_ACCESS = "AmazonZocaloReadOnlyAccess"
+    public static APPLICATION_AUTO_SCALING_FOR_AMAZON_APP_STREAM_ACCESS = "service-role/ApplicationAutoScalingForAmazonAppStreamAccess"
+    public static APPLICATION_DISCOVERY_SERVICE_CONTINUOUS_EXPORT_SERVICE_ROLE_POLICY = "aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy"
+    public static AUTO_SCALING_CONSOLE_FULL_ACCESS = "AutoScalingConsoleFullAccess"
+    public static AUTO_SCALING_CONSOLE_READ_ONLY_ACCESS = "AutoScalingConsoleReadOnlyAccess"
+    public static AUTO_SCALING_FULL_ACCESS = "AutoScalingFullAccess"
+    public static AUTO_SCALING_NOTIFICATION_ACCESS_ROLE = "service-role/AutoScalingNotificationAccessRole"
+    public static AUTO_SCALING_READ_ONLY_ACCESS = "AutoScalingReadOnlyAccess"
+    public static AUTO_SCALING_SERVICE_ROLE_POLICY = "aws-service-role/AutoScalingServiceRolePolicy"
+    public static BILLING = "job-function/Billing"
+    public static CLIENT_VPN_SERVICE_ROLE_POLICY = "aws-service-role/ClientVPNServiceRolePolicy"
+    public static CLOUD_FORMATION_STACK_SETS_ORG_ADMIN_SERVICE_ROLE_POLICY = "aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy"
+    public static CLOUD_FORMATION_STACK_SETS_ORG_MEMBER_SERVICE_ROLE_POLICY = "aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy"
+    public static CLOUD_FRONT_FULL_ACCESS = "CloudFrontFullAccess"
+    public static CLOUD_FRONT_READ_ONLY_ACCESS = "CloudFrontReadOnlyAccess"
+    public static CLOUD_HSM_SERVICE_ROLE_POLICY = "aws-service-role/CloudHSMServiceRolePolicy"
+    public static CLOUD_SEARCH_FULL_ACCESS = "CloudSearchFullAccess"
+    public static CLOUD_SEARCH_READ_ONLY_ACCESS = "CloudSearchReadOnlyAccess"
+    public static CLOUD_TRAIL_SERVICE_ROLE_POLICY = "aws-service-role/CloudTrailServiceRolePolicy"
+    public static CLOUD_WATCH_CROSS_ACCOUNT_ACCESS = "aws-service-role/CloudWatch-CrossAccountAccess"
+    public static CLOUD_WATCH_ACTIONS_EC2_ACCESS = "CloudWatchActionsEC2Access"
+    public static CLOUD_WATCH_AGENT_ADMIN_POLICY = "CloudWatchAgentAdminPolicy"
+    public static CLOUD_WATCH_AGENT_SERVER_POLICY = "CloudWatchAgentServerPolicy"
+    public static CLOUD_WATCH_AUTOMATIC_DASHBOARDS_ACCESS = "CloudWatchAutomaticDashboardsAccess"
+    public static CLOUD_WATCH_EVENTS_BUILT_IN_TARGET_EXECUTION_ACCESS = "service-role/CloudWatchEventsBuiltInTargetExecutionAccess"
+    public static CLOUD_WATCH_EVENTS_FULL_ACCESS = "CloudWatchEventsFullAccess"
+    public static CLOUD_WATCH_EVENTS_INVOCATION_ACCESS = "service-role/CloudWatchEventsInvocationAccess"
+    public static CLOUD_WATCH_EVENTS_READ_ONLY_ACCESS = "CloudWatchEventsReadOnlyAccess"
+    public static CLOUD_WATCH_EVENTS_SERVICE_ROLE_POLICY = "aws-service-role/CloudWatchEventsServiceRolePolicy"
+    public static CLOUD_WATCH_FULL_ACCESS = "CloudWatchFullAccess"
+    public static CLOUD_WATCH_LOGS_FULL_ACCESS = "CloudWatchLogsFullAccess"
+    public static CLOUD_WATCH_LOGS_READ_ONLY_ACCESS = "CloudWatchLogsReadOnlyAccess"
+    public static CLOUD_WATCH_READ_ONLY_ACCESS = "CloudWatchReadOnlyAccess"
+    public static CLOUD_WATCH_SYNTHETICS_FULL_ACCESS = "CloudWatchSyntheticsFullAccess"
+    public static CLOUD_WATCH_SYNTHETICS_READ_ONLY_ACCESS = "CloudWatchSyntheticsReadOnlyAccess"
+    public static CLOUDWATCH_APPLICATION_INSIGHTS_SERVICE_LINKED_ROLE_POLICY = "aws-service-role/CloudwatchApplicationInsightsServiceLinkedRolePolicy"
+    public static COMPREHEND_DATA_ACCESS_ROLE_POLICY = "service-role/ComprehendDataAccessRolePolicy"
+    public static COMPREHEND_FULL_ACCESS = "ComprehendFullAccess"
+    public static COMPREHEND_MEDICAL_FULL_ACCESS = "ComprehendMedicalFullAccess"
+    public static COMPREHEND_READ_ONLY = "ComprehendReadOnly"
+    public static COMPUTE_OPTIMIZER_SERVICE_ROLE_POLICY = "aws-service-role/ComputeOptimizerServiceRolePolicy"
+    public static CONFIG_CONFORMS_SERVICE_ROLE_POLICY = "aws-service-role/ConfigConformsServiceRolePolicy"
+    public static DAX_SERVICE_ROLE_POLICY = "aws-service-role/DAXServiceRolePolicy"
+    public static DATA_SCIENTIST = "job-function/DataScientist"
+    public static DATABASE_ADMINISTRATOR = "job-function/DatabaseAdministrator"
+    public static DYNAMO_DB_CLOUD_WATCH_CONTRIBUTOR_INSIGHTS_SERVICE_ROLE_POLICY = "aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy"
+    public static DYNAMO_DB_REPLICATION_SERVICE_ROLE_POLICY = "aws-service-role/DynamoDBReplicationServiceRolePolicy"
+    public static EC2_INSTANCE_CONNECT = "EC2InstanceConnect"
+    public static EC2_INSTANCE_PROFILE_FOR_IMAGE_BUILDER = "EC2InstanceProfileForImageBuilder"
+    public static ELASTI_CACHE_SERVICE_ROLE_POLICY = "aws-service-role/ElastiCacheServiceRolePolicy"
+    public static ELASTIC_LOAD_BALANCING_FULL_ACCESS = "ElasticLoadBalancingFullAccess"
+    public static ELASTIC_LOAD_BALANCING_READ_ONLY = "ElasticLoadBalancingReadOnly"
+    public static ELEMENTAL_APPLIANCES_SOFTWARE_FULL_ACCESS = "ElementalAppliancesSoftwareFullAccess"
+    public static FMS_SERVICE_ROLE_POLICY = "aws-service-role/FMSServiceRolePolicy"
+    public static F_SX_DELETE_SERVICE_LINKED_ROLE_ACCESS = "aws-service-role/FSxDeleteServiceLinkedRoleAccess"
+    public static GLOBAL_ACCELERATOR_FULL_ACCESS = "GlobalAcceleratorFullAccess"
+    public static GLOBAL_ACCELERATOR_READ_ONLY_ACCESS = "GlobalAcceleratorReadOnlyAccess"
+    public static GREENGRASS_OTA_UPDATE_ARTIFACT_ACCESS = "service-role/GreengrassOTAUpdateArtifactAccess"
+    public static HEALTH_ORGANIZATIONS_SERVICE_ROLE_POLICY = "aws-service-role/Health_OrganizationsServiceRolePolicy"
+    public static IAM_ACCESS_ADVISOR_READ_ONLY = "IAMAccessAdvisorReadOnly"
+    public static IAM_ACCESS_ANALYZER_FULL_ACCESS = "IAMAccessAnalyzerFullAccess"
+    public static IAM_ACCESS_ANALYZER_READ_ONLY_ACCESS = "IAMAccessAnalyzerReadOnlyAccess"
+    public static IAM_FULL_ACCESS = "IAMFullAccess"
+    public static IAM_READ_ONLY_ACCESS = "IAMReadOnlyAccess"
+    public static IAM_SELF_MANAGE_SERVICE_SPECIFIC_CREDENTIALS = "IAMSelfManageServiceSpecificCredentials"
+    public static IAM_USER_CHANGE_PASSWORD = "IAMUserChangePassword"
+    public static IAM_USER_SSH_KEYS = "IAMUserSSHKeys"
+    public static KAFKA_SERVICE_ROLE_POLICY = "aws-service-role/KafkaServiceRolePolicy"
+    public static LAKE_FORMATION_DATA_ACCESS_SERVICE_ROLE_POLICY = "aws-service-role/LakeFormationDataAccessServiceRolePolicy"
+    public static LEX_BOT_POLICY = "aws-service-role/LexBotPolicy"
+    public static LEX_CHANNEL_POLICY = "aws-service-role/LexChannelPolicy"
+    public static LIGHTSAIL_EXPORT_ACCESS = "aws-service-role/LightsailExportAccess"
+    public static MIGRATION_HUB_DMS_ACCESS_SERVICE_ROLE_POLICY = "aws-service-role/MigrationHubDMSAccessServiceRolePolicy"
+    public static MIGRATION_HUB_SMS_ACCESS_SERVICE_ROLE_POLICY = "aws-service-role/MigrationHubSMSAccessServiceRolePolicy"
+    public static MIGRATION_HUB_SERVICE_ROLE_POLICY = "aws-service-role/MigrationHubServiceRolePolicy"
+    public static NEPTUNE_CONSOLE_FULL_ACCESS = "NeptuneConsoleFullAccess"
+    public static NEPTUNE_FULL_ACCESS = "NeptuneFullAccess"
+    public static NEPTUNE_READ_ONLY_ACCESS = "NeptuneReadOnlyAccess"
+    public static NETWORK_ADMINISTRATOR = "job-function/NetworkAdministrator"
+    public static POWER_USER_ACCESS = "PowerUserAccess"
+    public static QUICK_SIGHT_ACCESS_FOR_S3_STORAGE_MANAGEMENT_ANALYTICS_READ_ONLY = "service-role/QuickSightAccessForS3StorageManagementAnalyticsReadOnly"
+    public static RDS_CLOUD_HSM_AUTHORIZATION_ROLE = "service-role/RDSCloudHsmAuthorizationRole"
+    public static READ_ONLY_ACCESS = "ReadOnlyAccess"
+    public static RESOURCE_GROUPSAND_TAG_EDITOR_FULL_ACCESS = "ResourceGroupsandTagEditorFullAccess"
+    public static RESOURCE_GROUPSAND_TAG_EDITOR_READ_ONLY_ACCESS = "ResourceGroupsandTagEditorReadOnlyAccess"
+    public static SECRETS_MANAGER_READ_WRITE = "SecretsManagerReadWrite"
+    public static SECURITY_AUDIT = "SecurityAudit"
+    public static SERVER_MIGRATION_CONNECTOR = "ServerMigrationConnector"
+    public static SERVER_MIGRATION_SERVICE_LAUNCH_ROLE = "service-role/ServerMigrationServiceLaunchRole"
+    public static SERVER_MIGRATION_SERVICE_ROLE = "service-role/ServerMigrationServiceRole"
+    public static SERVICE_QUOTAS_FULL_ACCESS = "ServiceQuotasFullAccess"
+    public static SERVICE_QUOTAS_READ_ONLY_ACCESS = "ServiceQuotasReadOnlyAccess"
+    public static SERVICE_QUOTAS_SERVICE_ROLE_POLICY = "aws-service-role/ServiceQuotasServiceRolePolicy"
+    public static SIMPLE_WORKFLOW_FULL_ACCESS = "SimpleWorkflowFullAccess"
+    public static SUPPORT_USER = "job-function/SupportUser"
+    public static SYSTEM_ADMINISTRATOR = "job-function/SystemAdministrator"
+    public static TAG_POLICIES_SERVICE_ROLE_POLICY = "aws-service-role/TagPoliciesServiceRolePolicy"
+    public static TRANSLATE_FULL_ACCESS = "TranslateFullAccess"
+    public static TRANSLATE_READ_ONLY = "TranslateReadOnly"
+    public static VM_IMPORT_EXPORT_ROLE_FOR_AWS_CONNECTOR = "service-role/VMImportExportRoleForAWSConnector"
+    public static VIEW_ONLY_ACCESS = "job-function/ViewOnlyAccess"
+    public static WAF_LOGGING_SERVICE_ROLE_POLICY = "aws-service-role/WAFLoggingServiceRolePolicy"
+    public static WAF_REGIONAL_LOGGING_SERVICE_ROLE_POLICY = "aws-service-role/WAFRegionalLoggingServiceRolePolicy"
+    public static WAFV_2_LOGGING_SERVICE_ROLE_POLICY = "aws-service-role/WAFV2LoggingServiceRolePolicy"
+    public static WELL_ARCHITECTED_CONSOLE_FULL_ACCESS = "WellArchitectedConsoleFullAccess"
+    public static WELL_ARCHITECTED_CONSOLE_READ_ONLY_ACCESS = "WellArchitectedConsoleReadOnlyAccess"
+    public static WORK_LINK_SERVICE_ROLE_POLICY = "WorkLinkServiceRolePolicy"
 }

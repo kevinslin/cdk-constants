@@ -1,223 +1,223 @@
 // NOTE: THIS IS MACHINE GENERATED. CHANGES WILL BE OVERWRITTEN!
 
-export const SERVICE_NAMES = {
-    AWS_ACCOUNTS: "AWS Accounts",
-    ALEXA_FOR_BUSINESS: "Alexa for Business",
-    AWS_AMPLIFY: "AWS Amplify",
-    AMAZON_API_GATEWAY: "Amazon API Gateway",
-    AWS_APP_MESH: "AWS App Mesh",
-    AWS_APP_MESH_PREVIEW: "AWS App Mesh Preview",
-    APPLICATION_AUTO_SCALING: "Application Auto Scaling",
-    APPLICATION_DISCOVERY: "Application Discovery",
-    APPLICATION_DISCOVERY_ARSENAL: "Application Discovery Arsenal",
-    AMAZON_APP_STREAM_2_0: "Amazon AppStream 2.0",
-    AWS_APP_SYNC: "AWS AppSync",
-    AWS_ARTIFACT: "AWS Artifact",
-    AMAZON_ATHENA: "Amazon Athena",
-    AWS_AUTO_SCALING: "AWS Auto Scaling",
-    AWS_BACKUP: "AWS Backup",
-    AWS_BACKUP_STORAGE: "AWS Backup storage",
-    AWS_BATCH: "AWS Batch",
-    AWS_BILLING: "AWS Billing",
-    AWS_BUDGET_SERVICE: "AWS Budget Service",
-    AWS_CERTIFICATE_MANAGER: "AWS Certificate Manager",
-    AWS_CERTIFICATE_MANAGER_PRIVATE_CERTIFICATE_AUTHORITY: "AWS Certificate Manager Private Certificate Authority",
-    AWS_CHATBOT: "AWS Chatbot",
-    AMAZON_CHIME: "Amazon Chime",
-    AMAZON_CLOUD_DIRECTORY: "Amazon Cloud Directory",
-    AWS_CLOUD_MAP: "AWS Cloud Map",
-    AWS_CLOUD_9: "AWS Cloud9",
-    AWS_CLOUD_FORMATION: "AWS CloudFormation",
-    AMAZON_CLOUD_FRONT: "Amazon CloudFront",
-    AWS_CLOUD_HSM: "AWS CloudHSM",
-    AMAZON_CLOUD_SEARCH: "Amazon CloudSearch",
-    AWS_CLOUD_TRAIL: "AWS CloudTrail",
-    AMAZON_CLOUD_WATCH: "Amazon CloudWatch",
-    CLOUD_WATCH_APPLICATION_INSIGHTS: "CloudWatch Application Insights",
-    AMAZON_CLOUD_WATCH_LOGS: "Amazon CloudWatch Logs",
-    AMAZON_CLOUD_WATCH_SYNTHETICS: "Amazon CloudWatch Synthetics",
-    AWS_CODE_SIGNING_FOR_AMAZON_FREE_RTOS: "AWS Code Signing for Amazon FreeRTOS",
-    AWS_CODE_BUILD: "AWS CodeBuild",
-    AWS_CODE_COMMIT: "AWS CodeCommit",
-    AWS_CODE_DEPLOY: "AWS CodeDeploy",
-    AWS_CODE_PIPELINE: "AWS CodePipeline",
-    AWS_CODE_STAR: "AWS CodeStar",
-    AWS_CODE_STAR_NOTIFICATIONS: "AWS CodeStar Notifications",
-    AMAZON_COGNITO_IDENTITY: "Amazon Cognito Identity",
-    AMAZON_COGNITO_SYNC: "Amazon Cognito Sync",
-    AMAZON_COGNITO_USER_POOLS: "Amazon Cognito User Pools",
-    AMAZON_COMPREHEND: "Amazon Comprehend",
-    COMPREHEND_MEDICAL: "Comprehend Medical",
-    COMPUTE_OPTIMIZER: "Compute Optimizer",
-    AWS_CONFIG: "AWS Config",
-    AMAZON_CONNECT: "Amazon Connect",
-    AWS_COST_AND_USAGE_REPORT: "AWS Cost and Usage Report",
-    AWS_COST_EXPLORER_SERVICE: "AWS Cost Explorer Service",
-    AWS_DATA_EXCHANGE: "AWS Data Exchange",
-    AMAZON_DATA_LIFECYCLE_MANAGER: "Amazon Data Lifecycle Manager",
-    DATA_PIPELINE: "Data Pipeline",
-    AWS_DATABASE_MIGRATION_SERVICE: "AWS Database Migration Service",
-    DATABASE_QUERY_METADATA_SERVICE: "Database Query Metadata Service",
-    DATA_SYNC: "DataSync",
-    AWS_DEEP_LENS: "AWS DeepLens",
-    AWS_DEEP_RACER: "AWS DeepRacer",
-    AMAZON_DETECTIVE: "Amazon Detective",
-    AWS_DEVICE_FARM: "AWS Device Farm",
-    AWS_DIRECT_CONNECT: "AWS Direct Connect",
-    AWS_DIRECTORY_SERVICE: "AWS Directory Service",
-    AMAZON_DYNAMO_DB: "Amazon DynamoDB",
-    AMAZON_DYNAMO_DB_ACCELERATOR_DAX: "Amazon DynamoDB Accelerator (DAX)",
-    AMAZON_EC2: "Amazon EC2",
-    AMAZON_EC2_AUTO_SCALING: "Amazon EC2 Auto Scaling",
-    AMAZON_EC2_IMAGE_BUILDER: "Amazon EC2 Image Builder",
-    AMAZON_EC2_INSTANCE_CONNECT: "Amazon EC2 Instance Connect",
-    AWS_ELASTIC_BEANSTALK: "AWS Elastic Beanstalk",
-    AMAZON_ELASTIC_BLOCK_STORE: "Amazon Elastic Block Store",
-    AMAZON_ELASTIC_CONTAINER_REGISTRY: "Amazon Elastic Container Registry",
-    AMAZON_ELASTIC_CONTAINER_SERVICE: "Amazon Elastic Container Service",
-    AMAZON_ELASTIC_CONTAINER_SERVICE_FOR_KUBERNETES: "Amazon Elastic Container Service for Kubernetes",
-    AMAZON_ELASTIC_FILE_SYSTEM: "Amazon Elastic File System",
-    AMAZON_ELASTIC_INFERENCE: "Amazon Elastic Inference",
-    ELASTIC_LOAD_BALANCING: "Elastic Load Balancing",
-    ELASTIC_LOAD_BALANCING_V2: "Elastic Load Balancing V2",
-    AMAZON_ELASTIC_MAP_REDUCE: "Amazon Elastic MapReduce",
-    AMAZON_ELASTIC_TRANSCODER: "Amazon Elastic Transcoder",
-    AMAZON_ELASTI_CACHE: "Amazon ElastiCache",
-    AMAZON_ELASTICSEARCH_SERVICE: "Amazon Elasticsearch Service",
-    AWS_ELEMENTAL_MEDIA_CONNECT: "AWS Elemental MediaConnect",
-    AWS_ELEMENTAL_MEDIA_CONVERT: "AWS Elemental MediaConvert",
-    AWS_ELEMENTAL_MEDIA_LIVE: "AWS Elemental MediaLive",
-    AWS_ELEMENTAL_MEDIA_PACKAGE: "AWS Elemental MediaPackage",
-    AWS_ELEMENTAL_MEDIA_PACKAGE_VOD: "AWS Elemental MediaPackage VOD",
-    AWS_ELEMENTAL_MEDIA_STORE: "AWS Elemental MediaStore",
-    AWS_ELEMENTAL_MEDIA_TAILOR: "AWS Elemental MediaTailor",
-    AMAZON_EVENT_BRIDGE: "Amazon EventBridge",
-    AMAZON_EVENT_BRIDGE_SCHEMAS: "Amazon EventBridge Schemas",
-    AWS_FIREWALL_MANAGER: "AWS Firewall Manager",
-    AMAZON_FORECAST: "Amazon Forecast",
-    AMAZON_FRAUD_DETECTOR: "Amazon Fraud Detector",
-    AMAZON_FREE_RTOS: "Amazon FreeRTOS",
-    AMAZON_FSX: "Amazon FSx",
-    AMAZON_GAME_LIFT: "Amazon GameLift",
-    AMAZON_GLACIER: "Amazon Glacier",
-    AWS_GLOBAL_ACCELERATOR: "AWS Global Accelerator",
-    AWS_GLUE: "AWS Glue",
-    AWS_GROUND_STATION: "AWS Ground Station",
-    AMAZON_GROUND_TRUTH_LABELING: "Amazon GroundTruth Labeling",
-    AMAZON_GUARD_DUTY: "Amazon GuardDuty",
-    AWS_HEALTH_APIS_AND_NOTIFICATIONS: "AWS Health APIs and Notifications",
-    IAM_ACCESS_ANALYZER: "IAM Access Analyzer",
-    IDENTITY_AND_ACCESS_MANAGEMENT: "Identity And Access Management",
-    AWS_IMPORT_EXPORT_DISK_SERVICE: "AWS Import Export Disk Service",
-    AMAZON_INSPECTOR: "Amazon Inspector",
-    AWS_IOT: "AWS IoT",
-    AWS_IOT_1_CLICK: "AWS IoT 1-Click",
-    AWS_IOT_ANALYTICS: "AWS IoT Analytics",
-    AWS_IOT_EVENTS: "AWS IoT Events",
-    AWS_IOT_GREENGRASS: "AWS IoT Greengrass",
-    AWS_IOT_SITE_WISE: "AWS IoT SiteWise",
-    AWS_IOT_THINGS_GRAPH: "AWS IoT Things Graph",
-    AWS_IQ: "AWS IQ",
-    AWS_IQ_PERMISSIONS: "AWS IQ Permissions",
-    AMAZON_KENDRA: "Amazon Kendra",
-    AWS_KEY_MANAGEMENT_SERVICE: "AWS Key Management Service",
-    AMAZON_KINESIS: "Amazon Kinesis",
-    AMAZON_KINESIS_ANALYTICS: "Amazon Kinesis Analytics",
-    AMAZON_KINESIS_ANALYTICS_V2: "Amazon Kinesis Analytics V2",
-    AMAZON_KINESIS_FIREHOSE: "Amazon Kinesis Firehose",
-    AMAZON_KINESIS_VIDEO_STREAMS: "Amazon Kinesis Video Streams",
-    AWS_LAKE_FORMATION: "AWS Lake Formation",
-    AWS_LAMBDA: "AWS Lambda",
-    LAUNCH_WIZARD: "Launch Wizard",
-    AMAZON_LEX: "Amazon Lex",
-    AWS_LICENSE_MANAGER: "AWS License Manager",
-    AMAZON_LIGHTSAIL: "Amazon Lightsail",
-    AMAZON_MACHINE_LEARNING: "Amazon Machine Learning",
-    AMAZON_MACIE: "Amazon Macie",
-    MANAGE_AMAZON_API_GATEWAY: "Manage Amazon API Gateway",
-    AWS_MANAGED_APACHE_CASSANDRA_SERVICE: "AWS Managed Apache Cassandra Service",
-    AMAZON_MANAGED_BLOCKCHAIN: "Amazon Managed Blockchain",
-    AMAZON_MANAGED_STREAMING_FOR_KAFKA: "Amazon Managed Streaming for Kafka",
-    AWS_MARKETPLACE: "AWS Marketplace",
-    AWS_MARKETPLACE_CATALOG: "AWS Marketplace Catalog",
-    AWS_MARKETPLACE_ENTITLEMENT_SERVICE: "AWS Marketplace Entitlement Service",
-    AWS_MARKETPLACE_IMAGE_BUILDING_SERVICE: "AWS Marketplace Image Building Service",
-    AWS_MARKETPLACE_MANAGEMENT_PORTAL: "AWS Marketplace Management Portal",
-    AWS_MARKETPLACE_METERING_SERVICE: "AWS Marketplace Metering Service",
-    AWS_MARKETPLACE_PROCUREMENT_SYSTEMS_INTEGRATION: "AWS Marketplace Procurement Systems Integration",
-    AMAZON_MECHANICAL_TURK: "Amazon Mechanical Turk",
-    AMAZON_MESSAGE_DELIVERY_SERVICE: "Amazon Message Delivery Service",
-    AWS_MIGRATION_HUB: "AWS Migration Hub",
-    AMAZON_MOBILE_ANALYTICS: "Amazon Mobile Analytics",
-    AWS_MOBILE_HUB: "AWS Mobile Hub",
-    AMAZON_MQ: "Amazon MQ",
-    AMAZON_NEPTUNE: "Amazon Neptune",
-    NETWORK_MANAGER: "Network Manager",
-    AWS_OPS_WORKS: "AWS OpsWorks",
-    AWS_OPS_WORKS_CONFIGURATION_MANAGEMENT: "AWS OpsWorks Configuration Management",
-    AWS_ORGANIZATIONS: "AWS Organizations",
-    AWS_OUTPOSTS: "AWS Outposts",
-    AWS_PERFORMANCE_INSIGHTS: "AWS Performance Insights",
-    AMAZON_PERSONALIZE: "Amazon Personalize",
-    AMAZON_PINPOINT: "Amazon Pinpoint",
-    AMAZON_PINPOINT_EMAIL_SERVICE: "Amazon Pinpoint Email Service",
-    AMAZON_PINPOINT_SMS_AND_VOICE_SERVICE: "Amazon Pinpoint SMS and Voice Service",
-    AMAZON_POLLY: "Amazon Polly",
-    AWS_PRICE_LIST: "AWS Price List",
-    AWS_PRIVATE_MARKETPLACE: "AWS Private Marketplace",
-    AMAZON_QLDB: "Amazon QLDB",
-    AMAZON_QUICK_SIGHT: "Amazon QuickSight",
-    AMAZON_RDS: "Amazon RDS",
-    AMAZON_RDS_DATA_API: "Amazon RDS Data API",
-    AMAZON_RDS_IAM_AUTHENTICATION: "Amazon RDS IAM Authentication",
-    AMAZON_REDSHIFT: "Amazon Redshift",
-    AMAZON_REKOGNITION: "Amazon Rekognition",
-    AWS_RESOURCE_ACCESS_MANAGER: "AWS Resource Access Manager",
-    AMAZON_RESOURCE_GROUP_TAGGING_API: "Amazon Resource Group Tagging API",
-    AWS_RESOURCE_GROUPS: "AWS Resource Groups",
-    AWS_ROBO_MAKER: "AWS RoboMaker",
-    AMAZON_ROUTE_53: "Amazon Route 53",
-    AMAZON_ROUTE_53_RESOLVER: "Amazon Route 53 Resolver",
-    AMAZON_ROUTE_53_DOMAINS: "Amazon Route53 Domains",
-    AMAZON_S3: "Amazon S3",
-    AMAZON_SAGE_MAKER: "Amazon SageMaker",
-    AWS_SAVINGS_PLANS: "AWS Savings Plans",
-    AWS_SECRETS_MANAGER: "AWS Secrets Manager",
-    AWS_SECURITY_HUB: "AWS Security Hub",
-    AWS_SECURITY_TOKEN_SERVICE: "AWS Security Token Service",
-    AWS_SERVER_MIGRATION_SERVICE: "AWS Server Migration Service",
-    AWS_SERVERLESS_APPLICATION_REPOSITORY: "AWS Serverless Application Repository",
-    AWS_SERVICE_CATALOG: "AWS Service Catalog",
-    SERVICE_QUOTAS: "Service Quotas",
-    AMAZON_SES: "Amazon SES",
-    AMAZON_SESSION_MANAGER_MESSAGE_GATEWAY_SERVICE: "Amazon Session Manager Message Gateway Service",
-    AWS_SHIELD: "AWS Shield",
-    AMAZON_SIMPLE_WORKFLOW_SERVICE: "Amazon Simple Workflow Service",
-    AMAZON_SIMPLE_DB: "Amazon SimpleDB",
-    AWS_SNOWBALL: "AWS Snowball",
-    AMAZON_SNS: "Amazon SNS",
-    AMAZON_SQS: "Amazon SQS",
-    AWS_SSO: "AWS SSO",
-    AWS_SSO_DIRECTORY: "AWS SSO Directory",
-    AWS_STEP_FUNCTIONS: "AWS Step Functions",
-    AMAZON_STORAGE_GATEWAY: "Amazon Storage Gateway",
-    AMAZON_SUMERIAN: "Amazon Sumerian",
-    AWS_SUPPORT: "AWS Support",
-    AWS_SYSTEMS_MANAGER: "AWS Systems Manager",
-    AMAZON_TEXTRACT: "Amazon Textract",
-    AMAZON_TRANSCRIBE: "Amazon Transcribe",
-    AWS_TRANSFER_FOR_SFTP: "AWS Transfer for SFTP",
-    AMAZON_TRANSLATE: "Amazon Translate",
-    AWS_TRUSTED_ADVISOR: "AWS Trusted Advisor",
-    AWS_WAF: "AWS WAF",
-    AWS_WAF_REGIONAL: "AWS WAF Regional",
-    AWS_WAF_V2: "AWS WAF V2",
-    AWS_WELL_ARCHITECTED_TOOL: "AWS Well-Architected Tool",
-    AMAZON_WORK_DOCS: "Amazon WorkDocs",
-    AMAZON_WORK_LINK: "Amazon WorkLink",
-    AMAZON_WORK_MAIL: "Amazon WorkMail",
-    AMAZON_WORK_MAIL_MESSAGE_FLOW: "Amazon WorkMail Message Flow",
-    AMAZON_WORK_SPACES: "Amazon WorkSpaces",
-    AMAZON_WORK_SPACES_APPLICATION_MANAGER: "Amazon WorkSpaces Application Manager",
-    AWS_X_RAY: "AWS X-Ray",
+export class SERVICE_NAMES {
+    public static AWS_ACCOUNTS = "AWS Accounts"
+    public static ALEXA_FOR_BUSINESS = "Alexa for Business"
+    public static AWS_AMPLIFY = "AWS Amplify"
+    public static AMAZON_API_GATEWAY = "Amazon API Gateway"
+    public static AWS_APP_MESH = "AWS App Mesh"
+    public static AWS_APP_MESH_PREVIEW = "AWS App Mesh Preview"
+    public static APPLICATION_AUTO_SCALING = "Application Auto Scaling"
+    public static APPLICATION_DISCOVERY = "Application Discovery"
+    public static APPLICATION_DISCOVERY_ARSENAL = "Application Discovery Arsenal"
+    public static AMAZON_APP_STREAM_2_0 = "Amazon AppStream 2.0"
+    public static AWS_APP_SYNC = "AWS AppSync"
+    public static AWS_ARTIFACT = "AWS Artifact"
+    public static AMAZON_ATHENA = "Amazon Athena"
+    public static AWS_AUTO_SCALING = "AWS Auto Scaling"
+    public static AWS_BACKUP = "AWS Backup"
+    public static AWS_BACKUP_STORAGE = "AWS Backup storage"
+    public static AWS_BATCH = "AWS Batch"
+    public static AWS_BILLING = "AWS Billing"
+    public static AWS_BUDGET_SERVICE = "AWS Budget Service"
+    public static AWS_CERTIFICATE_MANAGER = "AWS Certificate Manager"
+    public static AWS_CERTIFICATE_MANAGER_PRIVATE_CERTIFICATE_AUTHORITY = "AWS Certificate Manager Private Certificate Authority"
+    public static AWS_CHATBOT = "AWS Chatbot"
+    public static AMAZON_CHIME = "Amazon Chime"
+    public static AMAZON_CLOUD_DIRECTORY = "Amazon Cloud Directory"
+    public static AWS_CLOUD_MAP = "AWS Cloud Map"
+    public static AWS_CLOUD_9 = "AWS Cloud9"
+    public static AWS_CLOUD_FORMATION = "AWS CloudFormation"
+    public static AMAZON_CLOUD_FRONT = "Amazon CloudFront"
+    public static AWS_CLOUD_HSM = "AWS CloudHSM"
+    public static AMAZON_CLOUD_SEARCH = "Amazon CloudSearch"
+    public static AWS_CLOUD_TRAIL = "AWS CloudTrail"
+    public static AMAZON_CLOUD_WATCH = "Amazon CloudWatch"
+    public static CLOUD_WATCH_APPLICATION_INSIGHTS = "CloudWatch Application Insights"
+    public static AMAZON_CLOUD_WATCH_LOGS = "Amazon CloudWatch Logs"
+    public static AMAZON_CLOUD_WATCH_SYNTHETICS = "Amazon CloudWatch Synthetics"
+    public static AWS_CODE_SIGNING_FOR_AMAZON_FREE_RTOS = "AWS Code Signing for Amazon FreeRTOS"
+    public static AWS_CODE_BUILD = "AWS CodeBuild"
+    public static AWS_CODE_COMMIT = "AWS CodeCommit"
+    public static AWS_CODE_DEPLOY = "AWS CodeDeploy"
+    public static AWS_CODE_PIPELINE = "AWS CodePipeline"
+    public static AWS_CODE_STAR = "AWS CodeStar"
+    public static AWS_CODE_STAR_NOTIFICATIONS = "AWS CodeStar Notifications"
+    public static AMAZON_COGNITO_IDENTITY = "Amazon Cognito Identity"
+    public static AMAZON_COGNITO_SYNC = "Amazon Cognito Sync"
+    public static AMAZON_COGNITO_USER_POOLS = "Amazon Cognito User Pools"
+    public static AMAZON_COMPREHEND = "Amazon Comprehend"
+    public static COMPREHEND_MEDICAL = "Comprehend Medical"
+    public static COMPUTE_OPTIMIZER = "Compute Optimizer"
+    public static AWS_CONFIG = "AWS Config"
+    public static AMAZON_CONNECT = "Amazon Connect"
+    public static AWS_COST_AND_USAGE_REPORT = "AWS Cost and Usage Report"
+    public static AWS_COST_EXPLORER_SERVICE = "AWS Cost Explorer Service"
+    public static AWS_DATA_EXCHANGE = "AWS Data Exchange"
+    public static AMAZON_DATA_LIFECYCLE_MANAGER = "Amazon Data Lifecycle Manager"
+    public static DATA_PIPELINE = "Data Pipeline"
+    public static AWS_DATABASE_MIGRATION_SERVICE = "AWS Database Migration Service"
+    public static DATABASE_QUERY_METADATA_SERVICE = "Database Query Metadata Service"
+    public static DATA_SYNC = "DataSync"
+    public static AWS_DEEP_LENS = "AWS DeepLens"
+    public static AWS_DEEP_RACER = "AWS DeepRacer"
+    public static AMAZON_DETECTIVE = "Amazon Detective"
+    public static AWS_DEVICE_FARM = "AWS Device Farm"
+    public static AWS_DIRECT_CONNECT = "AWS Direct Connect"
+    public static AWS_DIRECTORY_SERVICE = "AWS Directory Service"
+    public static AMAZON_DYNAMO_DB = "Amazon DynamoDB"
+    public static AMAZON_DYNAMO_DB_ACCELERATOR_DAX = "Amazon DynamoDB Accelerator (DAX)"
+    public static AMAZON_EC2 = "Amazon EC2"
+    public static AMAZON_EC2_AUTO_SCALING = "Amazon EC2 Auto Scaling"
+    public static AMAZON_EC2_IMAGE_BUILDER = "Amazon EC2 Image Builder"
+    public static AMAZON_EC2_INSTANCE_CONNECT = "Amazon EC2 Instance Connect"
+    public static AWS_ELASTIC_BEANSTALK = "AWS Elastic Beanstalk"
+    public static AMAZON_ELASTIC_BLOCK_STORE = "Amazon Elastic Block Store"
+    public static AMAZON_ELASTIC_CONTAINER_REGISTRY = "Amazon Elastic Container Registry"
+    public static AMAZON_ELASTIC_CONTAINER_SERVICE = "Amazon Elastic Container Service"
+    public static AMAZON_ELASTIC_CONTAINER_SERVICE_FOR_KUBERNETES = "Amazon Elastic Container Service for Kubernetes"
+    public static AMAZON_ELASTIC_FILE_SYSTEM = "Amazon Elastic File System"
+    public static AMAZON_ELASTIC_INFERENCE = "Amazon Elastic Inference"
+    public static ELASTIC_LOAD_BALANCING = "Elastic Load Balancing"
+    public static ELASTIC_LOAD_BALANCING_V2 = "Elastic Load Balancing V2"
+    public static AMAZON_ELASTIC_MAP_REDUCE = "Amazon Elastic MapReduce"
+    public static AMAZON_ELASTIC_TRANSCODER = "Amazon Elastic Transcoder"
+    public static AMAZON_ELASTI_CACHE = "Amazon ElastiCache"
+    public static AMAZON_ELASTICSEARCH_SERVICE = "Amazon Elasticsearch Service"
+    public static AWS_ELEMENTAL_MEDIA_CONNECT = "AWS Elemental MediaConnect"
+    public static AWS_ELEMENTAL_MEDIA_CONVERT = "AWS Elemental MediaConvert"
+    public static AWS_ELEMENTAL_MEDIA_LIVE = "AWS Elemental MediaLive"
+    public static AWS_ELEMENTAL_MEDIA_PACKAGE = "AWS Elemental MediaPackage"
+    public static AWS_ELEMENTAL_MEDIA_PACKAGE_VOD = "AWS Elemental MediaPackage VOD"
+    public static AWS_ELEMENTAL_MEDIA_STORE = "AWS Elemental MediaStore"
+    public static AWS_ELEMENTAL_MEDIA_TAILOR = "AWS Elemental MediaTailor"
+    public static AMAZON_EVENT_BRIDGE = "Amazon EventBridge"
+    public static AMAZON_EVENT_BRIDGE_SCHEMAS = "Amazon EventBridge Schemas"
+    public static AWS_FIREWALL_MANAGER = "AWS Firewall Manager"
+    public static AMAZON_FORECAST = "Amazon Forecast"
+    public static AMAZON_FRAUD_DETECTOR = "Amazon Fraud Detector"
+    public static AMAZON_FREE_RTOS = "Amazon FreeRTOS"
+    public static AMAZON_FSX = "Amazon FSx"
+    public static AMAZON_GAME_LIFT = "Amazon GameLift"
+    public static AMAZON_GLACIER = "Amazon Glacier"
+    public static AWS_GLOBAL_ACCELERATOR = "AWS Global Accelerator"
+    public static AWS_GLUE = "AWS Glue"
+    public static AWS_GROUND_STATION = "AWS Ground Station"
+    public static AMAZON_GROUND_TRUTH_LABELING = "Amazon GroundTruth Labeling"
+    public static AMAZON_GUARD_DUTY = "Amazon GuardDuty"
+    public static AWS_HEALTH_APIS_AND_NOTIFICATIONS = "AWS Health APIs and Notifications"
+    public static IAM_ACCESS_ANALYZER = "IAM Access Analyzer"
+    public static IDENTITY_AND_ACCESS_MANAGEMENT = "Identity And Access Management"
+    public static AWS_IMPORT_EXPORT_DISK_SERVICE = "AWS Import Export Disk Service"
+    public static AMAZON_INSPECTOR = "Amazon Inspector"
+    public static AWS_IOT = "AWS IoT"
+    public static AWS_IOT_1_CLICK = "AWS IoT 1-Click"
+    public static AWS_IOT_ANALYTICS = "AWS IoT Analytics"
+    public static AWS_IOT_EVENTS = "AWS IoT Events"
+    public static AWS_IOT_GREENGRASS = "AWS IoT Greengrass"
+    public static AWS_IOT_SITE_WISE = "AWS IoT SiteWise"
+    public static AWS_IOT_THINGS_GRAPH = "AWS IoT Things Graph"
+    public static AWS_IQ = "AWS IQ"
+    public static AWS_IQ_PERMISSIONS = "AWS IQ Permissions"
+    public static AMAZON_KENDRA = "Amazon Kendra"
+    public static AWS_KEY_MANAGEMENT_SERVICE = "AWS Key Management Service"
+    public static AMAZON_KINESIS = "Amazon Kinesis"
+    public static AMAZON_KINESIS_ANALYTICS = "Amazon Kinesis Analytics"
+    public static AMAZON_KINESIS_ANALYTICS_V2 = "Amazon Kinesis Analytics V2"
+    public static AMAZON_KINESIS_FIREHOSE = "Amazon Kinesis Firehose"
+    public static AMAZON_KINESIS_VIDEO_STREAMS = "Amazon Kinesis Video Streams"
+    public static AWS_LAKE_FORMATION = "AWS Lake Formation"
+    public static AWS_LAMBDA = "AWS Lambda"
+    public static LAUNCH_WIZARD = "Launch Wizard"
+    public static AMAZON_LEX = "Amazon Lex"
+    public static AWS_LICENSE_MANAGER = "AWS License Manager"
+    public static AMAZON_LIGHTSAIL = "Amazon Lightsail"
+    public static AMAZON_MACHINE_LEARNING = "Amazon Machine Learning"
+    public static AMAZON_MACIE = "Amazon Macie"
+    public static MANAGE_AMAZON_API_GATEWAY = "Manage Amazon API Gateway"
+    public static AWS_MANAGED_APACHE_CASSANDRA_SERVICE = "AWS Managed Apache Cassandra Service"
+    public static AMAZON_MANAGED_BLOCKCHAIN = "Amazon Managed Blockchain"
+    public static AMAZON_MANAGED_STREAMING_FOR_KAFKA = "Amazon Managed Streaming for Kafka"
+    public static AWS_MARKETPLACE = "AWS Marketplace"
+    public static AWS_MARKETPLACE_CATALOG = "AWS Marketplace Catalog"
+    public static AWS_MARKETPLACE_ENTITLEMENT_SERVICE = "AWS Marketplace Entitlement Service"
+    public static AWS_MARKETPLACE_IMAGE_BUILDING_SERVICE = "AWS Marketplace Image Building Service"
+    public static AWS_MARKETPLACE_MANAGEMENT_PORTAL = "AWS Marketplace Management Portal"
+    public static AWS_MARKETPLACE_METERING_SERVICE = "AWS Marketplace Metering Service"
+    public static AWS_MARKETPLACE_PROCUREMENT_SYSTEMS_INTEGRATION = "AWS Marketplace Procurement Systems Integration"
+    public static AMAZON_MECHANICAL_TURK = "Amazon Mechanical Turk"
+    public static AMAZON_MESSAGE_DELIVERY_SERVICE = "Amazon Message Delivery Service"
+    public static AWS_MIGRATION_HUB = "AWS Migration Hub"
+    public static AMAZON_MOBILE_ANALYTICS = "Amazon Mobile Analytics"
+    public static AWS_MOBILE_HUB = "AWS Mobile Hub"
+    public static AMAZON_MQ = "Amazon MQ"
+    public static AMAZON_NEPTUNE = "Amazon Neptune"
+    public static NETWORK_MANAGER = "Network Manager"
+    public static AWS_OPS_WORKS = "AWS OpsWorks"
+    public static AWS_OPS_WORKS_CONFIGURATION_MANAGEMENT = "AWS OpsWorks Configuration Management"
+    public static AWS_ORGANIZATIONS = "AWS Organizations"
+    public static AWS_OUTPOSTS = "AWS Outposts"
+    public static AWS_PERFORMANCE_INSIGHTS = "AWS Performance Insights"
+    public static AMAZON_PERSONALIZE = "Amazon Personalize"
+    public static AMAZON_PINPOINT = "Amazon Pinpoint"
+    public static AMAZON_PINPOINT_EMAIL_SERVICE = "Amazon Pinpoint Email Service"
+    public static AMAZON_PINPOINT_SMS_AND_VOICE_SERVICE = "Amazon Pinpoint SMS and Voice Service"
+    public static AMAZON_POLLY = "Amazon Polly"
+    public static AWS_PRICE_LIST = "AWS Price List"
+    public static AWS_PRIVATE_MARKETPLACE = "AWS Private Marketplace"
+    public static AMAZON_QLDB = "Amazon QLDB"
+    public static AMAZON_QUICK_SIGHT = "Amazon QuickSight"
+    public static AMAZON_RDS = "Amazon RDS"
+    public static AMAZON_RDS_DATA_API = "Amazon RDS Data API"
+    public static AMAZON_RDS_IAM_AUTHENTICATION = "Amazon RDS IAM Authentication"
+    public static AMAZON_REDSHIFT = "Amazon Redshift"
+    public static AMAZON_REKOGNITION = "Amazon Rekognition"
+    public static AWS_RESOURCE_ACCESS_MANAGER = "AWS Resource Access Manager"
+    public static AMAZON_RESOURCE_GROUP_TAGGING_API = "Amazon Resource Group Tagging API"
+    public static AWS_RESOURCE_GROUPS = "AWS Resource Groups"
+    public static AWS_ROBO_MAKER = "AWS RoboMaker"
+    public static AMAZON_ROUTE_53 = "Amazon Route 53"
+    public static AMAZON_ROUTE_53_RESOLVER = "Amazon Route 53 Resolver"
+    public static AMAZON_ROUTE_53_DOMAINS = "Amazon Route53 Domains"
+    public static AMAZON_S3 = "Amazon S3"
+    public static AMAZON_SAGE_MAKER = "Amazon SageMaker"
+    public static AWS_SAVINGS_PLANS = "AWS Savings Plans"
+    public static AWS_SECRETS_MANAGER = "AWS Secrets Manager"
+    public static AWS_SECURITY_HUB = "AWS Security Hub"
+    public static AWS_SECURITY_TOKEN_SERVICE = "AWS Security Token Service"
+    public static AWS_SERVER_MIGRATION_SERVICE = "AWS Server Migration Service"
+    public static AWS_SERVERLESS_APPLICATION_REPOSITORY = "AWS Serverless Application Repository"
+    public static AWS_SERVICE_CATALOG = "AWS Service Catalog"
+    public static SERVICE_QUOTAS = "Service Quotas"
+    public static AMAZON_SES = "Amazon SES"
+    public static AMAZON_SESSION_MANAGER_MESSAGE_GATEWAY_SERVICE = "Amazon Session Manager Message Gateway Service"
+    public static AWS_SHIELD = "AWS Shield"
+    public static AMAZON_SIMPLE_WORKFLOW_SERVICE = "Amazon Simple Workflow Service"
+    public static AMAZON_SIMPLE_DB = "Amazon SimpleDB"
+    public static AWS_SNOWBALL = "AWS Snowball"
+    public static AMAZON_SNS = "Amazon SNS"
+    public static AMAZON_SQS = "Amazon SQS"
+    public static AWS_SSO = "AWS SSO"
+    public static AWS_SSO_DIRECTORY = "AWS SSO Directory"
+    public static AWS_STEP_FUNCTIONS = "AWS Step Functions"
+    public static AMAZON_STORAGE_GATEWAY = "Amazon Storage Gateway"
+    public static AMAZON_SUMERIAN = "Amazon Sumerian"
+    public static AWS_SUPPORT = "AWS Support"
+    public static AWS_SYSTEMS_MANAGER = "AWS Systems Manager"
+    public static AMAZON_TEXTRACT = "Amazon Textract"
+    public static AMAZON_TRANSCRIBE = "Amazon Transcribe"
+    public static AWS_TRANSFER_FOR_SFTP = "AWS Transfer for SFTP"
+    public static AMAZON_TRANSLATE = "Amazon Translate"
+    public static AWS_TRUSTED_ADVISOR = "AWS Trusted Advisor"
+    public static AWS_WAF = "AWS WAF"
+    public static AWS_WAF_REGIONAL = "AWS WAF Regional"
+    public static AWS_WAF_V2 = "AWS WAF V2"
+    public static AWS_WELL_ARCHITECTED_TOOL = "AWS Well-Architected Tool"
+    public static AMAZON_WORK_DOCS = "Amazon WorkDocs"
+    public static AMAZON_WORK_LINK = "Amazon WorkLink"
+    public static AMAZON_WORK_MAIL = "Amazon WorkMail"
+    public static AMAZON_WORK_MAIL_MESSAGE_FLOW = "Amazon WorkMail Message Flow"
+    public static AMAZON_WORK_SPACES = "Amazon WorkSpaces"
+    public static AMAZON_WORK_SPACES_APPLICATION_MANAGER = "Amazon WorkSpaces Application Manager"
+    public static AWS_X_RAY = "AWS X-Ray"
 }
