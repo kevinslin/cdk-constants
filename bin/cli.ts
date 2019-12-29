@@ -13,9 +13,9 @@ const SOURCES = ["managed_policies", "service_names"];
 function classFromJson({ jsonObj, key }: { jsonObj: any; key: string }) {
   let out =
     "// NOTE: THIS IS MACHINE GENERATED. CHANGES WILL BE OVERWRITTEN!\n\n";
-  out += `export class ${key} {\n`;
+  out += `export class ${_.upperFirst(_.camelCase(key))} {\n`;
   _.each(jsonObj, (v, k) => {
-    out += `    public static ${k} = "${v}"\n`;
+    out += `    public static readonly ${k} = "${v}"\n`;
   });
   out += "}";
   return out;

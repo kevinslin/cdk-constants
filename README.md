@@ -11,6 +11,7 @@ This library aims to be an up to date constants library for all things AWS so th
 ## Quickstart
 
 Install or update from npm
+
 ```
 # install
 npm i cdk-constants
@@ -22,27 +23,27 @@ npm i -g cdk-constants@latest
 ## Usage
 
 ```typescript
-import {SERVICE_PRINCIPALS, MANAGED_POLICIES} from 'cdk-constants'
+import { ServicePrincipals, ManagedPolicies } from "cdk-constants";
 
 const lambdaRole = new Role(this, "lambdaDomainChecker", {
-    assumedBy: new ServicePrincipal(SERVICE_PRINCIPALS.LAMBDA),
-    managedPolicies: [
-        ManagedPolicy.fromAwsManagedPolicyName(MANAGED_POLICIES.AWS_LAMBDA_BASIC_EXECUTION_ROLE)
-    ],
-})
-
+  assumedBy: new ServicePrincipal(ServicePrincipals.LAMBDA),
+  managedPolicies: [
+    ManagedPolicy.fromAwsManagedPolicyName(
+      ManagedPolicies.AWS_LAMBDA_BASIC_EXECUTION_ROLE
+    )
+  ]
+});
 ```
 
 ## Properties
 
-### [SERVICE_PRINCIPALS](./src/principals.ts)
+### [ServicePrincipals](./src/principals.ts)
+
 - enum of all AWS services principals
 
-### [MANAGED_POLICIES](./src/policies.ts)
-- enum of all managed AWS policies
+### [ManagedPolicies](./src/policies.ts)
 
-### [SERVICE_NAMES](./src/services.ts)
-- enum of all aws service names
+- enum of all managed AWS policies
 
 ## Credits
 
@@ -56,6 +57,7 @@ const lambdaRole = new Role(this, "lambdaDomainChecker", {
 All contributors are welcome. As you are reading this, AWS has probably released a new service. Please see [CONTRIBUTING](CONTRIBUTING.md) for information on how to setup a development environment and submit code.
 
 Some upcoming items on the roadmap:
+
 - list of aws regions and azs, including gov and china
 - list of all iam permissions
 - jsii compilation into different languages that CDK supports

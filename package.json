@@ -1,7 +1,7 @@
 {
   "name": "cdk-constants",
   "description": "Library of helpful constants to work with the CDK",
-  "version": "2.1.2",
+  "version": "3.0.2",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "license": "Apache-2.0",
@@ -18,6 +18,7 @@
     "package": "jsii-pacmak",
     "build": "jsii",
     "watch": "jsii -w",
+    "test": "jest",
     "watch-test": "jest -w"
   },
   "jsii": {
@@ -62,9 +63,9 @@
     "jest": "^24.9.0",
     "jsii": "^0.20.11",
     "jsii-pacmak": "^0.20.11",
-    "lodash": "^4.17.15",
     "pino": "^5.13.1",
     "typescript": "^3.5.3",
-    "yargs": "^13.3.0"
+    "yargs": "^13.3.0",
+    "lodash": "^4.17.15"
   }
 }

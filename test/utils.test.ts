@@ -1,4 +1,4 @@
-import { normalizeServiceName } from "../lib";
+import { normalizeServiceName } from "../lib/utils";
 
 describe("normalizeServiceName", () => {
   test("snakeCase", () => {
