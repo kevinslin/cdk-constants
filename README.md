@@ -12,15 +12,22 @@ This library aims to be an up to date constants library for all things AWS so th
 
 Install or update from npm
 
-```
-# install
+TypeScript/Javascript
+
+```console
 npm i cdk-constants
 
-# upgrade
-npm i -g cdk-constants@latest
+```
+
+Python
+
+```console
+pip install cdk-constants
 ```
 
 ## Usage
+
+** TypeScript **
 
 ```typescript
 import { ServicePrincipals, ManagedPolicies } from "cdk-constants";
@@ -35,15 +42,28 @@ const lambdaRole = new Role(this, "lambdaDomainChecker", {
 });
 ```
 
+** Python **
+
+```python
+from cdk_constants import ServicePrincipals, ManagedPolicies
+
+lambda_role = Role(self, "lambdaDomainChecker",
+    assumed_by=ServicePrincipal(ServicePrincipals.LAMBDA),
+    managed_policies=[
+        ManagedPolicy.from_aws_managed_policy_name(ManagedPolicies.AWS_LAMBDA_BASIC_EXECUTION_ROLE)
+    ]
+)
+```
+
 ## Properties
 
-### [ServicePrincipals](./src/principals.ts)
+### [ServicePrincipals](https://github.com/kevinslin/cdk-constants/blob/master/lib/principals.ts)
 
-- enum of all AWS services principals
+- AWS services principals
 
-### [ManagedPolicies](./src/policies.ts)
+### [ManagedPolicies](https://github.com/kevinslin/cdk-constants/blob/master/lib/policies.ts)
 
-- enum of all managed AWS policies
+- Managed AWS policies
 
 ## Credits
 
@@ -60,7 +80,7 @@ Some upcoming items on the roadmap:
 
 - list of aws regions and azs, including gov and china
 - list of all iam permissions
-- jsii compilation into different languages that CDK supports
+- [x] jsii compilation into different languages that CDK supports
 
 ## License
 
