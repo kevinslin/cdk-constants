@@ -531,6 +531,7 @@ export class ManagedPolicies {
     public static readonly CLOUD_HSM_SERVICE_ROLE_POLICY = "aws-service-role/CloudHSMServiceRolePolicy"
     public static readonly CLOUD_SEARCH_FULL_ACCESS = "CloudSearchFullAccess"
     public static readonly CLOUD_SEARCH_READ_ONLY_ACCESS = "CloudSearchReadOnlyAccess"
+    public static readonly CLOUD_TRAIL_SERVICE_ROLE_POLICY = "aws-service-role/CloudTrailServiceRolePolicy"
     public static readonly CLOUD_SERVICES_CLOUD_SERVICES_GLOBAL_DENY = "cloud-services/cloud-services-global-deny"
     public static readonly CLOUD_SEARCH_READ_ONLY_ACCESS = "cloud-services/cloud-services-shared-global-deny"
     public static readonly CLOUD_SERVICES_CLOUD_SERVICES_SHARED_GLOBAL_DENY = "aws-service-role/CloudTrailServiceRolePolicy"
