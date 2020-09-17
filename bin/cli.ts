@@ -8,7 +8,7 @@ import * as pino from "pino";
 import axios from "axios";
 import { normalizeServiceName } from "../lib/utils";
 const L = pino();
-const SOURCES = ["managed_policies", "service_names"];
+const SOURCES = ["managed_policies", "service_names", "regions"];
 
 function classFromJson({ jsonObj, key }: { jsonObj: any; key: string }) {
   let out =
@@ -38,6 +38,12 @@ async function fetchConstants({ target }: { target: string }) {
         const service_titles =
           json.contents[10].contents[3].contents[6].contents;
         fs.writeJsonSync("data/all_services_title.json", service_titles);
+        break;
+      case "regions":
+        const { data: regions_json } = await axios.get(
+          "https://raw.githubusercontent.com/jsonmaur/aws-regions/master/regions.json"
+        );
+        fs.writeJsonSync("data/all_regions.json", regions_json);
         break;
       default:
         throw `invalid target: ${target}`;
@@ -90,6 +96,21 @@ async function updateConstants({ target }: { target: string }) {
       fs.writeFileSync("./lib/services.ts", payload);
       break;
     }
+    case "regions":
+      let data = fs.readJSONSync("./data/all_regions.json");
+      let out: any = {};
+      _.each(data, region => {
+        out[normalizeServiceName(region.code, { useBlacklist: false })] =
+          region.code;
+        _.each(
+          region.zones,
+          zone =>
+            (out[normalizeServiceName(zone, { useBlacklist: false })] = zone)
+        );
+      });
+      let payload = classFromJson({ jsonObj: out, key: "REGIONS" });
+      fs.writeFileSync("./lib/regions.ts", payload);
+      break;
     default:
       throw `invalid target: ${target}`;
   }

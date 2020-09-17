@@ -20,4 +20,8 @@ describe("normalizeServiceName", () => {
       })
     ).toEqual("s3");
   });
+
+  test("useBlacklist", () => {
+    expect(normalizeServiceName("af-south-1", {useBlacklist: false})).toEqual("AF_SOUTH_1");
+  });
 });

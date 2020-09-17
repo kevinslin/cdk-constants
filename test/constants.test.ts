@@ -1,7 +1,7 @@
 import {
   FederatedPrincipals,
   ServicePrincipals,
-  ManagedPolicies
+  ManagedPolicies, Regions
 } from "../lib";
 
 describe("principles", () => {
@@ -20,3 +20,17 @@ describe("policies", () => {
     expect(Object.keys(ManagedPolicies).length).toEqual(619);
   });
 });
+
+describe("regions", () => {
+  test("public", () => {
+    expect(Regions.AP_SOUTH_1).toEqual("ap-south-1");
+  });
+
+  test("govcloud", () => {
+    expect(Regions.US_GOV_EAST_1).toEqual("us-gov-east-1");
+  })
+
+  test("china", () => {
+    expect(Regions.CN_NORTHWEST_1).toEqual("cn-northwest-1");
+  });
+})
