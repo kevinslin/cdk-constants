@@ -57,7 +57,7 @@
     "@types/lodash": "^4.14.136",
     "@types/pino": "^5.8.8",
     "@types/yargs": "^13.0.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "execa": "^2.0.3",
     "fs-extra": "^8.1.0",
     "jest": "^24.9.0",
