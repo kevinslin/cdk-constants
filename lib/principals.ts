@@ -21,6 +21,7 @@ export class ServicePrincipals {
   public static readonly CLOUD_FRONT = "cloudfront.amazonaws.com";
   public static readonly CLOUD_SEARCH = "cloudsearch.amazonaws.com";
   public static readonly CLOUD_TRAIL = "cloudtrail.amazonaws.com";
+  public static readonly CLOUD_WATCH = "cloudwatch.amazonaws.com";
   public static readonly CODE_BUILD = "codebuild.amazonaws.com";
   public static readonly CODE_COMMIT = "codecommit.amazonaws.com";
   public static readonly CODE_DEPLOY = "codedeploy.amazonaws.com";
