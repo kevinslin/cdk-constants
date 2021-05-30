@@ -101,6 +101,7 @@ export class ServicePrincipals {
   public static readonly SWF = "swf.amazonaws.com";
   public static readonly TRUSTED_ADVISOR = "trustedadvisor.amazonaws.com";
   public static readonly VMIE = "vmie.amazonaws.com";
+  public static readonly VPC_FLOW_LOGS = "vpc-flow-logs.amazonaws.com";
   public static readonly WAF = "waf.amazonaws.com";
   public static readonly WORK_DOCS = "workdocs.amazonaws.com";
   public static readonly WORK_SPACES = "workspaces.amazonaws.com";
