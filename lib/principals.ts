@@ -15,6 +15,7 @@ export class ServicePrincipals {
   public static readonly AUTO_SCALING = "autoscaling.amazonaws.com";
   public static readonly BATCH = "batch.amazonaws.com";
   public static readonly CHANNELS = "channels.lex.amazonaws.com";
+  public static readonly CHATBOT = "chatbot.amazonaws.com";
   public static readonly CLOUD_9 = "cloud9.amazonaws.com";
   public static readonly CLOUD_DIRECTORY = "clouddirectory.amazonaws.com";
   public static readonly CLOUD_FORMATION = "cloudformation.amazonaws.com";
