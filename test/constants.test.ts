@@ -11,7 +11,7 @@ describe("principles", () => {
     );
   });
   test("service", () => {
-    expect(Object.keys(ServicePrincipals).length).toEqual(95);
+    expect(Object.keys(ServicePrincipals).length).toEqual(96);
   });
 });
 
