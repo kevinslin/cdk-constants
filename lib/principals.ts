@@ -84,6 +84,7 @@ export class ServicePrincipals {
   public static readonly ROUTE_53 = "route53.amazonaws.com";
   public static readonly S3 = "s3.amazonaws.com";
   public static readonly SAGE_MAKER = "sagemaker.amazonaws.com";
+  public static readonly SCHEDULER = "scheduler.amazonaws.com";
   public static readonly SECRETS_MANAGER = "secretsmanager.amazonaws.com";
   public static readonly SERVICE_CATALOG = "servicecatalog.amazonaws.com";
   public static readonly SES = "ses.amazonaws.com";
